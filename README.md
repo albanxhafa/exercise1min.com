@@ -1,6 +1,6 @@
 # exercise1min.com
 
-Landing page for **Exercise 1 Min** — a fully-offline mobile app for one-minute movement
+Landing page for **Exercise 1 Min** — a fully-offline mobile app for one-minute exercise
 breaks (English / global).
 
 Static site — plain HTML, CSS, and JS with no build step, frameworks, or external assets.

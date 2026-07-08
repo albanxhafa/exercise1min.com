@@ -142,11 +142,23 @@ img { max-width: 100%; }
   color: var(--ink);
 }
 .brand-mark {
-  width: 26px;
-  height: 26px;
+  width: 32px;
+  height: 32px;
   flex: none;
   display: block;
+  border-radius: 7px;
+  object-fit: contain;
 }
+.site-nav { display: flex; align-items: center; gap: 1.35rem; }
+.site-nav > a {
+  text-decoration: none;
+  font-family: var(--font-display);
+  font-weight: 650;
+  font-size: 0.95rem;
+  color: var(--ink-soft);
+  transition: color 0.2s;
+}
+.site-nav > a:hover { color: var(--ink); }
 /* ---- Hero -------------------------------------------------------------- */
 .hero .wrap {
   display: grid;
@@ -362,11 +374,11 @@ img { max-width: 100%; }
 .feature h3 { font-size: 1.14rem; letter-spacing: -0.01em; }
 .feature p { margin-top: 0.5rem; color: var(--ink-soft); font-size: 0.98rem; }
 
-/* ---- The moves (workout cards) ---------------------------------------- */
-.moves-head { text-align: center; max-width: 44ch; margin-inline: auto; }
-.moves-head h2 { font-size: clamp(1.7rem, 3.6vw, 2.6rem); letter-spacing: -0.025em; }
-.moves-head .muted { margin-top: 0.7rem; color: var(--ink-soft); }
-.moves-grid {
+/* ---- The exercises (workout cards) ------------------------------------ */
+.exercises-head { text-align: center; max-width: 44ch; margin-inline: auto; }
+.exercises-head h2 { font-size: clamp(1.7rem, 3.6vw, 2.6rem); letter-spacing: -0.025em; }
+.exercises-head .muted { margin-top: 0.7rem; color: var(--ink-soft); }
+.exercises-grid {
   list-style: none;
   margin: 2.4rem 0 0;
   padding: 0;
@@ -374,7 +386,7 @@ img { max-width: 100%; }
   grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: 0.85rem;
 }
-.move {
+.exercise-pill {
   display: flex;
   align-items: center;
   gap: 0.9rem;
@@ -385,7 +397,7 @@ img { max-width: 100%; }
   padding: 0.85rem 1rem;
   box-shadow: var(--shadow-sm);
 }
-.move-badge {
+.exercise-badge {
   flex: none;
   width: 46px;
   height: 46px;
@@ -400,8 +412,47 @@ img { max-width: 100%; }
   line-height: 1;
   border: 1.5px solid color-mix(in srgb, var(--brand) 35%, transparent);
 }
-.move-badge small { display: block; font-size: 0.5rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; opacity: 0.75; }
-.move-name { font-family: var(--font-display); font-weight: 650; font-size: 0.98rem; letter-spacing: -0.01em; min-width: 0; overflow-wrap: break-word; }
+.exercise-badge small { display: block; font-size: 0.5rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; opacity: 0.75; }
+.exercise-name { font-family: var(--font-display); font-weight: 650; font-size: 0.98rem; letter-spacing: -0.01em; min-width: 0; overflow-wrap: break-word; }
+
+/* ---- FAQ (native accordion) ------------------------------------------- */
+.faq-wrap { max-width: 760px; }
+.faq-head { text-align: center; max-width: 44ch; margin-inline: auto; }
+.faq-head h2 { font-size: clamp(1.7rem, 3.6vw, 2.6rem); letter-spacing: -0.025em; }
+.faq-head .muted { margin-top: 0.7rem; color: var(--ink-soft); }
+.faq { margin-top: 2.25rem; display: grid; gap: 0.7rem; }
+.faq details {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  box-shadow: var(--shadow-sm);
+  overflow: hidden;
+}
+.faq summary {
+  cursor: pointer;
+  list-style: none;
+  padding: 1.1rem 1.35rem;
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 1.05rem;
+  letter-spacing: -0.01em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+.faq summary::-webkit-details-marker { display: none; }
+.faq summary::after {
+  content: "+";
+  flex: none;
+  font-weight: 700;
+  color: var(--brand);
+  font-size: 1.4rem;
+  line-height: 1;
+  transition: transform 0.2s;
+}
+.faq details[open] summary::after { transform: rotate(45deg); }
+.faq details p { padding: 0 1.35rem 1.2rem; color: var(--ink-soft); }
 
 /* ---- Closing band ------------------------------------------------------ */
 .closing {
@@ -468,7 +519,8 @@ img { max-width: 100%; }
 /* ---- Responsive -------------------------------------------------------- */
 @media (max-width: 920px) {
   .features-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-  .moves-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .exercises-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .site-nav > a { display: none; }
 }
 @media (max-width: 760px) {
   .hero .wrap { grid-template-columns: 1fr; text-align: center; }
@@ -479,7 +531,7 @@ img { max-width: 100%; }
   .steps-grid { grid-template-columns: 1fr; }
 }
 @media (max-width: 540px) {
-  .moves-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .exercises-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .features-grid { grid-template-columns: minmax(0, 1fr); }
-  .move { padding: 0.7rem 0.8rem; gap: 0.7rem; }
+  .exercise-pill { padding: 0.7rem 0.8rem; gap: 0.7rem; }
 }

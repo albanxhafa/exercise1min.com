@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">Exercise 1 Min logo</title>
+  <desc id="desc">A dark square logo with a circular amber progress ring around the text 1 MIN.</desc>
+  <rect width="512" height="512" fill="#07160f"/>
+  <circle
+    cx="256"
+    cy="256"
+    r="163"
+    fill="none"
+    stroke="#193326"
+    stroke-width="18"
+    opacity="0.82"
+  />
+  <circle
+    cx="256"
+    cy="256"
+    r="163"
+    fill="none"
+    stroke="#f4b35f"
+    stroke-width="18"
+    stroke-linecap="round"
+    pathLength="100"
+    stroke-dasharray="75 25"
+    transform="rotate(-90 256 256)"
+  />
+  <circle
+    cx="256"
+    cy="256"
+    r="136"
+    fill="none"
+    stroke="#24563d"
+    stroke-width="3"
+    opacity="0.9"
+  />
+  <text
+    x="256"
+    y="284"
+    fill="#e8f1ea"
+    font-family="Inter, SF Pro Display, Segoe UI, Arial, sans-serif"
+    font-size="104"
+    font-weight="800"
+    text-anchor="middle"
+    letter-spacing="-4"
+  >1</text>
+  <text
+    x="256"
+    y="314"
+    fill="#9caf9f"
+    font-family="Inter, SF Pro Text, Segoe UI, Arial, sans-serif"
+    font-size="17"
+    font-weight="800"
+    text-anchor="middle"
+    letter-spacing="9"
+  >MIN</text>
+</svg>
