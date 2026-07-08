@@ -12,3 +12,16 @@ Deployed to **GitHub Pages** on every push to `main` via `.github/workflows/depl
 python3 -m http.server
 # then open http://localhost:8000
 ```
+
+## Deployment
+
+Pushes to `main` trigger `.github/workflows/deploy.yml`, which publishes the site to
+**GitHub Pages** using the **GitHub Actions** build source.
+
+The repo's Pages **source must be set to "GitHub Actions"** (Settings → Pages → Build and
+deployment → Source). The workflow passes `enablement: true` to `actions/configure-pages`,
+so it enables Pages automatically on a fresh repo. If a run ever fails with
+`Get Pages site failed … Not Found`, it means Pages was never enabled — set the source to
+GitHub Actions (or re-run once `enablement: true` is in place) and re-run the workflow.
+
+The custom domain is set via the `CNAME` file (`exercise1min.com`).
