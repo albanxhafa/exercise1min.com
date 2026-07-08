@@ -1,0 +1,4 @@
+# Pre-launch indexing is disabled by the robots meta tag in index.html.
+# Crawlers must be allowed to fetch the page so they can see the noindex directive.
+User-agent: *
+Allow: /
