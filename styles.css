@@ -114,6 +114,16 @@ img { max-width: 100%; }
   margin-bottom: 0.9rem;
 }
 .eyebrow.center { text-align: center; }
+.section-head {
+  text-align: center;
+  max-width: 48ch;
+  margin-inline: auto;
+}
+.section-head h2 {
+  font-size: clamp(1.7rem, 3.6vw, 2.6rem);
+  line-height: 1.08;
+  letter-spacing: -0.025em;
+}
 
 /* ---- Header ------------------------------------------------------------ */
 .site-header {

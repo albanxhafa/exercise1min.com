@@ -1,16 +1,25 @@
 {
   "name": "Exercise 1 Min",
   "short_name": "Exercise 1 Min",
+  "description": "One-minute exercise breaks for desk workers with gentle reminders, illustrated exercises, offline privacy, and no accounts.",
+  "id": "/",
+  "start_url": "/",
+  "scope": "/",
+  "lang": "en-US",
+  "dir": "ltr",
+  "categories": ["health", "fitness", "productivity"],
   "icons": [
     {
       "src": "/android-chrome-192x192.png",
       "sizes": "192x192",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any"
     },
     {
       "src": "/android-chrome-512x512.png",
       "sizes": "512x512",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any"
     }
   ],
   "theme_color": "#2e7d5b",

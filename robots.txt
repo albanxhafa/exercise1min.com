@@ -1,4 +1,5 @@
-# Pre-launch indexing is disabled by the robots meta tag in index.html.
-# Crawlers must be allowed to fetch the page so they can see the noindex directive.
+# Production crawl policy: allow crawlers to access the public site.
 User-agent: *
 Allow: /
+
+Sitemap: https://exercise1min.com/sitemap.xml

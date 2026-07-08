@@ -3,12 +3,21 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="robots" content="noindex, nofollow, noarchive, nosnippet" />
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+  <meta name="color-scheme" content="light dark" />
   <script>document.documentElement.classList.add("js");</script>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-QNT5QF0M6C"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag("js", new Date());
+
+    gtag("config", "G-QNT5QF0M6C");
+  </script>
   <title>Exercise 1 Min — One-Minute Exercise Breaks for Desk Workers</title>
   <meta name="description" content="Take one-minute exercise breaks at your desk with gentle reminders, illustrated exercises, offline privacy, and no equipment. Coming soon for iOS and Android." />
-  <meta name="theme-color" content="#2e7d5b" media="(prefers-color-scheme: light)" />
-  <meta name="theme-color" content="#0d1611" media="(prefers-color-scheme: dark)" />
+  <meta name="theme-color" content="#2e7d5b" />
   <meta property="og:title" content="Exercise 1 Min — One-Minute Exercise Breaks" />
   <meta property="og:description" content="One-minute exercise breaks for desk workers: gentle reminders, illustrated exercises, no equipment, offline privacy, and no accounts." />
   <meta property="og:type" content="website" />
@@ -33,6 +42,7 @@
   <link rel="icon" href="/favicon-16x16.png?v=2" type="image/png" sizes="16x16" />
   <link rel="apple-touch-icon" href="/apple-touch-icon.png?v=2" sizes="180x180" />
   <link rel="manifest" href="/site.webmanifest" />
+  <link rel="alternate" href="/llms.txt" type="text/markdown" title="LLMs guide" />
   <link rel="stylesheet" href="styles.css" />
   <script type="application/ld+json">
   {
@@ -187,11 +197,11 @@
 
   <main id="main">
     <!-- Hero -->
-    <section class="hero">
+    <section class="hero" aria-labelledby="hero-title">
       <div class="wrap">
         <div class="hero-copy reveal">
           <p class="eyebrow">Exercise 1 Min</p>
-          <h1>One minute of exercise, on repeat.</h1>
+          <h1 id="hero-title">One minute of exercise, on repeat.</h1>
           <p class="lede">A gentle reminder to take a quick exercise break for under a minute — every hour or two you're at a desk. No gym, no equipment, no accounts.</p>
           <div class="hero-actions">
             <span class="badge-soon">Coming soon · iOS &amp; Android</span>
@@ -216,17 +226,20 @@
     </section>
 
     <!-- Promise -->
-    <section class="section promise">
+    <section class="section promise" aria-labelledby="promise-title">
       <div class="wrap reveal">
-        <p class="statement">You don't need a gym.<br /><em>You need a minute.</em></p>
+        <h2 class="statement" id="promise-title">You don't need a gym.<br /><em>You need a minute.</em></h2>
         <p class="statement-sub">Most of us sit for hours — coding, studying, in meetings. The fix isn't a workout plan you'll quit. It's one quick exercise break, often enough to matter.</p>
       </div>
     </section>
 
     <!-- How it works -->
-    <section class="section" id="how">
+    <section class="section" id="how" aria-labelledby="how-title">
       <div class="wrap">
-        <p class="eyebrow center reveal">How it works</p>
+        <div class="section-head reveal">
+          <p class="eyebrow center">How it works</p>
+          <h2 id="how-title">Three steps, under a minute.</h2>
+        </div>
         <ol class="steps-grid">
           <li class="step reveal">
             <span class="step-num">01</span>
@@ -248,9 +261,12 @@
     </section>
 
     <!-- Features -->
-    <section class="section" style="padding-top:0">
+    <section class="section" id="features" aria-labelledby="features-title" style="padding-top:0">
       <div class="wrap">
-        <p class="eyebrow center reveal">What you get</p>
+        <div class="section-head reveal">
+          <p class="eyebrow center">What you get</p>
+          <h2 id="features-title">Simple exercise breaks, built for real days.</h2>
+        </div>
         <div class="features-grid">
           <article class="feature reveal">
             <svg class="feature-mark" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 8a6 6 0 0 1 12 0c0 7 3 8 3 8H3s3-1 3-8Z" /><path d="M10 21a2 2 0 0 0 4 0" /></svg>
@@ -287,11 +303,11 @@
     </section>
 
     <!-- The exercises -->
-    <section class="section" id="exercises" style="padding-top:0">
+    <section class="section" id="exercises" aria-labelledby="exercises-title" style="padding-top:0">
       <div class="wrap">
         <div class="exercises-head reveal">
           <p class="eyebrow center">The exercises</p>
-          <h2>A quick circuit, drawn by hand.</h2>
+          <h2 id="exercises-title">A quick circuit, drawn by hand.</h2>
           <p class="muted">48 exercises in the catalog — here's a taste. Each one takes seconds and needs nothing but you.</p>
         </div>
         <ul class="exercises-grid reveal">
@@ -312,11 +328,11 @@
     </section>
 
     <!-- FAQ -->
-    <section class="section" id="faq" style="padding-top:0">
+    <section class="section" id="faq" aria-labelledby="faq-title" style="padding-top:0">
       <div class="wrap faq-wrap">
         <div class="faq-head reveal">
           <p class="eyebrow center">FAQ</p>
-          <h2>Quick answers before launch.</h2>
+          <h2 id="faq-title">Quick answers before launch.</h2>
           <p class="muted">The app is still being prepared, but the core idea is simple: short exercise breaks, no pressure, and privacy by default.</p>
         </div>
         <div class="faq reveal">
@@ -349,9 +365,9 @@
     </section>
 
     <!-- Closing -->
-    <section class="section closing">
+    <section class="section closing" aria-labelledby="closing-title">
       <div class="wrap reveal">
-        <h2>Calm by design.</h2>
+        <h2 id="closing-title">Calm by design.</h2>
         <ul class="chips">
           <li>Offline</li>
           <li>Private</li>

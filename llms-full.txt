@@ -1,0 +1,80 @@
+# Exercise 1 Min
+
+Exercise 1 Min is the official public website for a coming-soon mobile app for one-minute exercise breaks. The app is designed for people who sit too much, especially desk workers, students, people in meetings, and people who want a small exercise habit without a full workout plan.
+
+The public site is production-ready and available for crawling and indexing.
+
+## Core Message
+
+One minute of exercise, on repeat.
+
+Exercise 1 Min gives a gentle reminder to take a quick exercise break for under a minute every hour or two while you are at a desk. It does not require a gym, equipment, accounts, or pressure.
+
+Short version: less sitting, more exercise.
+
+## How It Works
+
+1. A gentle reminder: every 1, 2, or 3 hours within the hours you choose, a calm notification reminds you to exercise. You can snooze or skip freely.
+2. One minute of exercises: tap start and get a handful of quick, illustrated exercises. There is no ticking timer. Do the exercises at your own pace and tap Done.
+3. Back to your day: a little exercise is logged and a quiet streak grows. There are no calories, leaderboards, or pressure mechanics.
+
+## Features
+
+- Gentle reminders on your schedule.
+- Illustrated exercises with original animated figures.
+- Quiet progress with exercises, minutes, and a gentle streak.
+- Offline-first privacy.
+- No accounts or sign-up.
+- Light and dark mode.
+- The core app is planned to be free.
+
+## Sample Exercises
+
+- High Knees: 40 seconds.
+- Squats: 15 reps.
+- Arm Circles: 30 seconds.
+- Calf Raises: 20 reps.
+- Plank Hold: 30 seconds.
+- Jumping Jacks: 40 seconds.
+- Chest Expansions: 30 seconds.
+- Lunges: 12 reps.
+- Shoulder Taps: 20 reps.
+- Stretches: 40 seconds.
+- Bridges: 15 reps.
+- Wide Arm Circles: 30 seconds.
+
+## FAQ
+
+### What is Exercise 1 Min?
+
+Exercise 1 Min is a coming-soon mobile app for one-minute exercise breaks. It reminds people who sit at a desk to stand up, do a few simple exercises, and get back to their day.
+
+### Do I need equipment or a gym?
+
+No. The app focuses on bodyweight exercises you can do at home, at work, or beside a desk with no equipment.
+
+### How often should I take an exercise break?
+
+You choose the rhythm. The app can remind you every 1, 2, or 3 hours during the hours you select, and you can snooze or skip any reminder.
+
+### Is Exercise 1 Min private?
+
+Yes. The app is designed to work offline with no accounts and no sign-up, so your exercise history stays on your device.
+
+### Is Exercise 1 Min free?
+
+The core app is planned to be free, with no ads, subscriptions, or upsell during the moment you are meant to exercise.
+
+### When will the app be available?
+
+Exercise 1 Min is coming soon for iOS and Android. The website will be updated when the app is ready to download.
+
+## Safety
+
+Stop if you feel pain or discomfort. Exercise 1 Min does not replace professional health advice.
+
+## Canonical URLs
+
+- Homepage: https://exercise1min.com
+- LLM guide: https://exercise1min.com/llms.txt
+- Sitemap: https://exercise1min.com/sitemap.xml

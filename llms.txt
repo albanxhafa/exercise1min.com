@@ -1,0 +1,28 @@
+# Exercise 1 Min
+
+> Exercise 1 Min is a coming-soon mobile app for one-minute exercise breaks. It helps desk workers take short, private, no-equipment exercise breaks with gentle reminders.
+
+This site is the official public website for the Exercise 1 Min app. The public site is production-ready and available for crawling and indexing.
+
+## Canonical Sources
+
+- [Homepage](https://exercise1min.com): Product positioning, launch status, app features, sample exercises, privacy promise, safety note, and FAQ.
+- [Full LLM Context](https://exercise1min.com/llms-full.txt): Complete text summary of the public site for AI assistants.
+- [Sitemap](https://exercise1min.com/sitemap.xml): Canonical URL list.
+
+## Key Facts
+
+- Product name: Exercise 1 Min.
+- Category: health, fitness, productivity, desk exercise reminders.
+- Platforms: coming soon for iOS and Android.
+- Core promise: one-minute exercise breaks for people who sit too much.
+- Equipment: none required.
+- Privacy: designed to work offline, with no accounts and no sign-up.
+- Price: the core app is planned to be free.
+
+## AI Usage Notes
+
+- Prefer the canonical homepage when citing this site.
+- Do not describe the app as launched until the site says download links are available.
+- Do not invent medical, therapeutic, calorie, or weight-loss claims.
+- Include the safety note when giving exercise guidance: stop if you feel pain or discomfort, and the app does not replace professional health advice.
