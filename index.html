@@ -24,8 +24,8 @@
   <meta property="og:locale" content="en_US" />
   <meta property="og:url" content="https://exercise1min.com" />
   <meta property="og:site_name" content="Exercise 1 Min" />
-  <meta property="og:image" content="https://exercise1min.com/logo.png" />
-  <meta property="og:image:secure_url" content="https://exercise1min.com/logo.png" />
+  <meta property="og:image" content="https://exercise1min.com/assets/img/logo.png" />
+  <meta property="og:image:secure_url" content="https://exercise1min.com/assets/img/logo.png" />
   <meta property="og:image:type" content="image/png" />
   <meta property="og:image:width" content="512" />
   <meta property="og:image:height" content="512" />
@@ -33,17 +33,17 @@
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:title" content="Exercise 1 Min — One-Minute Exercise Breaks" />
   <meta name="twitter:description" content="One-minute exercise breaks for desk workers: gentle reminders, illustrated exercises, no equipment, offline privacy, and no accounts." />
-  <meta name="twitter:image" content="https://exercise1min.com/logo.png" />
+  <meta name="twitter:image" content="https://exercise1min.com/assets/img/logo.png" />
   <meta name="twitter:image:alt" content="Exercise 1 Min logo" />
   <link rel="canonical" href="https://exercise1min.com" />
   <link rel="icon" href="/favicon.ico?v=2" sizes="any" />
-  <link rel="icon" href="/favicon.svg?v=2" type="image/svg+xml" />
-  <link rel="icon" href="/favicon-32x32.png?v=2" type="image/png" sizes="32x32" />
-  <link rel="icon" href="/favicon-16x16.png?v=2" type="image/png" sizes="16x16" />
-  <link rel="apple-touch-icon" href="/apple-touch-icon.png?v=2" sizes="180x180" />
+  <link rel="icon" href="/assets/img/favicon.svg?v=2" type="image/svg+xml" />
+  <link rel="icon" href="/assets/img/favicon-32x32.png?v=2" type="image/png" sizes="32x32" />
+  <link rel="icon" href="/assets/img/favicon-16x16.png?v=2" type="image/png" sizes="16x16" />
+  <link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.png?v=2" sizes="180x180" />
   <link rel="manifest" href="/site.webmanifest" />
   <link rel="alternate" href="/llms.txt" type="text/markdown" title="LLMs guide" />
-  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -55,7 +55,7 @@
         "url": "https://exercise1min.com",
         "logo": {
           "@type": "ImageObject",
-          "url": "https://exercise1min.com/logo.png",
+          "url": "https://exercise1min.com/assets/img/logo.png",
           "width": 512,
           "height": 512
         }
@@ -66,7 +66,7 @@
         "url": "https://exercise1min.com",
         "name": "Exercise 1 Min",
         "description": "One-minute exercise breaks for people who sit too much.",
-        "image": "https://exercise1min.com/logo.png",
+        "image": "https://exercise1min.com/assets/img/logo.png",
         "inLanguage": "en-US",
         "publisher": { "@id": "https://exercise1min.com/#organization" }
       },
@@ -79,7 +79,7 @@
         "isPartOf": { "@id": "https://exercise1min.com/#website" },
         "primaryImageOfPage": {
           "@type": "ImageObject",
-          "url": "https://exercise1min.com/logo.png",
+          "url": "https://exercise1min.com/assets/img/logo.png",
           "width": 512,
           "height": 512
         },
@@ -104,7 +104,7 @@
         "applicationCategory": "HealthApplication",
         "operatingSystem": "iOS, Android",
         "isAccessibleForFree": true,
-        "image": "https://exercise1min.com/logo.png",
+        "image": "https://exercise1min.com/assets/img/logo.png",
         "offers": {
           "@type": "Offer",
           "price": 0,
@@ -122,20 +122,56 @@
       {
         "@type": "ItemList",
         "@id": "https://exercise1min.com/#sample-exercises",
-        "name": "Sample one-minute exercises",
+        "name": "One-minute exercises",
         "itemListElement": [
           { "@type": "ListItem", "position": 1, "name": "High Knees" },
-          { "@type": "ListItem", "position": 2, "name": "Squats" },
-          { "@type": "ListItem", "position": 3, "name": "Arm Circles" },
-          { "@type": "ListItem", "position": 4, "name": "Calf Raises" },
-          { "@type": "ListItem", "position": 5, "name": "Plank Hold" },
-          { "@type": "ListItem", "position": 6, "name": "Jumping Jacks" },
-          { "@type": "ListItem", "position": 7, "name": "Chest Expansions" },
-          { "@type": "ListItem", "position": 8, "name": "Lunges" },
-          { "@type": "ListItem", "position": 9, "name": "Shoulder Taps" },
-          { "@type": "ListItem", "position": 10, "name": "Stretches" },
-          { "@type": "ListItem", "position": 11, "name": "Bridges" },
-          { "@type": "ListItem", "position": 12, "name": "Wide Arm Circles" }
+          { "@type": "ListItem", "position": 2, "name": "Knee-to-Elbows" },
+          { "@type": "ListItem", "position": 3, "name": "Single Leg Hops" },
+          { "@type": "ListItem", "position": 4, "name": "Bridges" },
+          { "@type": "ListItem", "position": 5, "name": "Flutter Kicks" },
+          { "@type": "ListItem", "position": 6, "name": "Crunches" },
+          { "@type": "ListItem", "position": 7, "name": "Heel Taps" },
+          { "@type": "ListItem", "position": 8, "name": "Climbers" },
+          { "@type": "ListItem", "position": 9, "name": "Stretches" },
+          { "@type": "ListItem", "position": 10, "name": "Plank Hold" },
+          { "@type": "ListItem", "position": 11, "name": "Squats" },
+          { "@type": "ListItem", "position": 12, "name": "Calf Raises" },
+          { "@type": "ListItem", "position": 13, "name": "Bicep Extensions" },
+          { "@type": "ListItem", "position": 14, "name": "Side Shoulder Taps" },
+          { "@type": "ListItem", "position": 15, "name": "Shoulder Taps" },
+          { "@type": "ListItem", "position": 16, "name": "Arm Circles" },
+          { "@type": "ListItem", "position": 17, "name": "Jumping Jacks" },
+          { "@type": "ListItem", "position": 18, "name": "Seal Jacks" },
+          { "@type": "ListItem", "position": 19, "name": "Step Jacks" },
+          { "@type": "ListItem", "position": 20, "name": "Side Jacks" },
+          { "@type": "ListItem", "position": 21, "name": "Lunges" },
+          { "@type": "ListItem", "position": 22, "name": "Butt Kicks" },
+          { "@type": "ListItem", "position": 23, "name": "Side Leg Raises" },
+          { "@type": "ListItem", "position": 24, "name": "Prone Reverse Fly" },
+          { "@type": "ListItem", "position": 25, "name": "W-Extensions" },
+          { "@type": "ListItem", "position": 26, "name": "Squat Hold" },
+          { "@type": "ListItem", "position": 27, "name": "Scissor Chops" },
+          { "@type": "ListItem", "position": 28, "name": "Arm Scissors" },
+          { "@type": "ListItem", "position": 29, "name": "Arm Raises" },
+          { "@type": "ListItem", "position": 30, "name": "Chest Expansions" },
+          { "@type": "ListItem", "position": 31, "name": "Reverse Lunges" },
+          { "@type": "ListItem", "position": 32, "name": "Split Jacks" },
+          { "@type": "ListItem", "position": 33, "name": "Air Bike Crunches" },
+          { "@type": "ListItem", "position": 34, "name": "Scissors" },
+          { "@type": "ListItem", "position": 35, "name": "Crunch Kicks" },
+          { "@type": "ListItem", "position": 36, "name": "Plank Rotations" },
+          { "@type": "ListItem", "position": 37, "name": "Hops on the Spot" },
+          { "@type": "ListItem", "position": 38, "name": "Arm Extensions" },
+          { "@type": "ListItem", "position": 39, "name": "Jumping T's" },
+          { "@type": "ListItem", "position": 40, "name": "Squat Jacks" },
+          { "@type": "ListItem", "position": 41, "name": "Reverse Angels" },
+          { "@type": "ListItem", "position": 42, "name": "Hero Squats" },
+          { "@type": "ListItem", "position": 43, "name": "Side Arm Raises" },
+          { "@type": "ListItem", "position": 44, "name": "Wide Arm Circles" },
+          { "@type": "ListItem", "position": 45, "name": "Raised Leg Circles" },
+          { "@type": "ListItem", "position": 46, "name": "Lunge Step-Ups" },
+          { "@type": "ListItem", "position": 47, "name": "Plank Leg Raises" },
+          { "@type": "ListItem", "position": 48, "name": "Side Bicep Extensions" }
         ]
       },
       {
@@ -184,7 +220,7 @@
   <header class="site-header">
     <div class="wrap">
       <a class="brand" href="/" aria-label="Exercise 1 Min home">
-        <img class="brand-mark" src="logo.png" width="32" height="32" alt="" aria-hidden="true" />
+        <img class="brand-mark" src="assets/img/logo.png" width="32" height="32" alt="" aria-hidden="true" />
         Exercise 1 Min
       </a>
       <nav class="site-nav" aria-label="Primary">
@@ -308,22 +344,596 @@
         <div class="exercises-head reveal">
           <p class="eyebrow center">The exercises</p>
           <h2 id="exercises-title">A quick circuit, drawn by hand.</h2>
-          <p class="muted">48 exercises in the catalog — here's a taste. Each one takes seconds and needs nothing but you.</p>
+          <p class="muted">All 48 exercises, filterable by category — each takes seconds and needs nothing but you.</p>
         </div>
-        <ul class="exercises-grid reveal">
-          <li class="exercise-pill"><span class="exercise-badge">40<small>sec</small></span><span class="exercise-name">High Knees</span></li>
-          <li class="exercise-pill"><span class="exercise-badge">15<small>reps</small></span><span class="exercise-name">Squats</span></li>
-          <li class="exercise-pill"><span class="exercise-badge">30<small>sec</small></span><span class="exercise-name">Arm Circles</span></li>
-          <li class="exercise-pill"><span class="exercise-badge">20<small>reps</small></span><span class="exercise-name">Calf Raises</span></li>
-          <li class="exercise-pill"><span class="exercise-badge">30<small>sec</small></span><span class="exercise-name">Plank Hold</span></li>
-          <li class="exercise-pill"><span class="exercise-badge">40<small>sec</small></span><span class="exercise-name">Jumping Jacks</span></li>
-          <li class="exercise-pill"><span class="exercise-badge">30<small>sec</small></span><span class="exercise-name">Chest Expansions</span></li>
-          <li class="exercise-pill"><span class="exercise-badge">12<small>reps</small></span><span class="exercise-name">Lunges</span></li>
-          <li class="exercise-pill"><span class="exercise-badge">20<small>reps</small></span><span class="exercise-name">Shoulder Taps</span></li>
-          <li class="exercise-pill"><span class="exercise-badge">40<small>sec</small></span><span class="exercise-name">Stretches</span></li>
-          <li class="exercise-pill"><span class="exercise-badge">15<small>reps</small></span><span class="exercise-name">Bridges</span></li>
-          <li class="exercise-pill"><span class="exercise-badge">30<small>sec</small></span><span class="exercise-name">Wide Arm Circles</span></li>
-        </ul>
+                <div class="cat-tabs reveal" role="group" aria-label="Filter exercises by category">
+          <button type="button" class="cat-pill is-active" data-cat="all" aria-pressed="true">All <b>48</b></button>
+          <button type="button" class="cat-pill" data-cat="upper-body" aria-pressed="false">Upper body <b>14</b></button>
+          <button type="button" class="cat-pill" data-cat="cardio" aria-pressed="false">Cardio <b>11</b></button>
+          <button type="button" class="cat-pill" data-cat="core" aria-pressed="false">Core <b>11</b></button>
+          <button type="button" class="cat-pill" data-cat="lower-body" aria-pressed="false">Lower body <b>9</b></button>
+          <button type="button" class="cat-pill" data-cat="full-body" aria-pressed="false">Full body <b>2</b></button>
+          <button type="button" class="cat-pill" data-cat="mobility" aria-pressed="false">Mobility <b>1</b></button>
+        </div>
+        <p class="visually-hidden" role="status" aria-live="polite" id="cat-status"></p>
+        <div class="exercise-grid">
+        <article class="exercise-card reveal" id="high-knees" data-cat="cardio" aria-labelledby="high-knees-title">
+          <div class="exercise-illo">
+            <span class="illo-num" aria-hidden="true">01</span>
+            <span class="illo-dur">20 sec</span>
+            <div class="illo-fig" aria-hidden="true"><svg viewBox="0 0 200 262" width="100%" height="100%" preserveAspectRatio="xMidYMid meet"><path d="M 74 150 Q 78 128 88 118" fill="none" stroke="var(--fig-accent)" stroke-width="4" stroke-linecap="round" stroke-dasharray="1 8" opacity="0.95"/><g fill="none" stroke="var(--fig-line)" stroke-linecap="round" stroke-linejoin="round"><path d="M 100 80 L 100 150" stroke-width="51"/><path d="M 100 66 L 100 80" stroke-width="23"/><path d="M 122 84 L 128 108" stroke-width="25"/><path d="M 128 108 L 116 94" stroke-width="22"/><path d="M 78 84 L 72 112" stroke-width="25"/><path d="M 72 112 L 64 124" stroke-width="22"/><path d="M 90 150 L 86 120" stroke-width="28"/><path d="M 86 120 L 94 164" stroke-width="24"/><path d="M 94 164 L 84 168" stroke-width="19"/><path d="M 110 150 L 108 204" stroke-width="28"/><path d="M 108 204 L 108 246" stroke-width="24"/><path d="M 108 246 L 120 248" stroke-width="19"/></g><g fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M 100 80 L 100 150" stroke="var(--fig-shirt)" stroke-width="44"/><path d="M 100 66 L 100 80" stroke="var(--fig-skin)" stroke-width="16"/><path d="M 122 84 L 128 108" stroke="var(--fig-skin)" stroke-width="18"/><path d="M 128 108 L 116 94" stroke="var(--fig-skin)" stroke-width="15"/><path d="M 78 84 L 72 112" stroke="var(--fig-skin)" stroke-width="18"/><path d="M 72 112 L 64 124" stroke="var(--fig-skin)" stroke-width="15"/><path d="M 90 150 L 86 120" stroke="var(--fig-accent)" stroke-width="21"/><path d="M 86 120 L 94 164" stroke="var(--fig-skin)" stroke-width="17"/><path d="M 94 164 L 84 168" stroke="var(--fig-skin)" stroke-width="12"/><path d="M 110 150 L 108 204" stroke="var(--fig-shorts)" stroke-width="21"/><path d="M 108 204 L 108 246" stroke="var(--fig-skin)" stroke-width="17"/><path d="M 108 246 L 120 248" stroke="var(--fig-skin)" stroke-width="12"/></g><circle cx="86" cy="120" r="10" fill="var(--fig-accent)" opacity="0.2"/><circle cx="86" cy="120" r="4" fill="var(--fig-accent)"/><circle cx="100" cy="50" r="25.5" fill="var(--fig-line)"/><circle cx="100" cy="50" r="22" fill="var(--fig-skin)"/><path d="M 78.0396357042967 48.68 A 22 22 0 0 1 121.9603642957033 48.68 Z" fill="var(--fig-hair)"/></svg></div>
+          </div>
+          <p class="exercise-cat">Cardio</p>
+          <h3 id="high-knees-title">High Knees</h3>
+          <p>Jog on the spot, driving your knees up quickly.</p>
+          <p class="exercise-meta"><strong>Good for:</strong> Raises your heart rate fast and warms up your legs and hips.</p>
+          <ul class="tags"><li>Legs</li><li>Hip flexors</li><li>Core</li></ul>
+        </article>
+        <article class="exercise-card reveal" id="knee-to-elbows" data-cat="cardio" aria-labelledby="knee-to-elbows-title">
+          <div class="exercise-illo">
+            <span class="illo-num" aria-hidden="true">02</span>
+            <span class="illo-dur">30 sec</span>
+            <div class="illo-fig" aria-hidden="true"><svg viewBox="0 0 200 262" width="100%" height="100%" preserveAspectRatio="xMidYMid meet"><path d="M 120 96 Q 108 112 100 124" fill="none" stroke="var(--fig-accent)" stroke-width="4" stroke-linecap="round" stroke-dasharray="1 8" opacity="0.95"/><g fill="none" stroke="var(--fig-line)" stroke-linecap="round" stroke-linejoin="round"><path d="M 100 80 L 100 152" stroke-width="51"/><path d="M 100 66 L 100 80" stroke-width="23"/><path d="M 122 84 L 134 64" stroke-width="25"/><path d="M 134 64 L 116 52" stroke-width="22"/><path d="M 78 86 L 88 110" stroke-width="25"/><path d="M 88 110 L 100 126" stroke-width="22"/><path d="M 88 150 L 90 204" stroke-width="28"/><path d="M 90 204 L 90 246" stroke-width="24"/><path d="M 90 246 L 78 250" stroke-width="19"/><path d="M 112 150 L 102 124" stroke-width="28"/><path d="M 102 124 L 112 150" stroke-width="24"/><path d="M 112 150 L 124 150" stroke-width="19"/></g><g fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M 100 80 L 100 152" stroke="var(--fig-shirt)" stroke-width="44"/><path d="M 100 66 L 100 80" stroke="var(--fig-skin)" stroke-width="16"/><path d="M 122 84 L 134 64" stroke="var(--fig-skin)" stroke-width="18"/><path d="M 134 64 L 116 52" stroke="var(--fig-skin)" stroke-width="15"/><path d="M 78 86 L 88 110" stroke="var(--fig-skin)" stroke-width="18"/><path d="M 88 110 L 100 126" stroke="var(--fig-skin)" stroke-width="15"/><path d="M 88 150 L 90 204" stroke="var(--fig-shorts)" stroke-width="21"/><path d="M 90 204 L 90 246" stroke="var(--fig-skin)" stroke-width="17"/><path d="M 90 246 L 78 250" stroke="var(--fig-skin)" stroke-width="12"/><path d="M 112 150 L 102 124" stroke="var(--fig-accent)" stroke-width="21"/><path d="M 102 124 L 112 150" stroke="var(--fig-skin)" stroke-width="17"/><path d="M 112 150 L 124 150" stroke="var(--fig-skin)" stroke-width="12"/></g><circle cx="100" cy="126" r="10" fill="var(--fig-accent)" opacity="0.2"/><circle cx="100" cy="126" r="4" fill="var(--fig-accent)"/><circle cx="100" cy="50" r="25.5" fill="var(--fig-line)"/><circle cx="100" cy="50" r="22" fill="var(--fig-skin)"/><path d="M 78.0396357042967 48.68 A 22 22 0 0 1 121.9603642957033 48.68 Z" fill="var(--fig-hair)"/></svg></div>
+          </div>
+          <p class="exercise-cat">Cardio</p>
+          <h3 id="knee-to-elbows-title">Knee-to-Elbows</h3>
+          <p>Twist and lift each knee to tap the opposite elbow.</p>
+          <p class="exercise-meta"><strong>Good for:</strong> Combines a twist and knee lift to wake up your core and hips.</p>
+          <ul class="tags"><li>Core</li><li>Hip flexors</li><li>Obliques</li></ul>
+        </article>
+        <article class="exercise-card reveal" id="single-leg-hops" data-cat="cardio" aria-labelledby="single-leg-hops-title">
+          <div class="exercise-illo">
+            <span class="illo-num" aria-hidden="true">03</span>
+            <span class="illo-dur">20 sec each</span>
+            <div class="illo-fig" aria-hidden="true"><svg viewBox="0 0 200 262" width="100%" height="100%" preserveAspectRatio="xMidYMid meet"><path d="M 82 252 Q 100 246 118 252" fill="none" stroke="var(--fig-accent)" stroke-width="3.4" stroke-linecap="round" stroke-dasharray="1 7" opacity="0.55"/><g fill="none" stroke="var(--fig-line)" stroke-linecap="round" stroke-linejoin="round"><path d="M 100 78 L 100 148" stroke-width="51"/><path d="M 100 64 L 100 78" stroke-width="23"/><path d="M 78 82 L 70 104" stroke-width="25"/><path d="M 70 104 L 66 132" stroke-width="22"/><path d="M 122 82 L 130 104" stroke-width="25"/><path d="M 130 104 L 134 132" stroke-width="22"/><path d="M 98 148 L 98 200" stroke-width="28"/><path d="M 98 200 L 98 238" stroke-width="24"/><path d="M 98 238 L 86 240" stroke-width="19"/><path d="M 112 148 L 118 188" stroke-width="28"/><path d="M 118 188 L 114 220" stroke-width="24"/><path d="M 114 220 L 124 222" stroke-width="19"/></g><g fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M 100 78 L 100 148" stroke="var(--fig-shirt)" stroke-width="44"/><path d="M 100 64 L 100 78" stroke="var(--fig-skin)" stroke-width="16"/><path d="M 78 82 L 70 104" stroke="var(--fig-skin)" stroke-width="18"/><path d="M 70 104 L 66 132" stroke="var(--fig-skin)" stroke-width="15"/><path d="M 122 82 L 130 104" stroke="var(--fig-skin)" stroke-width="18"/><path d="M 130 104 L 134 132" stroke="var(--fig-skin)" stroke-width="15"/><path d="M 98 148 L 98 200" stroke="var(--fig-accent)" stroke-width="21"/><path d="M 98 200 L 98 238" stroke="var(--fig-skin)" stroke-width="17"/><path d="M 98 238 L 86 240" stroke="var(--fig-skin)" stroke-width="12"/><path d="M 112 148 L 118 188" stroke="var(--fig-shorts)" stroke-width="21"/><path d="M 118 188 L 114 220" stroke="var(--fig-skin)" stroke-width="17"/><path d="M 114 220 L 124 222" stroke="var(--fig-skin)" stroke-width="12"/></g><circle cx="100" cy="48" r="25.5" fill="var(--fig-line)"/><circle cx="100" cy="48" r="22" fill="var(--fig-skin)"/><path d="M 78.0396357042967 46.68 A 22 22 0 0 1 121.9603642957033 46.68 Z" fill="var(--fig-hair)"/></svg></div>
+          </div>
+          <p class="exercise-cat">Cardio</p>
+          <h3 id="single-leg-hops-title">Single Leg Hops</h3>
+          <p>Hop steadily on one leg, keeping your balance controlled.</p>
+          <p class="exercise-meta"><strong>Good for:</strong> Builds balance and bounce while getting your heart rate up.</p>
+          <ul class="tags"><li>Legs</li><li>Calves</li><li>Balance</li></ul>
+        </article>
+        <article class="exercise-card reveal" id="bridges" data-cat="lower-body" aria-labelledby="bridges-title">
+          <div class="exercise-illo">
+            <span class="illo-num" aria-hidden="true">04</span>
+            <span class="illo-dur">12 reps</span>
+            <div class="illo-fig" aria-hidden="true"><svg viewBox="0 0 280 150" width="100%" height="100%" preserveAspectRatio="xMidYMid meet"><path d="M 152 116 Q 132 96 152 78" fill="none" stroke="var(--fig-accent)" stroke-width="4" stroke-linecap="round" stroke-dasharray="1 8" opacity="0.95"/><g fill="none" stroke="var(--fig-line)" stroke-linecap="round" stroke-linejoin="round"><path d="M 68 116 L 150 86" stroke-width="51"/><path d="M 56 114 L 68 116" stroke-width="23"/><path d="M 70 120 L 96 126" stroke-width="25"/><path d="M 96 126 L 120 128" stroke-width="22"/><path d="M 150 86 L 192 92" stroke-width="28"/><path d="M 192 92 L 196 128" stroke-width="24"/><path d="M 196 128 L 214 128" stroke-width="19"/></g><g fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M 68 116 L 150 86" stroke="var(--fig-shirt)" stroke-width="44"/><path d="M 56 114 L 68 116" stroke="var(--fig-skin)" stroke-width="16"/><path d="M 70 120 L 96 126" stroke="var(--fig-skin)" stroke-width="18"/><path d="M 96 126 L 120 128" stroke="var(--fig-skin)" stroke-width="15"/><path d="M 150 86 L 192 92" stroke="var(--fig-accent)" stroke-width="21"/><path d="M 192 92 L 196 128" stroke="var(--fig-skin)" stroke-width="17"/><path d="M 196 128 L 214 128" stroke="var(--fig-skin)" stroke-width="12"/></g><circle cx="152" cy="86" r="11" fill="var(--fig-accent)" opacity="0.2"/><circle cx="152" cy="86" r="5" fill="var(--fig-accent)"/><circle cx="44" cy="112" r="21.5" fill="var(--fig-line)"/><circle cx="44" cy="112" r="18" fill="var(--fig-skin)"/><path d="M 26.032429212606395 110.92 A 18 18 0 0 1 61.967570787393605 110.92 Z" fill="var(--fig-hair)"/><circle cx="31.04" cy="111.64" r="6.12" fill="var(--fig-hair)"/></svg></div>
+          </div>
+          <p class="exercise-cat">Lower body</p>
+          <h3 id="bridges-title">Bridges</h3>
+          <p>Lie back and lift your hips up, then lower slowly.</p>
+          <p class="exercise-meta"><strong>Good for:</strong> Strengthens your glutes and lower back by lifting your hips up.</p>
+          <ul class="tags"><li>Glutes</li><li>Lower back</li><li>Core</li></ul>
+        </article>
+        <article class="exercise-card reveal" id="flutter-kicks" data-cat="core" aria-labelledby="flutter-kicks-title">
+          <div class="exercise-illo">
+            <span class="illo-num" aria-hidden="true">05</span>
+            <span class="illo-dur">30 sec</span>
+            <div class="illo-fig" aria-hidden="true"><svg viewBox="0 0 280 150" width="100%" height="100%" preserveAspectRatio="xMidYMid meet"><g fill="none" stroke="var(--fig-line)" stroke-linecap="round" stroke-linejoin="round"><path d="M 62 114 L 150 114" stroke-width="51"/><path d="M 52 110 L 62 114" stroke-width="23"/><path d="M 70 118 L 96 124" stroke-width="25"/><path d="M 96 124 L 120 126" stroke-width="22"/><path d="M 150 116 L 206 120" stroke-width="28" opacity="0.5"/><path d="M 206 120 L 236 120" stroke-width="24" opacity="0.5"/><path d="M 150 112 L 200 86" stroke-width="28"/><path d="M 200 86 L 232 72" stroke-width="24"/></g><g fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M 62 114 L 150 114" stroke="var(--fig-shirt)" stroke-width="44"/><path d="M 52 110 L 62 114" stroke="var(--fig-skin)" stroke-width="16"/><path d="M 70 118 L 96 124" stroke="var(--fig-skin)" stroke-width="18"/><path d="M 96 124 L 120 126" stroke="var(--fig-skin)" stroke-width="15"/><path d="M 150 116 L 206 120" stroke="var(--fig-shorts)" stroke-width="21" opacity="0.5"/><path d="M 206 120 L 236 120" stroke="var(--fig-skin)" stroke-width="17" opacity="0.5"/><path d="M 150 112 L 200 86" stroke="var(--fig-accent)" stroke-width="21"/><path d="M 200 86 L 232 72" stroke="var(--fig-skin)" stroke-width="17"/></g><circle cx="232" cy="72" r="10" fill="var(--fig-accent)" opacity="0.2"/><circle cx="232" cy="72" r="4" fill="var(--fig-accent)"/><circle cx="40" cy="110" r="20.5" fill="var(--fig-line)"/><circle cx="40" cy="110" r="17" fill="var(--fig-skin)"/><path d="M 23.030627589683817 108.98 A 17 17 0 0 1 56.96937241031618 108.98 Z" fill="var(--fig-hair)"/><circle cx="27.759999999999998" cy="109.66" r="5.78" fill="var(--fig-hair)"/></svg></div>
+          </div>
+          <p class="exercise-cat">Core</p>
+          <h3 id="flutter-kicks-title">Flutter Kicks</h3>
+          <p>Lie on your back and kick your legs up and down.</p>
+          <p class="exercise-meta"><strong>Good for:</strong> Works your lower abs and hip flexors with small, steady kicks.</p>
+          <ul class="tags"><li>Core</li><li>Hip flexors</li></ul>
+        </article>
+        <article class="exercise-card reveal" id="crunches" data-cat="core" aria-labelledby="crunches-title">
+          <div class="exercise-illo">
+            <span class="illo-num" aria-hidden="true">06</span>
+            <span class="illo-dur">15 reps</span>
+            <div class="illo-fig" aria-hidden="true"><svg viewBox="0 0 280 150" width="100%" height="100%" preserveAspectRatio="xMidYMid meet"><g fill="none" stroke="var(--fig-line)" stroke-linecap="round" stroke-linejoin="round"><path d="M 70 116 L 120 98" stroke-width="51"/><path d="M 92 102 L 96 88" stroke-width="23"/><path d="M 96 92 L 110 80" stroke-width="25"/><path d="M 110 80 L 124 92" stroke-width="22"/><path d="M 120 98 L 178 90" stroke-width="28"/><path d="M 178 90 L 190 126" stroke-width="24"/><path d="M 190 126 L 208 126" stroke-width="19"/><path d="M 70 116 L 74 120" stroke-width="24"/></g><g fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M 70 116 L 120 98" stroke="var(--fig-accent)" stroke-width="44"/><path d="M 92 102 L 96 88" stroke="var(--fig-skin)" stroke-width="16"/><path d="M 96 92 L 110 80" stroke="var(--fig-skin)" stroke-width="18"/><path d="M 110 80 L 124 92" stroke="var(--fig-skin)" stroke-width="15"/><path d="M 120 98 L 178 90" stroke="var(--fig-shorts)" stroke-width="21"/><path d="M 178 90 L 190 126" stroke="var(--fig-skin)" stroke-width="17"/><path d="M 190 126 L 208 126" stroke="var(--fig-skin)" stroke-width="12"/><path d="M 70 116 L 74 120" stroke="var(--fig-skin)" stroke-width="17"/></g><circle cx="92" cy="86" r="20.5" fill="var(--fig-line)"/><circle cx="92" cy="86" r="17" fill="var(--fig-skin)"/><path d="M 75.03062758968382 84.98 A 17 17 0 0 1 108.96937241031618 84.98 Z" fill="var(--fig-hair)"/><circle cx="79.76" cy="85.66" r="5.78" fill="var(--fig-hair)"/></svg></div>
+          </div>
+          <p class="exercise-cat">Core</p>
+          <h3 id="crunches-title">Crunches</h3>
+          <p>Lie back and curl your shoulders up toward your knees.</p>
+          <p class="exercise-meta"><strong>Good for:</strong> Strengthens your abs with a simple curl-up motion.</p>
+          <ul class="tags"><li>Core</li><li>Abs</li></ul>
+        </article>
+        <article class="exercise-card reveal" id="heel-taps" data-cat="core" aria-labelledby="heel-taps-title">
+          <div class="exercise-illo">
+            <span class="illo-num" aria-hidden="true">07</span>
+            <span class="illo-dur">30 sec</span>
+            <div class="illo-fig" aria-hidden="true"><svg viewBox="0 0 280 150" width="100%" height="100%" preserveAspectRatio="xMidYMid meet"><g fill="none" stroke="var(--fig-line)" stroke-linecap="round" stroke-linejoin="round"><path d="M 90 108 L 150 112" stroke-width="51"/><path d="M 78 100 L 90 108" stroke-width="23"/><path d="M 96 112 L 140 120" stroke-width="25"/><path d="M 140 120 L 180 126" stroke-width="22"/><path d="M 150 112 L 186 92" stroke-width="28"/><path d="M 186 92 L 194 128" stroke-width="24"/><path d="M 194 128 L 212 128" stroke-width="19"/></g><g fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M 90 108 L 150 112" stroke="var(--fig-shirt)" stroke-width="44"/><path d="M 78 100 L 90 108" stroke="var(--fig-skin)" stroke-width="16"/><path d="M 96 112 L 140 120" stroke="var(--fig-skin)" stroke-width="18"/><path d="M 140 120 L 180 126" stroke="var(--fig-skin)" stroke-width="15"/><path d="M 150 112 L 186 92" stroke="var(--fig-shorts)" stroke-width="21"/><path d="M 186 92 L 194 128" stroke="var(--fig-skin)" stroke-width="17"/><path d="M 194 128 L 212 128" stroke="var(--fig-accent)" stroke-width="12"/></g><circle cx="188" cy="126" r="10" fill="var(--fig-accent)" opacity="0.2"/><circle cx="188" cy="126" r="4" fill="var(--fig-accent)"/><circle cx="70" cy="102" r="20.5" fill="var(--fig-line)"/><circle cx="70" cy="102" r="17" fill="var(--fig-skin)"/><path d="M 53.03062758968382 100.98 A 17 17 0 0 1 86.96937241031618 100.98 Z" fill="var(--fig-hair)"/><circle cx="57.76" cy="101.66" r="5.78" fill="var(--fig-hair)"/></svg></div>
+          </div>
+          <p class="exercise-cat">Core</p>
+          <h3 id="heel-taps-title">Heel Taps</h3>
+          <p>Lie back with knees bent and tap each heel sideways.</p>
+          <p class="exercise-meta"><strong>Good for:</strong> Targets your side abs with small, controlled side taps.</p>
+          <ul class="tags"><li>Core</li><li>Obliques</li></ul>
+        </article>
+        <article class="exercise-card reveal" id="climbers" data-cat="full-body" aria-labelledby="climbers-title">
+          <div class="exercise-illo">
+            <span class="illo-num" aria-hidden="true">08</span>
+            <span class="illo-dur">30 sec</span>
+            <div class="illo-fig" aria-hidden="true"><svg viewBox="0 0 280 150" width="100%" height="100%" preserveAspectRatio="xMidYMid meet"><g fill="none" stroke="var(--fig-line)" stroke-linecap="round" stroke-linejoin="round"><path d="M 208 92 L 208 126" stroke-width="25"/><path d="M 208 92 L 120 90" stroke-width="51"/><path d="M 208 92 L 216 82" stroke-width="23"/><path d="M 120 90 L 66 104" stroke-width="28" opacity="0.5"/><path d="M 66 104 L 36 118" stroke-width="24" opacity="0.5"/><path d="M 36 118 L 30 128" stroke-width="19" opacity="0.5"/><path d="M 122 92 L 150 116" stroke-width="28"/><path d="M 150 116 L 150 90" stroke-width="24"/></g><g fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M 208 92 L 208 126" stroke="var(--fig-skin)" stroke-width="18"/><path d="M 208 92 L 120 90" stroke="var(--fig-shirt)" stroke-width="44"/><path d="M 208 92 L 216 82" stroke="var(--fig-skin)" stroke-width="16"/><path d="M 120 90 L 66 104" stroke="var(--fig-shorts)" stroke-width="21" opacity="0.5"/><path d="M 66 104 L 36 118" stroke="var(--fig-skin)" stroke-width="17" opacity="0.5"/><path d="M 36 118 L 30 128" stroke="var(--fig-skin)" stroke-width="12" opacity="0.5"/><path d="M 122 92 L 150 116" stroke="var(--fig-accent)" stroke-width="21"/><path d="M 150 116 L 150 90" stroke="var(--fig-skin)" stroke-width="17"/></g><circle cx="150" cy="116" r="10" fill="var(--fig-accent)" opacity="0.2"/><circle cx="150" cy="116" r="4" fill="var(--fig-accent)"/><circle cx="222" cy="80" r="21.5" fill="var(--fig-line)"/><circle cx="222" cy="80" r="18" fill="var(--fig-skin)"/><path d="M 204.0324292126064 78.92 A 18 18 0 0 1 239.9675707873936 78.92 Z" fill="var(--fig-hair)"/><circle cx="209.04" cy="79.64" r="6.12" fill="var(--fig-hair)"/></svg></div>
+          </div>
+          <p class="exercise-cat">Full body</p>
+          <h3 id="climbers-title">Climbers</h3>
+          <p>From a plank, drive your knees to your chest quickly.</p>
+          <p class="exercise-meta"><strong>Good for:</strong> Combines cardio and core work by driving your knees in from a plank.</p>
+          <ul class="tags"><li>Core</li><li>Legs</li><li>Shoulders</li></ul>
+        </article>
+        <article class="exercise-card reveal" id="stretches" data-cat="mobility" aria-labelledby="stretches-title">
+          <div class="exercise-illo">
+            <span class="illo-num" aria-hidden="true">09</span>
+            <span class="illo-dur">45 sec</span>
+            <div class="illo-fig" aria-hidden="true"><svg viewBox="0 0 200 272" width="100%" height="100%" preserveAspectRatio="xMidYMid meet"><path d="M 90 9 L 90 2" fill="none" stroke="var(--fig-accent)" stroke-width="4" stroke-linecap="round" opacity="0.95"/><path d="M 110 9 L 110 2" fill="none" stroke="var(--fig-accent)" stroke-width="4" stroke-linecap="round" opacity="0.95"/><g fill="none" stroke="var(--fig-line)" stroke-linecap="round" stroke-linejoin="round"><path d="M 100 86 L 100 152" stroke-width="51"/><path d="M 100 72 L 100 86" stroke-width="23"/><path d="M 84 88 L 72 54" stroke-width="25"/><path d="M 72 54 L 90 16" stroke-width="22"/><path d="M 116 88 L 128 54" stroke-width="25"/><path d="M 128 54 L 110 16" stroke-width="22"/><path d="M 90 152 L 93 206" stroke-width="28"/><path d="M 93 206 L 95 246" stroke-width="24"/><path d="M 95 246 L 93 258" stroke-width="19"/><path d="M 110 152 L 107 206" stroke-width="28"/><path d="M 107 206 L 105 246" stroke-width="24"/><path d="M 105 246 L 107 258" stroke-width="19"/></g><g fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M 100 86 L 100 152" stroke="var(--fig-shirt)" stroke-width="44"/><path d="M 100 72 L 100 86" stroke="var(--fig-skin)" stroke-width="16"/><path d="M 84 88 L 72 54" stroke="var(--fig-skin)" stroke-width="18"/><path d="M 72 54 L 90 16" stroke="var(--fig-accent)" stroke-width="15"/><path d="M 116 88 L 128 54" stroke="var(--fig-skin)" stroke-width="18"/><path d="M 128 54 L 110 16" stroke="var(--fig-accent)" stroke-width="15"/><path d="M 90 152 L 93 206" stroke="var(--fig-shorts)" stroke-width="21"/><path d="M 93 206 L 95 246" stroke="var(--fig-skin)" stroke-width="17"/><path d="M 95 246 L 93 258" stroke="var(--fig-skin)" stroke-width="12"/><path d="M 110 152 L 107 206" stroke="var(--fig-shorts)" stroke-width="21"/><path d="M 107 206 L 105 246" stroke="var(--fig-skin)" stroke-width="17"/><path d="M 105 246 L 107 258" stroke="var(--fig-skin)" stroke-width="12"/></g><circle cx="90" cy="16" r="10" fill="var(--fig-accent)" opacity="0.2"/><circle cx="90" cy="16" r="4" fill="var(--fig-accent)"/><circle cx="110" cy="16" r="10" fill="var(--fig-accent)" opacity="0.2"/><circle cx="110" cy="16" r="4" fill="var(--fig-accent)"/><circle cx="100" cy="56" r="25.5" fill="var(--fig-line)"/><circle cx="100" cy="56" r="22" fill="var(--fig-skin)"/><path d="M 78.0396357042967 54.68 A 22 22 0 0 1 121.9603642957033 54.68 Z" fill="var(--fig-hair)"/></svg></div>
+          </div>
+          <p class="exercise-cat">Mobility</p>
+          <h3 id="stretches-title">Stretches</h3>
+          <p>Gently stretch your arms and legs to loosen up.</p>
+          <p class="exercise-meta"><strong>Good for:</strong> Loosens up tight muscles and eases tension after sitting still.</p>
+          <ul class="tags"><li>Arms</li><li>Legs</li><li>Back</li></ul>
+        </article>
+        <article class="exercise-card reveal" id="plank-hold" data-cat="core" aria-labelledby="plank-hold-title">
+          <div class="exercise-illo">
+            <span class="illo-num" aria-hidden="true">10</span>
+            <span class="illo-dur">20 sec</span>
+            <div class="illo-fig" aria-hidden="true"><svg viewBox="0 0 280 150" width="100%" height="100%" preserveAspectRatio="xMidYMid meet"><path d="M 235 112 Q 250 108 255 96" fill="none" stroke="var(--fig-accent)" stroke-width="3.4" stroke-linecap="round" stroke-dasharray="1 7" opacity="0.7"/><g fill="none" stroke="var(--fig-line)" stroke-linecap="round" stroke-linejoin="round"><path d="M 206 98 L 206 127" stroke-width="25"/><path d="M 206 127 L 240 129" stroke-width="22"/><path d="M 206 98 L 120 92" stroke-width="51"/><path d="M 206 98 L 214 88" stroke-width="23"/><path d="M 120 92 L 66 102" stroke-width="28"/><path d="M 66 102 L 36 116" stroke-width="24"/><path d="M 36 116 L 30 128" stroke-width="19"/></g><g fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M 206 98 L 206 127" stroke="var(--fig-skin)" stroke-width="18"/><path d="M 206 127 L 240 129" stroke="var(--fig-skin)" stroke-width="15"/><path d="M 206 98 L 120 92" stroke="var(--fig-shirt)" stroke-width="44"/><path d="M 206 98 L 214 88" stroke="var(--fig-skin)" stroke-width="16"/><path d="M 120 92 L 66 102" stroke="var(--fig-shorts)" stroke-width="21"/><path d="M 66 102 L 36 116" stroke="var(--fig-skin)" stroke-width="17"/><path d="M 36 116 L 30 128" stroke="var(--fig-skin)" stroke-width="12"/></g><circle cx="220" cy="86" r="21.5" fill="var(--fig-line)"/><circle cx="220" cy="86" r="18" fill="var(--fig-skin)"/><path d="M 202.0324292126064 84.92 A 18 18 0 0 1 237.9675707873936 84.92 Z" fill="var(--fig-hair)"/><circle cx="207.04" cy="85.64" r="6.12" fill="var(--fig-hair)"/></svg></div>
+          </div>
+          <p class="exercise-cat">Core</p>
+          <h3 id="plank-hold-title">Plank Hold</h3>
+          <p>Hold a straight, steady plank on your forearms and toes.</p>
+          <p class="exercise-meta"><strong>Good for:</strong> Builds core stability by holding a strong, steady plank position.</p>
+          <ul class="tags"><li>Core</li><li>Shoulders</li></ul>
+        </article>
+        <article class="exercise-card reveal" id="squats" data-cat="lower-body" aria-labelledby="squats-title">
+          <div class="exercise-illo">
+            <span class="illo-num" aria-hidden="true">11</span>
+            <span class="illo-dur">12 reps</span>
+            <div class="illo-fig" aria-hidden="true"><svg viewBox="0 0 210 264" width="100%" height="100%" preserveAspectRatio="xMidYMid meet"><path d="M 128 122 Q 150 152 130 180" fill="none" stroke="var(--fig-accent)" stroke-width="4" stroke-linecap="round" stroke-dasharray="1 8" opacity="0.95"/><g fill="none" stroke="var(--fig-line)" stroke-linecap="round" stroke-linejoin="round"><path d="M 80 156 L 116 176" stroke-width="28" opacity="0.4"/><path d="M 116 176 L 106 246" stroke-width="24" opacity="0.4"/><path d="M 106 246 L 126 250" stroke-width="19" opacity="0.4"/><path d="M 112 120 L 140 118" stroke-width="25" opacity="0.4"/><path d="M 140 118 L 162 120" stroke-width="22" opacity="0.4"/><path d="M 86 152 L 112 118" stroke-width="51"/><path d="M 112 118 L 117 100" stroke-width="23"/><path d="M 114 120 L 144 118" stroke-width="25"/><path d="M 144 118 L 168 122" stroke-width="22"/><path d="M 86 152 L 124 170" stroke-width="28"/><path d="M 124 170 L 114 246" stroke-width="24"/><path d="M 114 246 L 134 250" stroke-width="19"/></g><g fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M 80 156 L 116 176" stroke="var(--fig-shorts)" stroke-width="21" opacity="0.4"/><path d="M 116 176 L 106 246" stroke="var(--fig-skin)" stroke-width="17" opacity="0.4"/><path d="M 106 246 L 126 250" stroke="var(--fig-skin)" stroke-width="12" opacity="0.4"/><path d="M 112 120 L 140 118" stroke="var(--fig-skin)" stroke-width="18" opacity="0.4"/><path d="M 140 118 L 162 120" stroke="var(--fig-skin)" stroke-width="15" opacity="0.4"/><path d="M 86 152 L 112 118" stroke="var(--fig-shirt)" stroke-width="44"/><path d="M 112 118 L 117 100" stroke="var(--fig-skin)" stroke-width="16"/><path d="M 114 120 L 144 118" stroke="var(--fig-skin)" stroke-width="18"/><path d="M 144 118 L 168 122" stroke="var(--fig-skin)" stroke-width="15"/><path d="M 86 152 L 124 170" stroke="var(--fig-accent)" stroke-width="21"/><path d="M 124 170 L 114 246" stroke="var(--fig-skin)" stroke-width="17"/><path d="M 114 246 L 134 250" stroke="var(--fig-skin)" stroke-width="12"/></g><circle cx="90" cy="150" r="11" fill="var(--fig-accent)" opacity="0.2"/><circle cx="90" cy="150" r="5" fill="var(--fig-accent)"/><circle cx="118" cy="96" r="25.5" fill="var(--fig-line)"/><circle cx="118" cy="96" r="22" fill="var(--fig-skin)"/><path d="M 96.0396357042967 94.68 A 22 22 0 0 1 139.9603642957033 94.68 Z" fill="var(--fig-hair)"/><circle cx="102.16" cy="95.56" r="7.48" fill="var(--fig-hair)"/></svg></div>
+          </div>
+          <p class="exercise-cat">Lower body</p>
+          <h3 id="squats-title">Squats</h3>
+          <p>Bend your knees and lower your hips like sitting down.</p>
+          <p class="exercise-meta"><strong>Good for:</strong> Builds lower-body strength with a simple sit-back squat motion.</p>
+          <ul class="tags"><li>Legs</li><li>Glutes</li></ul>
+        </article>
+        <article class="exercise-card reveal" id="calf-raises" data-cat="lower-body" aria-labelledby="calf-raises-title">
+          <div class="exercise-illo">
+            <span class="illo-num" aria-hidden="true">12</span>
+            <span class="illo-dur">15 reps</span>
+            <div class="illo-fig" aria-hidden="true"><svg viewBox="0 0 210 264" width="100%" height="100%" preserveAspectRatio="xMidYMid meet"><path d="M 118 252 L 118 240" fill="none" stroke="var(--fig-accent)" stroke-width="4" stroke-linecap="round" opacity="0.95"/><g fill="none" stroke="var(--fig-line)" stroke-linecap="round" stroke-linejoin="round"><path d="M 92 136 L 92 190" stroke-width="28" opacity="0.4"/><path d="M 92 190 L 92 230" stroke-width="24" opacity="0.4"/><path d="M 92 230 L 106 244" stroke-width="19" opacity="0.4"/><path d="M 98 70 L 98 134" stroke-width="51"/><path d="M 98 52 L 98 70" stroke-width="23"/><path d="M 100 72 L 102 104" stroke-width="25"/><path d="M 102 104 L 102 134" stroke-width="22"/><path d="M 100 136 L 100 190" stroke-width="28"/><path d="M 100 190 L 100 230" stroke-width="24"/><path d="M 100 230 L 116 244" stroke-width="19"/></g><g fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M 92 136 L 92 190" stroke="var(--fig-shorts)" stroke-width="21" opacity="0.4"/><path d="M 92 190 L 92 230" stroke="var(--fig-skin)" stroke-width="17" opacity="0.4"/><path d="M 92 230 L 106 244" stroke="var(--fig-skin)" stroke-width="12" opacity="0.4"/><path d="M 98 70 L 98 134" stroke="var(--fig-shirt)" stroke-width="44"/><path d="M 98 52 L 98 70" stroke="var(--fig-skin)" stroke-width="16"/><path d="M 100 72 L 102 104" stroke="var(--fig-skin)" stroke-width="18"/><path d="M 102 104 L 102 134" stroke="var(--fig-skin)" stroke-width="15"/><path d="M 100 136 L 100 190" stroke="var(--fig-shorts)" stroke-width="21"/><path d="M 100 190 L 100 230" stroke="var(--fig-skin)" stroke-width="17"/><path d="M 100 230 L 116 244" stroke="var(--fig-accent)" stroke-width="12"/></g><circle cx="98" cy="36" r="25.5" fill="var(--fig-line)"/><circle cx="98" cy="36" r="22" fill="var(--fig-skin)"/><path d="M 76.0396357042967 34.68 A 22 22 0 0 1 119.9603642957033 34.68 Z" fill="var(--fig-hair)"/><circle cx="82.16" cy="35.56" r="7.48" fill="var(--fig-hair)"/></svg></div>
+          </div>
+          <p class="exercise-cat">Lower body</p>
+          <h3 id="calf-raises-title">Calf Raises</h3>
+          <p>Rise onto your toes, then lower back down with control.</p>
+          <p class="exercise-meta"><strong>Good for:</strong> Strengthens your calves and improves control through your ankles.</p>
+          <ul class="tags"><li>Calves</li><li>Ankles</li></ul>
+        </article>
+        <article class="exercise-card reveal" id="bicep-extensions" data-cat="upper-body" aria-labelledby="bicep-extensions-title">
+          <div class="exercise-illo">
+            <span class="illo-num" aria-hidden="true">13</span>
+            <span class="illo-dur">12 reps</span>
+            <div class="illo-fig" aria-hidden="true"><svg viewBox="0 0 200 206" width="100%" height="100%" preserveAspectRatio="xMidYMid meet"><path d="M 66 116 Q 74 96 86 88" fill="none" stroke="var(--fig-accent)" stroke-width="4" stroke-linecap="round" stroke-dasharray="1 8" opacity="0.95"/><path d="M 134 116 Q 126 96 114 88" fill="none" stroke="var(--fig-accent)" stroke-width="4" stroke-linecap="round" stroke-dasharray="1 8" opacity="0.95"/><g fill="none" stroke="var(--fig-line)" stroke-linecap="round" stroke-linejoin="round"><path d="M 100 74 L 100 150" stroke-width="51"/><path d="M 100 60 L 100 74" stroke-width="23"/><path d="M 80 78 L 82 120" stroke-width="25"/><path d="M 82 120 L 88 84" stroke-width="22"/><path d="M 120 78 L 118 120" stroke-width="25"/><path d="M 118 120 L 112 84" stroke-width="22"/><path d="M 88 150 L 86 206" stroke-width="28"/><path d="M 112 150 L 114 206" stroke-width="28"/></g><g fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M 100 74 L 100 150" stroke="var(--fig-shirt)" stroke-width="44"/><path d="M 100 60 L 100 74" stroke="var(--fig-skin)" stroke-width="16"/><path d="M 80 78 L 82 120" stroke="var(--fig-skin)" stroke-width="18"/><path d="M 82 120 L 88 84" stroke="var(--fig-accent)" stroke-width="15"/><path d="M 120 78 L 118 120" stroke="var(--fig-skin)" stroke-width="18"/><path d="M 118 120 L 112 84" stroke="var(--fig-accent)" stroke-width="15"/><path d="M 88 150 L 86 206" stroke="var(--fig-shorts)" stroke-width="21"/><path d="M 112 150 L 114 206" stroke="var(--fig-shorts)" stroke-width="21"/></g><circle cx="88" cy="86" r="10" fill="var(--fig-accent)" opacity="0.2"/><circle cx="88" cy="86" r="4" fill="var(--fig-accent)"/><circle cx="112" cy="86" r="10" fill="var(--fig-accent)" opacity="0.2"/><circle cx="112" cy="86" r="4" fill="var(--fig-accent)"/><circle cx="100" cy="44" r="25.5" fill="var(--fig-line)"/><circle cx="100" cy="44" r="22" fill="var(--fig-skin)"/><path d="M 78.0396357042967 42.68 A 22 22 0 0 1 121.9603642957033 42.68 Z" fill="var(--fig-hair)"/></svg></div>
+          </div>
+          <p class="exercise-cat">Upper body</p>
+          <h3 id="bicep-extensions-title">Bicep Extensions</h3>
+          <p>Curl your forearms up toward your shoulders and back down.</p>
+          <p class="exercise-meta"><strong>Good for:</strong> Tones your arms with a simple curling motion.</p>
+          <ul class="tags"><li>Arms</li><li>Biceps</li></ul>
+        </article>
+        <article class="exercise-card reveal" id="side-shoulder-taps" data-cat="upper-body" aria-labelledby="side-shoulder-taps-title">
+          <div class="exercise-illo">
+            <span class="illo-num" aria-hidden="true">14</span>
+            <span class="illo-dur">30 sec</span>
+            <div class="illo-fig" aria-hidden="true"><svg viewBox="0 0 200 206" width="100%" height="100%" preserveAspectRatio="xMidYMid meet"><g fill="none" stroke="var(--fig-line)" stroke-linecap="round" stroke-linejoin="round"><path d="M 100 74 L 100 150" stroke-width="51"/><path d="M 100 60 L 100 74" stroke-width="23"/><path d="M 78 78 L 52 78" stroke-width="25"/><path d="M 52 78 L 26 78" stroke-width="22"/><path d="M 122 78 L 140 70" stroke-width="25"/><path d="M 140 70 L 124 78" stroke-width="22"/><path d="M 88 150 L 86 206" stroke-width="28"/><path d="M 112 150 L 114 206" stroke-width="28"/></g><g fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M 100 74 L 100 150" stroke="var(--fig-shirt)" stroke-width="44"/><path d="M 100 60 L 100 74" stroke="var(--fig-skin)" stroke-width="16"/><path d="M 78 78 L 52 78" stroke="var(--fig-skin)" stroke-width="18"/><path d="M 52 78 L 26 78" stroke="var(--fig-skin)" stroke-width="15"/><path d="M 122 78 L 140 70" stroke="var(--fig-skin)" stroke-width="18"/><path d="M 140 70 L 124 78" stroke="var(--fig-accent)" stroke-width="15"/><path d="M 88 150 L 86 206" stroke="var(--fig-shorts)" stroke-width="21"/><path d="M 112 150 L 114 206" stroke="var(--fig-shorts)" stroke-width="21"/></g><circle cx="124" cy="78" r="10" fill="var(--fig-accent)" opacity="0.2"/><circle cx="124" cy="78" r="4" fill="var(--fig-accent)"/><circle cx="100" cy="44" r="25.5" fill="var(--fig-line)"/><circle cx="100" cy="44" r="22" fill="var(--fig-skin)"/><path d="M 78.0396357042967 42.68 A 22 22 0 0 1 121.9603642957033 42.68 Z" fill="var(--fig-hair)"/></svg></div>
+          </div>
+          <p class="exercise-cat">Upper body</p>
+          <h3 id="side-shoulder-taps-title">Side Shoulder Taps</h3>
+          <p>Raise your arms out wide and tap each shoulder in turn.</p>
+          <p class="exercise-meta"><strong>Good for:</strong> Wakes up your shoulders with wide reaches and light taps.</p>
+          <ul class="tags"><li>Shoulders</li><li>Arms</li></ul>
+        </article>
+        <article class="exercise-card reveal" id="shoulder-taps" data-cat="core" aria-labelledby="shoulder-taps-title">
+          <div class="exercise-illo">
+            <span class="illo-num" aria-hidden="true">15</span>
+            <span class="illo-dur">30 sec</span>
+            <div class="illo-fig" aria-hidden="true"><svg viewBox="0 0 280 150" width="100%" height="100%" preserveAspectRatio="xMidYMid meet"><g fill="none" stroke="var(--fig-line)" stroke-linecap="round" stroke-linejoin="round"><path d="M 206 92 L 206 126" stroke-width="25"/><path d="M 206 92 L 120 86" stroke-width="51"/><path d="M 206 92 L 214 82" stroke-width="23"/><path d="M 206 90 L 192 74" stroke-width="25"/><path d="M 192 74 L 200 88" stroke-width="22"/><path d="M 120 86 L 64 100" stroke-width="28"/><path d="M 64 100 L 34 116" stroke-width="24"/><path d="M 34 116 L 28 126" stroke-width="19"/></g><g fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M 206 92 L 206 126" stroke="var(--fig-skin)" stroke-width="18"/><path d="M 206 92 L 120 86" stroke="var(--fig-shirt)" stroke-width="44"/><path d="M 206 92 L 214 82" stroke="var(--fig-skin)" stroke-width="16"/><path d="M 206 90 L 192 74" stroke="var(--fig-accent)" stroke-width="18"/><path d="M 192 74 L 200 88" stroke="var(--fig-accent)" stroke-width="15"/><path d="M 120 86 L 64 100" stroke="var(--fig-shorts)" stroke-width="21"/><path d="M 64 100 L 34 116" stroke="var(--fig-skin)" stroke-width="17"/><path d="M 34 116 L 28 126" stroke="var(--fig-skin)" stroke-width="12"/></g><circle cx="200" cy="88" r="10" fill="var(--fig-accent)" opacity="0.2"/><circle cx="200" cy="88" r="4" fill="var(--fig-accent)"/><circle cx="218" cy="80" r="21.5" fill="var(--fig-line)"/><circle cx="218" cy="80" r="18" fill="var(--fig-skin)"/><path d="M 200.0324292126064 78.92 A 18 18 0 0 1 235.9675707873936 78.92 Z" fill="var(--fig-hair)"/><circle cx="205.04" cy="79.64" r="6.12" fill="var(--fig-hair)"/></svg></div>
+          </div>
+          <p class="exercise-cat">Core</p>
+          <h3 id="shoulder-taps-title">Shoulder Taps</h3>
+          <p>In a plank, tap your opposite shoulder with each hand.</p>
+          <p class="exercise-meta"><strong>Good for:</strong> Challenges your core stability while your shoulders and arms work too.</p>
+          <ul class="tags"><li>Core</li><li>Shoulders</li><li>Arms</li></ul>
+        </article>
+        <article class="exercise-card reveal" id="arm-circles" data-cat="upper-body" aria-labelledby="arm-circles-title">
+          <div class="exercise-illo">
+            <span class="illo-num" aria-hidden="true">16</span>
+            <span class="illo-dur">30 sec</span>
+            <div class="illo-fig" aria-hidden="true"><svg viewBox="0 0 200 262" width="100%" height="100%" preserveAspectRatio="xMidYMid meet"><path d="M 20 78 A 8 8 0 1 1 20 76" fill="none" stroke="var(--fig-accent)" stroke-width="3" stroke-linecap="round" opacity="0.95"/><path d="M 180 78 A 8 8 0 1 0 180 76" fill="none" stroke="var(--fig-accent)" stroke-width="3" stroke-linecap="round" opacity="0.95"/><g fill="none" stroke="var(--fig-line)" stroke-linecap="round" stroke-linejoin="round"><path d="M 100 80 L 100 150" stroke-width="51"/><path d="M 100 66 L 100 80" stroke-width="23"/><path d="M 78 84 L 52 76" stroke-width="25"/><path d="M 52 76 L 26 70" stroke-width="22"/><path d="M 122 84 L 148 76" stroke-width="25"/><path d="M 148 76 L 174 70" stroke-width="22"/><path d="M 92 150 L 94 204" stroke-width="28"/><path d="M 94 204 L 94 246" stroke-width="24"/><path d="M 94 246 L 82 250" stroke-width="19"/><path d="M 108 150 L 106 204" stroke-width="28"/><path d="M 106 204 L 106 246" stroke-width="24"/><path d="M 106 246 L 118 250" stroke-width="19"/></g><g fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M 100 80 L 100 150" stroke="var(--fig-shirt)" stroke-width="44"/><path d="M 100 66 L 100 80" stroke="var(--fig-skin)" stroke-width="16"/><path d="M 78 84 L 52 76" stroke="var(--fig-skin)" stroke-width="18"/><path d="M 52 76 L 26 70" stroke="var(--fig-skin)" stroke-width="15"/><path d="M 122 84 L 148 76" stroke="var(--fig-skin)" stroke-width="18"/><path d="M 148 76 L 174 70" stroke="var(--fig-skin)" stroke-width="15"/><path d="M 92 150 L 94 204" stroke="var(--fig-shorts)" stroke-width="21"/><path d="M 94 204 L 94 246" stroke="var(--fig-skin)" stroke-width="17"/><path d="M 94 246 L 82 250" stroke="var(--fig-skin)" stroke-width="12"/><path d="M 108 150 L 106 204" stroke="var(--fig-shorts)" stroke-width="21"/><path d="M 106 204 L 106 246" stroke="var(--fig-skin)" stroke-width="17"/><path d="M 106 246 L 118 250" stroke="var(--fig-skin)" stroke-width="12"/></g><circle cx="100" cy="50" r="25.5" fill="var(--fig-line)"/><circle cx="100" cy="50" r="22" fill="var(--fig-skin)"/><path d="M 78.0396357042967 48.68 A 22 22 0 0 1 121.9603642957033 48.68 Z" fill="var(--fig-hair)"/></svg></div>
+          </div>
+          <p class="exercise-cat">Upper body</p>
+          <h3 id="arm-circles-title">Arm Circles</h3>
+          <p>Extend your arms and draw small, quick circles in the air.</p>
+          <p class="exercise-meta"><strong>Good for:</strong> Loosens and warms up your shoulders with quick, small circles.</p>
+          <ul class="tags"><li>Shoulders</li><li>Arms</li></ul>
+        </article>
+        <article class="exercise-card reveal" id="jumping-jacks" data-cat="cardio" aria-labelledby="jumping-jacks-title">
+          <div class="exercise-illo">
+            <span class="illo-num" aria-hidden="true">17</span>
+            <span class="illo-dur">30 sec</span>
+            <div class="illo-fig" aria-hidden="true"><svg viewBox="0 0 200 262" width="100%" height="100%" preserveAspectRatio="xMidYMid meet"><g fill="none" stroke="var(--fig-line)" stroke-linecap="round" stroke-linejoin="round" opacity="0.16"><path d="M 100 80 L 100 150" stroke-width="44"/><path d="M 78 84 L 72 118" stroke-width="18"/><path d="M 72 118 L 70 150" stroke-width="15"/><path d="M 122 84 L 128 118" stroke-width="18"/><path d="M 128 118 L 130 150" stroke-width="15"/><path d="M 90 150 L 94 204" stroke-width="21"/><path d="M 94 204 L 94 246" stroke-width="17"/><path d="M 110 150 L 106 204" stroke-width="21"/><path d="M 106 204 L 106 246" stroke-width="17"/></g><path d="M 46 96 Q 40 58 74 40" fill="none" stroke="var(--fig-accent)" stroke-width="4" stroke-linecap="round" stroke-dasharray="1 9" opacity="0.95"/><path d="M 154 96 Q 160 58 126 40" fill="none" stroke="var(--fig-accent)" stroke-width="4" stroke-linecap="round" stroke-dasharray="1 9" opacity="0.95"/><g fill="none" stroke="var(--fig-line)" stroke-linecap="round" stroke-linejoin="round"><path d="M 100 82 L 100 150" stroke-width="51"/><path d="M 100 68 L 100 82" stroke-width="23"/><path d="M 80 84 L 70 52" stroke-width="25"/><path d="M 70 52 L 90 26" stroke-width="22"/><path d="M 120 84 L 130 52" stroke-width="25"/><path d="M 130 52 L 110 26" stroke-width="22"/><path d="M 86 150 L 64 198" stroke-width="28"/><path d="M 64 198 L 52 242" stroke-width="24"/><path d="M 52 242 L 40 246" stroke-width="19"/><path d="M 114 150 L 136 198" stroke-width="28"/><path d="M 136 198 L 148 242" stroke-width="24"/><path d="M 148 242 L 160 246" stroke-width="19"/></g><g fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M 100 82 L 100 150" stroke="var(--fig-shirt)" stroke-width="44"/><path d="M 100 68 L 100 82" stroke="var(--fig-skin)" stroke-width="16"/><path d="M 80 84 L 70 52" stroke="var(--fig-skin)" stroke-width="18"/><path d="M 70 52 L 90 26" stroke="var(--fig-accent)" stroke-width="15"/><path d="M 120 84 L 130 52" stroke="var(--fig-skin)" stroke-width="18"/><path d="M 130 52 L 110 26" stroke="var(--fig-accent)" stroke-width="15"/><path d="M 86 150 L 64 198" stroke="var(--fig-shorts)" stroke-width="21"/><path d="M 64 198 L 52 242" stroke="var(--fig-skin)" stroke-width="17"/><path d="M 52 242 L 40 246" stroke="var(--fig-skin)" stroke-width="12"/><path d="M 114 150 L 136 198" stroke="var(--fig-shorts)" stroke-width="21"/><path d="M 136 198 L 148 242" stroke="var(--fig-skin)" stroke-width="17"/><path d="M 148 242 L 160 246" stroke="var(--fig-skin)" stroke-width="12"/></g><circle cx="90" cy="26" r="10" fill="var(--fig-accent)" opacity="0.2"/><circle cx="90" cy="26" r="4" fill="var(--fig-accent)"/><circle cx="110" cy="26" r="10" fill="var(--fig-accent)" opacity="0.2"/><circle cx="110" cy="26" r="4" fill="var(--fig-accent)"/><circle cx="100" cy="52" r="25.5" fill="var(--fig-line)"/><circle cx="100" cy="52" r="22" fill="var(--fig-skin)"/><path d="M 78.0396357042967 50.68 A 22 22 0 0 1 121.9603642957033 50.68 Z" fill="var(--fig-hair)"/></svg></div>
+          </div>
+          <p class="exercise-cat">Cardio</p>
+          <h3 id="jumping-jacks-title">Jumping Jacks</h3>
+          <p>Jump while spreading your arms and legs, then bring them together.</p>
+          <p class="exercise-meta"><strong>Good for:</strong> A classic full-body mover that gets your heart rate up quickly.</p>
+          <ul class="tags"><li>Legs</li><li>Shoulders</li></ul>
+        </article>
+        <article class="exercise-card reveal" id="seal-jacks" data-cat="cardio" aria-labelledby="seal-jacks-title">
+          <div class="exercise-illo">
+            <span class="illo-num" aria-hidden="true">18</span>
+            <span class="illo-dur">30 sec</span>
+            <div class="illo-fig" aria-hidden="true"><svg viewBox="0 0 200 262" width="100%" height="100%" preserveAspectRatio="xMidYMid meet"><g fill="none" stroke="var(--fig-line)" stroke-linecap="round" stroke-linejoin="round"><path d="M 100 80 L 100 150" stroke-width="51"/><path d="M 100 66 L 100 80" stroke-width="23"/><path d="M 78 86 L 90 96" stroke-width="25"/><path d="M 90 96 L 100 102" stroke-width="22"/><path d="M 122 86 L 110 96" stroke-width="25"/><path d="M 110 96 L 100 102" stroke-width="22"/><path d="M 86 150 L 64 198" stroke-width="28"/><path d="M 64 198 L 52 242" stroke-width="24"/><path d="M 52 242 L 40 246" stroke-width="19"/><path d="M 114 150 L 136 198" stroke-width="28"/><path d="M 136 198 L 148 242" stroke-width="24"/><path d="M 148 242 L 160 246" stroke-width="19"/></g><g fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M 100 80 L 100 150" stroke="var(--fig-shirt)" stroke-width="44"/><path d="M 100 66 L 100 80" stroke="var(--fig-skin)" stroke-width="16"/><path d="M 78 86 L 90 96" stroke="var(--fig-skin)" stroke-width="18"/><path d="M 90 96 L 100 102" stroke="var(--fig-accent)" stroke-width="15"/><path d="M 122 86 L 110 96" stroke="var(--fig-skin)" stroke-width="18"/><path d="M 110 96 L 100 102" stroke="var(--fig-accent)" stroke-width="15"/><path d="M 86 150 L 64 198" stroke="var(--fig-shorts)" stroke-width="21"/><path d="M 64 198 L 52 242" stroke="var(--fig-skin)" stroke-width="17"/><path d="M 52 242 L 40 246" stroke="var(--fig-skin)" stroke-width="12"/><path d="M 114 150 L 136 198" stroke="var(--fig-shorts)" stroke-width="21"/><path d="M 136 198 L 148 242" stroke="var(--fig-skin)" stroke-width="17"/><path d="M 148 242 L 160 246" stroke="var(--fig-skin)" stroke-width="12"/></g><circle cx="100" cy="102" r="10" fill="var(--fig-accent)" opacity="0.2"/><circle cx="100" cy="102" r="4" fill="var(--fig-accent)"/><circle cx="100" cy="50" r="25.5" fill="var(--fig-line)"/><circle cx="100" cy="50" r="22" fill="var(--fig-skin)"/><path d="M 78.0396357042967 48.68 A 22 22 0 0 1 121.9603642957033 48.68 Z" fill="var(--fig-hair)"/></svg></div>
+          </div>
+          <p class="exercise-cat">Cardio</p>
+          <h3 id="seal-jacks-title">Seal Jacks</h3>
+          <p>Jump your feet apart while clapping your straight arms together.</p>
+          <p class="exercise-meta"><strong>Good for:</strong> Gets your blood pumping while your chest and arms join the movement.</p>
+          <ul class="tags"><li>Legs</li><li>Chest</li><li>Arms</li></ul>
+        </article>
+        <article class="exercise-card reveal" id="step-jacks" data-cat="cardio" aria-labelledby="step-jacks-title">
+          <div class="exercise-illo">
+            <span class="illo-num" aria-hidden="true">19</span>
+            <span class="illo-dur">30 sec</span>
+            <div class="illo-fig" aria-hidden="true"><svg viewBox="0 0 200 262" width="100%" height="100%" preserveAspectRatio="xMidYMid meet"><g fill="none" stroke="var(--fig-line)" stroke-linecap="round" stroke-linejoin="round"><path d="M 100 80 L 100 150" stroke-width="51"/><path d="M 100 66 L 100 80" stroke-width="23"/><path d="M 80 84 L 74 52" stroke-width="25"/><path d="M 74 52 L 90 24" stroke-width="22"/><path d="M 120 84 L 126 52" stroke-width="25"/><path d="M 126 52 L 110 24" stroke-width="22"/><path d="M 92 150 L 74 200" stroke-width="28"/><path d="M 74 200 L 60 246" stroke-width="24"/><path d="M 60 246 L 48 250" stroke-width="19"/><path d="M 110 150 L 110 204" stroke-width="28"/><path d="M 110 204 L 110 246" stroke-width="24"/><path d="M 110 246 L 122 250" stroke-width="19"/></g><g fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M 100 80 L 100 150" stroke="var(--fig-shirt)" stroke-width="44"/><path d="M 100 66 L 100 80" stroke="var(--fig-skin)" stroke-width="16"/><path d="M 80 84 L 74 52" stroke="var(--fig-skin)" stroke-width="18"/><path d="M 74 52 L 90 24" stroke="var(--fig-skin)" stroke-width="15"/><path d="M 120 84 L 126 52" stroke="var(--fig-skin)" stroke-width="18"/><path d="M 126 52 L 110 24" stroke="var(--fig-skin)" stroke-width="15"/><path d="M 92 150 L 74 200" stroke="var(--fig-shorts)" stroke-width="21"/><path d="M 74 200 L 60 246" stroke="var(--fig-skin)" stroke-width="17"/><path d="M 60 246 L 48 250" stroke="var(--fig-skin)" stroke-width="12"/><path d="M 110 150 L 110 204" stroke="var(--fig-shorts)" stroke-width="21"/><path d="M 110 204 L 110 246" stroke="var(--fig-skin)" stroke-width="17"/><path d="M 110 246 L 122 250" stroke="var(--fig-skin)" stroke-width="12"/></g><circle cx="90" cy="24" r="10" fill="var(--fig-accent)" opacity="0.2"/><circle cx="90" cy="24" r="4" fill="var(--fig-accent)"/><circle cx="110" cy="24" r="10" fill="var(--fig-accent)" opacity="0.2"/><circle cx="110" cy="24" r="4" fill="var(--fig-accent)"/><circle cx="100" cy="50" r="25.5" fill="var(--fig-line)"/><circle cx="100" cy="50" r="22" fill="var(--fig-skin)"/><path d="M 78.0396357042967 48.68 A 22 22 0 0 1 121.9603642957033 48.68 Z" fill="var(--fig-hair)"/></svg></div>
+          </div>
+          <p class="exercise-cat">Cardio</p>
+          <h3 id="step-jacks-title">Step Jacks</h3>
+          <p>Step side to side while raising your arms overhead.</p>
+          <p class="exercise-meta"><strong>Good for:</strong> A gentle, low-impact way to raise your heart rate and loosen your shoulders.</p>
+          <ul class="tags"><li>Legs</li><li>Shoulders</li></ul>
+        </article>
+        <article class="exercise-card reveal" id="side-jacks" data-cat="cardio" aria-labelledby="side-jacks-title">
+          <div class="exercise-illo">
+            <span class="illo-num" aria-hidden="true">20</span>
+            <span class="illo-dur">30 sec</span>
+            <div class="illo-fig" aria-hidden="true"><svg viewBox="0 0 200 262" width="100%" height="100%" preserveAspectRatio="xMidYMid meet"><path d="M 128 120 Q 100 70 78 44" fill="none" stroke="var(--fig-accent)" stroke-width="4" stroke-linecap="round" stroke-dasharray="1 9" opacity="0.95"/><g fill="none" stroke="var(--fig-line)" stroke-linecap="round" stroke-linejoin="round"><path d="M 94 80 L 100 150" stroke-width="51"/><path d="M 92 66 L 93 80" stroke-width="23"/><path d="M 78 84 L 66 60" stroke-width="25"/><path d="M 66 60 L 80 38" stroke-width="22"/><path d="M 110 84 L 102 58" stroke-width="25"/><path d="M 102 58 L 116 40" stroke-width="22"/><path d="M 96 150 L 86 196" stroke-width="28"/><path d="M 86 196 L 78 232" stroke-width="24"/><path d="M 78 232 L 66 236" stroke-width="19"/><path d="M 112 150 L 120 196" stroke-width="28"/><path d="M 120 196 L 116 230" stroke-width="24"/><path d="M 116 230 L 126 234" stroke-width="19"/></g><g fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M 94 80 L 100 150" stroke="var(--fig-shirt)" stroke-width="44"/><path d="M 92 66 L 93 80" stroke="var(--fig-skin)" stroke-width="16"/><path d="M 78 84 L 66 60" stroke="var(--fig-skin)" stroke-width="18"/><path d="M 66 60 L 80 38" stroke="var(--fig-accent)" stroke-width="15"/><path d="M 110 84 L 102 58" stroke="var(--fig-skin)" stroke-width="18"/><path d="M 102 58 L 116 40" stroke="var(--fig-accent)" stroke-width="15"/><path d="M 96 150 L 86 196" stroke="var(--fig-shorts)" stroke-width="21"/><path d="M 86 196 L 78 232" stroke="var(--fig-skin)" stroke-width="17"/><path d="M 78 232 L 66 236" stroke="var(--fig-skin)" stroke-width="12"/><path d="M 112 150 L 120 196" stroke="var(--fig-shorts)" stroke-width="21"/><path d="M 120 196 L 116 230" stroke="var(--fig-skin)" stroke-width="17"/><path d="M 116 230 L 126 234" stroke="var(--fig-skin)" stroke-width="12"/></g><circle cx="92" cy="50" r="25.5" fill="var(--fig-line)"/><circle cx="92" cy="50" r="22" fill="var(--fig-skin)"/><path d="M 70.0396357042967 48.68 A 22 22 0 0 1 113.9603642957033 48.68 Z" fill="var(--fig-hair)"/></svg></div>
+          </div>
+          <p class="exercise-cat">Cardio</p>
+          <h3 id="side-jacks-title">Side Jacks</h3>
+          <p>Jump sideways from foot to foot, swinging your arms along.</p>
+          <p class="exercise-meta"><strong>Good for:</strong> Gets you moving side to side to raise your heart rate quickly.</p>
+          <ul class="tags"><li>Legs</li><li>Calves</li></ul>
+        </article>
+        <article class="exercise-card reveal" id="lunges" data-cat="lower-body" aria-labelledby="lunges-title">
+          <div class="exercise-illo">
+            <span class="illo-num" aria-hidden="true">21</span>
+            <span class="illo-dur">10 reps</span>
+            <div class="illo-fig" aria-hidden="true"><svg viewBox="0 0 220 264" width="100%" height="100%" preserveAspectRatio="xMidYMid meet"><g fill="none" stroke="var(--fig-line)" stroke-linecap="round" stroke-linejoin="round"><path d="M 108 92 L 108 158" stroke-width="51"/><path d="M 108 74 L 108 92" stroke-width="23"/><path d="M 106 96 L 108 128" stroke-width="25"/><path d="M 108 128 L 108 158" stroke-width="22"/><path d="M 104 158 L 74 192" stroke-width="28" opacity="0.4"/><path d="M 74 192 L 86 244" stroke-width="24" opacity="0.4"/><path d="M 86 244 L 74 248" stroke-width="19" opacity="0.4"/><path d="M 112 158 L 150 180" stroke-width="28"/><path d="M 150 180 L 150 248" stroke-width="24"/><path d="M 150 248 L 168 252" stroke-width="19"/></g><g fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M 108 92 L 108 158" stroke="var(--fig-shirt)" stroke-width="44"/><path d="M 108 74 L 108 92" stroke="var(--fig-skin)" stroke-width="16"/><path d="M 106 96 L 108 128" stroke="var(--fig-skin)" stroke-width="18"/><path d="M 108 128 L 108 158" stroke="var(--fig-skin)" stroke-width="15"/><path d="M 104 158 L 74 192" stroke="var(--fig-shorts)" stroke-width="21" opacity="0.4"/><path d="M 74 192 L 86 244" stroke="var(--fig-skin)" stroke-width="17" opacity="0.4"/><path d="M 86 244 L 74 248" stroke="var(--fig-skin)" stroke-width="12" opacity="0.4"/><path d="M 112 158 L 150 180" stroke="var(--fig-accent)" stroke-width="21"/><path d="M 150 180 L 150 248" stroke="var(--fig-skin)" stroke-width="17"/><path d="M 150 248 L 168 252" stroke="var(--fig-skin)" stroke-width="12"/></g><circle cx="150" cy="178" r="10" fill="var(--fig-accent)" opacity="0.2"/><circle cx="150" cy="178" r="4" fill="var(--fig-accent)"/><circle cx="108" cy="58" r="25.5" fill="var(--fig-line)"/><circle cx="108" cy="58" r="22" fill="var(--fig-skin)"/><path d="M 86.0396357042967 56.68 A 22 22 0 0 1 129.9603642957033 56.68 Z" fill="var(--fig-hair)"/><circle cx="92.16" cy="57.56" r="7.48" fill="var(--fig-hair)"/></svg></div>
+          </div>
+          <p class="exercise-cat">Lower body</p>
+          <h3 id="lunges-title">Lunges</h3>
+          <p>Step forward, lower your back knee, then push back up.</p>
+          <p class="exercise-meta"><strong>Good for:</strong> Strengthens your legs and glutes while improving balance with each step.</p>
+          <ul class="tags"><li>Legs</li><li>Glutes</li></ul>
+        </article>
+        <article class="exercise-card reveal" id="butt-kicks" data-cat="cardio" aria-labelledby="butt-kicks-title">
+          <div class="exercise-illo">
+            <span class="illo-num" aria-hidden="true">22</span>
+            <span class="illo-dur">30 sec</span>
+            <div class="illo-fig" aria-hidden="true"><svg viewBox="0 0 210 262" width="100%" height="100%" preserveAspectRatio="xMidYMid meet"><path d="M 110 200 Q 88 200 82 180" fill="none" stroke="var(--fig-accent)" stroke-width="4" stroke-linecap="round" stroke-dasharray="1 8" opacity="0.95"/><g fill="none" stroke="var(--fig-line)" stroke-linecap="round" stroke-linejoin="round"><path d="M 100 84 L 116 108" stroke-width="25" opacity="0.4"/><path d="M 116 108 L 108 128" stroke-width="22" opacity="0.4"/><path d="M 98 82 L 100 150" stroke-width="51"/><path d="M 98 66 L 98 82" stroke-width="23"/><path d="M 102 84 L 88 108" stroke-width="25"/><path d="M 88 108 L 96 126" stroke-width="22"/><path d="M 104 150 L 104 200" stroke-width="24"/><path d="M 104 200 L 104 244" stroke-width="24"/><path d="M 104 244 L 120 246" stroke-width="19"/><path d="M 96 150 L 100 196" stroke-width="28"/><path d="M 100 196 L 80 178" stroke-width="24"/><path d="M 80 178 L 74 166" stroke-width="19"/></g><g fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M 100 84 L 116 108" stroke="var(--fig-skin)" stroke-width="18" opacity="0.4"/><path d="M 116 108 L 108 128" stroke="var(--fig-skin)" stroke-width="15" opacity="0.4"/><path d="M 98 82 L 100 150" stroke="var(--fig-shirt)" stroke-width="44"/><path d="M 98 66 L 98 82" stroke="var(--fig-skin)" stroke-width="16"/><path d="M 102 84 L 88 108" stroke="var(--fig-skin)" stroke-width="18"/><path d="M 88 108 L 96 126" stroke="var(--fig-skin)" stroke-width="15"/><path d="M 104 150 L 104 200" stroke="var(--fig-skin)" stroke-width="17"/><path d="M 104 200 L 104 244" stroke="var(--fig-skin)" stroke-width="17"/><path d="M 104 244 L 120 246" stroke="var(--fig-skin)" stroke-width="12"/><path d="M 96 150 L 100 196" stroke="var(--fig-accent)" stroke-width="21"/><path d="M 100 196 L 80 178" stroke="var(--fig-skin)" stroke-width="17"/><path d="M 80 178 L 74 166" stroke="var(--fig-skin)" stroke-width="12"/></g><circle cx="80" cy="178" r="10" fill="var(--fig-accent)" opacity="0.2"/><circle cx="80" cy="178" r="4" fill="var(--fig-accent)"/><circle cx="100" cy="50" r="25.5" fill="var(--fig-line)"/><circle cx="100" cy="50" r="22" fill="var(--fig-skin)"/><path d="M 78.0396357042967 48.68 A 22 22 0 0 1 121.9603642957033 48.68 Z" fill="var(--fig-hair)"/><circle cx="84.16" cy="49.56" r="7.48" fill="var(--fig-hair)"/></svg></div>
+          </div>
+          <p class="exercise-cat">Cardio</p>
+          <h3 id="butt-kicks-title">Butt Kicks</h3>
+          <p>Jog on the spot, kicking your heels toward your glutes.</p>
+          <p class="exercise-meta"><strong>Good for:</strong> Warms up your hamstrings while keeping your heart rate up.</p>
+          <ul class="tags"><li>Hamstrings</li><li>Legs</li></ul>
+        </article>
+        <article class="exercise-card reveal" id="side-leg-raises" data-cat="lower-body" aria-labelledby="side-leg-raises-title">
+          <div class="exercise-illo">
+            <span class="illo-num" aria-hidden="true">23</span>
+            <span class="illo-dur">12 reps each</span>
+            <div class="illo-fig" aria-hidden="true"><svg viewBox="0 0 220 262" width="100%" height="100%" preserveAspectRatio="xMidYMid meet"><g fill="none" stroke="var(--fig-line)" stroke-linecap="round" stroke-linejoin="round"><path d="M 100 80 L 100 150" stroke-width="51"/><path d="M 100 66 L 100 80" stroke-width="23"/><path d="M 82 84 L 76 110" stroke-width="25"/><path d="M 76 110 L 86 124" stroke-width="22"/><path d="M 118 84 L 124 110" stroke-width="25"/><path d="M 124 110 L 114 124" stroke-width="22"/><path d="M 92 150 L 92 204" stroke-width="28"/><path d="M 92 204 L 92 248" stroke-width="24"/><path d="M 92 248 L 80 252" stroke-width="19"/><path d="M 110 150 L 146 180" stroke-width="28"/><path d="M 146 180 L 178 196" stroke-width="24"/><path d="M 178 196 L 190 190" stroke-width="19"/></g><g fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M 100 80 L 100 150" stroke="var(--fig-shirt)" stroke-width="44"/><path d="M 100 66 L 100 80" stroke="var(--fig-skin)" stroke-width="16"/><path d="M 82 84 L 76 110" stroke="var(--fig-skin)" stroke-width="18"/><path d="M 76 110 L 86 124" stroke="var(--fig-skin)" stroke-width="15"/><path d="M 118 84 L 124 110" stroke="var(--fig-skin)" stroke-width="18"/><path d="M 124 110 L 114 124" stroke="var(--fig-skin)" stroke-width="15"/><path d="M 92 150 L 92 204" stroke="var(--fig-shorts)" stroke-width="21"/><path d="M 92 204 L 92 248" stroke="var(--fig-skin)" stroke-width="17"/><path d="M 92 248 L 80 252" stroke="var(--fig-skin)" stroke-width="12"/><path d="M 110 150 L 146 180" stroke="var(--fig-accent)" stroke-width="21"/><path d="M 146 180 L 178 196" stroke="var(--fig-skin)" stroke-width="17"/><path d="M 178 196 L 190 190" stroke="var(--fig-skin)" stroke-width="12"/></g><circle cx="178" cy="196" r="10" fill="var(--fig-accent)" opacity="0.2"/><circle cx="178" cy="196" r="4" fill="var(--fig-accent)"/><circle cx="100" cy="50" r="25.5" fill="var(--fig-line)"/><circle cx="100" cy="50" r="22" fill="var(--fig-skin)"/><path d="M 78.0396357042967 48.68 A 22 22 0 0 1 121.9603642957033 48.68 Z" fill="var(--fig-hair)"/></svg></div>
+          </div>
+          <p class="exercise-cat">Lower body</p>
+          <h3 id="side-leg-raises-title">Side Leg Raises</h3>
+          <p>Lift one leg out to the side, then lower it slowly.</p>
+          <p class="exercise-meta"><strong>Good for:</strong> Strengthens your hips and outer thighs with a slow, controlled lift.</p>
+          <ul class="tags"><li>Hips</li><li>Glutes</li><li>Legs</li></ul>
+        </article>
+        <article class="exercise-card reveal" id="prone-reverse-fly" data-cat="upper-body" aria-labelledby="prone-reverse-fly-title">
+          <div class="exercise-illo">
+            <span class="illo-num" aria-hidden="true">24</span>
+            <span class="illo-dur">12 reps</span>
+            <div class="illo-fig" aria-hidden="true"><svg viewBox="0 0 200 244" width="100%" height="100%" preserveAspectRatio="xMidYMid meet"><g fill="none" stroke="var(--fig-line)" stroke-linecap="round" stroke-linejoin="round"><path d="M 100 60 L 100 150" stroke-width="51"/><path d="M 84 70 L 58 64" stroke-width="25"/><path d="M 58 64 L 32 58" stroke-width="22"/><path d="M 116 70 L 142 64" stroke-width="25"/><path d="M 142 64 L 168 58" stroke-width="22"/><path d="M 92 150 L 92 200" stroke-width="28"/><path d="M 92 200 L 92 238" stroke-width="24"/><path d="M 108 150 L 108 200" stroke-width="28"/><path d="M 108 200 L 108 238" stroke-width="24"/></g><g fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M 100 60 L 100 150" stroke="var(--fig-shirt)" stroke-width="44"/><path d="M 84 70 L 58 64" stroke="var(--fig-accent)" stroke-width="18"/><path d="M 58 64 L 32 58" stroke="var(--fig-accent)" stroke-width="15"/><path d="M 116 70 L 142 64" stroke="var(--fig-accent)" stroke-width="18"/><path d="M 142 64 L 168 58" stroke="var(--fig-accent)" stroke-width="15"/><path d="M 92 150 L 92 200" stroke="var(--fig-shorts)" stroke-width="21"/><path d="M 92 200 L 92 238" stroke="var(--fig-skin)" stroke-width="17"/><path d="M 108 150 L 108 200" stroke="var(--fig-shorts)" stroke-width="21"/><path d="M 108 200 L 108 238" stroke="var(--fig-skin)" stroke-width="17"/></g><circle cx="32" cy="58" r="10" fill="var(--fig-accent)" opacity="0.2"/><circle cx="32" cy="58" r="4" fill="var(--fig-accent)"/><circle cx="168" cy="58" r="10" fill="var(--fig-accent)" opacity="0.2"/><circle cx="168" cy="58" r="4" fill="var(--fig-accent)"/><circle cx="100" cy="40" r="23.5" fill="var(--fig-line)"/><circle cx="100" cy="40" r="20" fill="var(--fig-skin)"/><path d="M 80.03603245845156 38.8 A 20 20 0 0 1 119.96396754154844 38.8 Z" fill="var(--fig-hair)"/></svg></div>
+          </div>
+          <p class="exercise-cat">Upper body</p>
+          <h3 id="prone-reverse-fly-title">Prone Reverse Fly</h3>
+          <p>Lying face down, lift your arms out to the sides.</p>
+          <p class="exercise-meta"><strong>Good for:</strong> Strengthens your upper back and shoulders lying face down.</p>
+          <ul class="tags"><li>Upper back</li><li>Shoulders</li></ul>
+        </article>
+        <article class="exercise-card reveal" id="w-extensions" data-cat="upper-body" aria-labelledby="w-extensions-title">
+          <div class="exercise-illo">
+            <span class="illo-num" aria-hidden="true">25</span>
+            <span class="illo-dur">12 reps</span>
+            <div class="illo-fig" aria-hidden="true"><svg viewBox="0 0 200 244" width="100%" height="100%" preserveAspectRatio="xMidYMid meet"><g fill="none" stroke="var(--fig-line)" stroke-linecap="round" stroke-linejoin="round"><path d="M 100 64 L 100 150" stroke-width="51"/><path d="M 86 74 L 72 86" stroke-width="25"/><path d="M 72 86 L 58 58" stroke-width="22"/><path d="M 114 74 L 128 86" stroke-width="25"/><path d="M 128 86 L 142 58" stroke-width="22"/><path d="M 92 150 L 92 200" stroke-width="28"/><path d="M 92 200 L 92 238" stroke-width="24"/><path d="M 108 150 L 108 200" stroke-width="28"/><path d="M 108 200 L 108 238" stroke-width="24"/></g><g fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M 100 64 L 100 150" stroke="var(--fig-shirt)" stroke-width="44"/><path d="M 86 74 L 72 86" stroke="var(--fig-skin)" stroke-width="18"/><path d="M 72 86 L 58 58" stroke="var(--fig-accent)" stroke-width="15"/><path d="M 114 74 L 128 86" stroke="var(--fig-skin)" stroke-width="18"/><path d="M 128 86 L 142 58" stroke="var(--fig-accent)" stroke-width="15"/><path d="M 92 150 L 92 200" stroke="var(--fig-shorts)" stroke-width="21"/><path d="M 92 200 L 92 238" stroke="var(--fig-skin)" stroke-width="17"/><path d="M 108 150 L 108 200" stroke="var(--fig-shorts)" stroke-width="21"/><path d="M 108 200 L 108 238" stroke="var(--fig-skin)" stroke-width="17"/></g><circle cx="58" cy="58" r="10" fill="var(--fig-accent)" opacity="0.2"/><circle cx="58" cy="58" r="4" fill="var(--fig-accent)"/><circle cx="142" cy="58" r="10" fill="var(--fig-accent)" opacity="0.2"/><circle cx="142" cy="58" r="4" fill="var(--fig-accent)"/><circle cx="100" cy="44" r="23.5" fill="var(--fig-line)"/><circle cx="100" cy="44" r="20" fill="var(--fig-skin)"/><path d="M 80.03603245845156 42.8 A 20 20 0 0 1 119.96396754154844 42.8 Z" fill="var(--fig-hair)"/></svg></div>
+          </div>
+          <p class="exercise-cat">Upper body</p>
+          <h3 id="w-extensions-title">W-Extensions</h3>
+          <p>Lying face down, pull your arms up into a W shape.</p>
+          <p class="exercise-meta"><strong>Good for:</strong> Opens your chest and strengthens your upper back in a W shape.</p>
+          <ul class="tags"><li>Upper back</li><li>Shoulders</li></ul>
+        </article>
+        <article class="exercise-card reveal" id="squat-hold" data-cat="lower-body" aria-labelledby="squat-hold-title">
+          <div class="exercise-illo">
+            <span class="illo-num" aria-hidden="true">26</span>
+            <span class="illo-dur">20 sec</span>
+            <div class="illo-fig" aria-hidden="true"><svg viewBox="0 0 210 264" width="100%" height="100%" preserveAspectRatio="xMidYMid meet"><g fill="none" stroke="var(--fig-line)" stroke-linecap="round" stroke-linejoin="round"><path d="M 86 150 L 116 174" stroke-width="28" opacity="0.4"/><path d="M 116 174 L 106 248" stroke-width="24" opacity="0.4"/><path d="M 106 248 L 124 252" stroke-width="19" opacity="0.4"/><path d="M 86 148 L 112 116" stroke-width="51"/><path d="M 112 116 L 118 98" stroke-width="23"/><path d="M 114 118 L 144 116" stroke-width="25"/><path d="M 144 116 L 168 120" stroke-width="22"/><path d="M 86 150 L 124 168" stroke-width="28"/><path d="M 124 168 L 114 248" stroke-width="24"/><path d="M 114 248 L 134 252" stroke-width="19"/></g><g fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M 86 150 L 116 174" stroke="var(--fig-shorts)" stroke-width="21" opacity="0.4"/><path d="M 116 174 L 106 248" stroke="var(--fig-skin)" stroke-width="17" opacity="0.4"/><path d="M 106 248 L 124 252" stroke="var(--fig-skin)" stroke-width="12" opacity="0.4"/><path d="M 86 148 L 112 116" stroke="var(--fig-shirt)" stroke-width="44"/><path d="M 112 116 L 118 98" stroke="var(--fig-skin)" stroke-width="16"/><path d="M 114 118 L 144 116" stroke="var(--fig-skin)" stroke-width="18"/><path d="M 144 116 L 168 120" stroke="var(--fig-skin)" stroke-width="15"/><path d="M 86 150 L 124 168" stroke="var(--fig-accent)" stroke-width="21"/><path d="M 124 168 L 114 248" stroke="var(--fig-skin)" stroke-width="17"/><path d="M 114 248 L 134 252" stroke="var(--fig-skin)" stroke-width="12"/></g><circle cx="92" cy="150" r="11" fill="var(--fig-accent)" opacity="0.2"/><circle cx="92" cy="150" r="5" fill="var(--fig-accent)"/><circle cx="120" cy="94" r="25.5" fill="var(--fig-line)"/><circle cx="120" cy="94" r="22" fill="var(--fig-skin)"/><path d="M 98.0396357042967 92.68 A 22 22 0 0 1 141.9603642957033 92.68 Z" fill="var(--fig-hair)"/><circle cx="104.16" cy="93.56" r="7.48" fill="var(--fig-hair)"/></svg></div>
+          </div>
+          <p class="exercise-cat">Lower body</p>
+          <h3 id="squat-hold-title">Squat Hold</h3>
+          <p>Hold a low squat with your thighs parallel to the floor.</p>
+          <p class="exercise-meta"><strong>Good for:</strong> Builds leg endurance by holding a steady low squat.</p>
+          <ul class="tags"><li>Legs</li><li>Glutes</li></ul>
+        </article>
+        <article class="exercise-card reveal" id="scissor-chops" data-cat="upper-body" aria-labelledby="scissor-chops-title">
+          <div class="exercise-illo">
+            <span class="illo-num" aria-hidden="true">27</span>
+            <span class="illo-dur">30 sec</span>
+            <div class="illo-fig" aria-hidden="true"><svg viewBox="0 0 200 240" width="100%" height="100%" preserveAspectRatio="xMidYMid meet"><g fill="none" stroke="var(--fig-line)" stroke-linecap="round" stroke-linejoin="round"><path d="M 100 76 L 100 168" stroke-width="51"/><path d="M 100 62 L 100 76" stroke-width="23"/><path d="M 122 80 L 150 58" stroke-width="25"/><path d="M 150 58 L 176 40" stroke-width="22"/><path d="M 80 82 L 96 120" stroke-width="25"/><path d="M 96 120 L 120 150" stroke-width="22"/><path d="M 90 168 L 88 206" stroke-width="28"/><path d="M 110 168 L 112 206" stroke-width="28"/></g><g fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M 100 76 L 100 168" stroke="var(--fig-shirt)" stroke-width="44"/><path d="M 100 62 L 100 76" stroke="var(--fig-skin)" stroke-width="16"/><path d="M 122 80 L 150 58" stroke="var(--fig-skin)" stroke-width="18"/><path d="M 150 58 L 176 40" stroke="var(--fig-accent)" stroke-width="15"/><path d="M 80 82 L 96 120" stroke="var(--fig-skin)" stroke-width="18"/><path d="M 96 120 L 120 150" stroke="var(--fig-skin)" stroke-width="15"/><path d="M 90 168 L 88 206" stroke="var(--fig-shorts)" stroke-width="21"/><path d="M 110 168 L 112 206" stroke="var(--fig-shorts)" stroke-width="21"/></g><circle cx="176" cy="40" r="10" fill="var(--fig-accent)" opacity="0.2"/><circle cx="176" cy="40" r="4" fill="var(--fig-accent)"/><circle cx="100" cy="46" r="25.5" fill="var(--fig-line)"/><circle cx="100" cy="46" r="22" fill="var(--fig-skin)"/><path d="M 78.0396357042967 44.68 A 22 22 0 0 1 121.9603642957033 44.68 Z" fill="var(--fig-hair)"/></svg></div>
+          </div>
+          <p class="exercise-cat">Upper body</p>
+          <h3 id="scissor-chops-title">Scissor Chops</h3>
+          <p>Stand and chop your arms diagonally across your body, alternating.</p>
+          <p class="exercise-meta"><strong>Good for:</strong> Adds a twisting chop that works your core and shoulders together.</p>
+          <ul class="tags"><li>Core</li><li>Shoulders</li><li>Arms</li></ul>
+        </article>
+        <article class="exercise-card reveal" id="arm-scissors" data-cat="upper-body" aria-labelledby="arm-scissors-title">
+          <div class="exercise-illo">
+            <span class="illo-num" aria-hidden="true">28</span>
+            <span class="illo-dur">30 sec</span>
+            <div class="illo-fig" aria-hidden="true"><svg viewBox="0 0 200 206" width="100%" height="100%" preserveAspectRatio="xMidYMid meet"><g fill="none" stroke="var(--fig-line)" stroke-linecap="round" stroke-linejoin="round"><path d="M 100 74 L 100 150" stroke-width="51"/><path d="M 100 60 L 100 74" stroke-width="23"/><path d="M 80 82 L 110 92" stroke-width="25"/><path d="M 110 92 L 140 98" stroke-width="22"/><path d="M 120 80 L 90 90" stroke-width="25"/><path d="M 90 90 L 60 96" stroke-width="22"/><path d="M 88 150 L 86 206" stroke-width="28"/><path d="M 112 150 L 114 206" stroke-width="28"/></g><g fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M 100 74 L 100 150" stroke="var(--fig-shirt)" stroke-width="44"/><path d="M 100 60 L 100 74" stroke="var(--fig-skin)" stroke-width="16"/><path d="M 80 82 L 110 92" stroke="var(--fig-skin)" stroke-width="18"/><path d="M 110 92 L 140 98" stroke="var(--fig-skin)" stroke-width="15"/><path d="M 120 80 L 90 90" stroke="var(--fig-skin)" stroke-width="18"/><path d="M 90 90 L 60 96" stroke="var(--fig-skin)" stroke-width="15"/><path d="M 88 150 L 86 206" stroke="var(--fig-shorts)" stroke-width="21"/><path d="M 112 150 L 114 206" stroke="var(--fig-shorts)" stroke-width="21"/></g><circle cx="100" cy="44" r="25.5" fill="var(--fig-line)"/><circle cx="100" cy="44" r="22" fill="var(--fig-skin)"/><path d="M 78.0396357042967 42.68 A 22 22 0 0 1 121.9603642957033 42.68 Z" fill="var(--fig-hair)"/></svg></div>
+          </div>
+          <p class="exercise-cat">Upper body</p>
+          <h3 id="arm-scissors-title">Arm Scissors</h3>
+          <p>Cross your straight arms in front of you, alternating on top.</p>
+          <p class="exercise-meta"><strong>Good for:</strong> Works your chest and shoulders by crossing your arms in front.</p>
+          <ul class="tags"><li>Chest</li><li>Shoulders</li></ul>
+        </article>
+        <article class="exercise-card reveal" id="arm-raises" data-cat="upper-body" aria-labelledby="arm-raises-title">
+          <div class="exercise-illo">
+            <span class="illo-num" aria-hidden="true">29</span>
+            <span class="illo-dur">30 sec</span>
+            <div class="illo-fig" aria-hidden="true"><svg viewBox="0 0 200 262" width="100%" height="100%" preserveAspectRatio="xMidYMid meet"><g fill="none" stroke="var(--fig-line)" stroke-linecap="round" stroke-linejoin="round"><path d="M 100 84 L 100 152" stroke-width="51"/><path d="M 100 70 L 100 84" stroke-width="23"/><path d="M 84 86 L 78 50" stroke-width="25"/><path d="M 78 50 L 84 16" stroke-width="22"/><path d="M 116 86 L 122 50" stroke-width="25"/><path d="M 122 50 L 116 16" stroke-width="22"/><path d="M 92 152 L 94 204" stroke-width="28"/><path d="M 94 204 L 94 246" stroke-width="24"/><path d="M 94 246 L 82 250" stroke-width="19"/><path d="M 108 152 L 106 204" stroke-width="28"/><path d="M 106 204 L 106 246" stroke-width="24"/><path d="M 106 246 L 118 250" stroke-width="19"/></g><g fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M 100 84 L 100 152" stroke="var(--fig-shirt)" stroke-width="44"/><path d="M 100 70 L 100 84" stroke="var(--fig-skin)" stroke-width="16"/><path d="M 84 86 L 78 50" stroke="var(--fig-skin)" stroke-width="18"/><path d="M 78 50 L 84 16" stroke="var(--fig-skin)" stroke-width="15"/><path d="M 116 86 L 122 50" stroke="var(--fig-skin)" stroke-width="18"/><path d="M 122 50 L 116 16" stroke="var(--fig-skin)" stroke-width="15"/><path d="M 92 152 L 94 204" stroke="var(--fig-shorts)" stroke-width="21"/><path d="M 94 204 L 94 246" stroke="var(--fig-skin)" stroke-width="17"/><path d="M 94 246 L 82 250" stroke="var(--fig-skin)" stroke-width="12"/><path d="M 108 152 L 106 204" stroke="var(--fig-shorts)" stroke-width="21"/><path d="M 106 204 L 106 246" stroke="var(--fig-skin)" stroke-width="17"/><path d="M 106 246 L 118 250" stroke="var(--fig-skin)" stroke-width="12"/></g><circle cx="100" cy="54" r="25.5" fill="var(--fig-line)"/><circle cx="100" cy="54" r="22" fill="var(--fig-skin)"/><path d="M 78.0396357042967 52.68 A 22 22 0 0 1 121.9603642957033 52.68 Z" fill="var(--fig-hair)"/></svg></div>
+          </div>
+          <p class="exercise-cat">Upper body</p>
+          <h3 id="arm-raises-title">Arm Raises</h3>
+          <p>Raise both arms straight overhead, then lower them back down.</p>
+          <p class="exercise-meta"><strong>Good for:</strong> Wakes up your shoulders with a simple overhead reach.</p>
+          <ul class="tags"><li>Shoulders</li><li>Arms</li></ul>
+        </article>
+        <article class="exercise-card reveal" id="chest-expansions" data-cat="upper-body" aria-labelledby="chest-expansions-title">
+          <div class="exercise-illo">
+            <span class="illo-num" aria-hidden="true">30</span>
+            <span class="illo-dur">30 sec</span>
+            <div class="illo-fig" aria-hidden="true"><svg viewBox="0 0 200 206" width="100%" height="100%" preserveAspectRatio="xMidYMid meet"><g fill="none" stroke="var(--fig-line)" stroke-linecap="round" stroke-linejoin="round"><path d="M 100 74 L 100 150" stroke-width="51"/><path d="M 100 60 L 100 74" stroke-width="23"/><path d="M 80 80 L 56 96" stroke-width="25"/><path d="M 56 96 L 44 120" stroke-width="22"/><path d="M 120 80 L 144 96" stroke-width="25"/><path d="M 144 96 L 156 120" stroke-width="22"/><path d="M 88 150 L 86 206" stroke-width="28"/><path d="M 112 150 L 114 206" stroke-width="28"/></g><g fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M 100 74 L 100 150" stroke="var(--fig-shirt)" stroke-width="44"/><path d="M 100 60 L 100 74" stroke="var(--fig-skin)" stroke-width="16"/><path d="M 80 80 L 56 96" stroke="var(--fig-skin)" stroke-width="18"/><path d="M 56 96 L 44 120" stroke="var(--fig-skin)" stroke-width="15"/><path d="M 120 80 L 144 96" stroke="var(--fig-skin)" stroke-width="18"/><path d="M 144 96 L 156 120" stroke="var(--fig-skin)" stroke-width="15"/><path d="M 88 150 L 86 206" stroke="var(--fig-shorts)" stroke-width="21"/><path d="M 112 150 L 114 206" stroke="var(--fig-shorts)" stroke-width="21"/></g><circle cx="100" cy="72" r="11" fill="var(--fig-accent)" opacity="0.2"/><circle cx="100" cy="72" r="5" fill="var(--fig-accent)"/><circle cx="100" cy="44" r="25.5" fill="var(--fig-line)"/><circle cx="100" cy="44" r="22" fill="var(--fig-skin)"/><path d="M 78.0396357042967 42.68 A 22 22 0 0 1 121.9603642957033 42.68 Z" fill="var(--fig-hair)"/></svg></div>
+          </div>
+          <p class="exercise-cat">Upper body</p>
+          <h3 id="chest-expansions-title">Chest Expansions</h3>
+          <p>Pull your arms back to open your chest, then release.</p>
+          <p class="exercise-meta"><strong>Good for:</strong> Opens your chest and shoulders to ease a hunched sitting posture.</p>
+          <ul class="tags"><li>Chest</li><li>Shoulders</li><li>Upper back</li></ul>
+        </article>
+        <article class="exercise-card reveal" id="reverse-lunges" data-cat="lower-body" aria-labelledby="reverse-lunges-title">
+          <div class="exercise-illo">
+            <span class="illo-num" aria-hidden="true">31</span>
+            <span class="illo-dur">10 reps</span>
+            <div class="illo-fig" aria-hidden="true"><svg viewBox="0 0 220 264" width="100%" height="100%" preserveAspectRatio="xMidYMid meet"><g fill="none" stroke="var(--fig-line)" stroke-linecap="round" stroke-linejoin="round"><path d="M 104 92 L 104 158" stroke-width="51"/><path d="M 104 74 L 104 92" stroke-width="23"/><path d="M 102 96 L 104 128" stroke-width="25"/><path d="M 104 128 L 104 158" stroke-width="22"/><path d="M 110 158 L 150 180" stroke-width="28"/><path d="M 150 180 L 150 248" stroke-width="24"/><path d="M 150 248 L 168 252" stroke-width="19"/><path d="M 100 158 L 66 196" stroke-width="28" opacity="0.4"/><path d="M 66 196 L 52 244" stroke-width="24" opacity="0.4"/><path d="M 52 244 L 40 246" stroke-width="19" opacity="0.4"/></g><g fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M 104 92 L 104 158" stroke="var(--fig-shirt)" stroke-width="44"/><path d="M 104 74 L 104 92" stroke="var(--fig-skin)" stroke-width="16"/><path d="M 102 96 L 104 128" stroke="var(--fig-skin)" stroke-width="18"/><path d="M 104 128 L 104 158" stroke="var(--fig-skin)" stroke-width="15"/><path d="M 110 158 L 150 180" stroke="var(--fig-accent)" stroke-width="21"/><path d="M 150 180 L 150 248" stroke="var(--fig-skin)" stroke-width="17"/><path d="M 150 248 L 168 252" stroke="var(--fig-skin)" stroke-width="12"/><path d="M 100 158 L 66 196" stroke="var(--fig-shorts)" stroke-width="21" opacity="0.4"/><path d="M 66 196 L 52 244" stroke="var(--fig-skin)" stroke-width="17" opacity="0.4"/><path d="M 52 244 L 40 246" stroke="var(--fig-skin)" stroke-width="12" opacity="0.4"/></g><circle cx="68" cy="200" r="10" fill="var(--fig-accent)" opacity="0.2"/><circle cx="68" cy="200" r="4" fill="var(--fig-accent)"/><circle cx="104" cy="58" r="25.5" fill="var(--fig-line)"/><circle cx="104" cy="58" r="22" fill="var(--fig-skin)"/><path d="M 82.0396357042967 56.68 A 22 22 0 0 1 125.9603642957033 56.68 Z" fill="var(--fig-hair)"/><circle cx="88.16" cy="57.56" r="7.48" fill="var(--fig-hair)"/></svg></div>
+          </div>
+          <p class="exercise-cat">Lower body</p>
+          <h3 id="reverse-lunges-title">Reverse Lunges</h3>
+          <p>Step backward, bend your front knee, then return to standing.</p>
+          <p class="exercise-meta"><strong>Good for:</strong> Builds leg strength and balance by stepping backward into a lunge.</p>
+          <ul class="tags"><li>Legs</li><li>Glutes</li></ul>
+        </article>
+        <article class="exercise-card reveal" id="split-jacks" data-cat="cardio" aria-labelledby="split-jacks-title">
+          <div class="exercise-illo">
+            <span class="illo-num" aria-hidden="true">32</span>
+            <span class="illo-dur">30 sec</span>
+            <div class="illo-fig" aria-hidden="true"><svg viewBox="0 0 220 262" width="100%" height="100%" preserveAspectRatio="xMidYMid meet"><path d="M 60 248 Q 106 240 158 246" fill="none" stroke="var(--fig-accent)" stroke-width="3.4" stroke-linecap="round" stroke-dasharray="1 7" opacity="0.5"/><g fill="none" stroke="var(--fig-line)" stroke-linecap="round" stroke-linejoin="round"><path d="M 104 80 L 88 104" stroke-width="25" opacity="0.4"/><path d="M 88 104 L 78 128" stroke-width="22" opacity="0.4"/><path d="M 104 78 L 104 148" stroke-width="51"/><path d="M 104 62 L 104 78" stroke-width="23"/><path d="M 108 80 L 126 100" stroke-width="25"/><path d="M 126 100 L 142 112" stroke-width="22"/><path d="M 98 148 L 72 182" stroke-width="28"/><path d="M 72 182 L 54 214" stroke-width="24"/><path d="M 54 214 L 42 216" stroke-width="19"/><path d="M 110 148 L 138 184" stroke-width="28"/><path d="M 138 184 L 160 214" stroke-width="24"/><path d="M 160 214 L 172 216" stroke-width="19"/></g><g fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M 104 80 L 88 104" stroke="var(--fig-skin)" stroke-width="18" opacity="0.4"/><path d="M 88 104 L 78 128" stroke="var(--fig-skin)" stroke-width="15" opacity="0.4"/><path d="M 104 78 L 104 148" stroke="var(--fig-shirt)" stroke-width="44"/><path d="M 104 62 L 104 78" stroke="var(--fig-skin)" stroke-width="16"/><path d="M 108 80 L 126 100" stroke="var(--fig-skin)" stroke-width="18"/><path d="M 126 100 L 142 112" stroke="var(--fig-skin)" stroke-width="15"/><path d="M 98 148 L 72 182" stroke="var(--fig-shorts)" stroke-width="21"/><path d="M 72 182 L 54 214" stroke="var(--fig-skin)" stroke-width="17"/><path d="M 54 214 L 42 216" stroke="var(--fig-skin)" stroke-width="12"/><path d="M 110 148 L 138 184" stroke="var(--fig-shorts)" stroke-width="21"/><path d="M 138 184 L 160 214" stroke="var(--fig-skin)" stroke-width="17"/><path d="M 160 214 L 172 216" stroke="var(--fig-skin)" stroke-width="12"/></g><circle cx="104" cy="48" r="25.5" fill="var(--fig-line)"/><circle cx="104" cy="48" r="22" fill="var(--fig-skin)"/><path d="M 82.0396357042967 46.68 A 22 22 0 0 1 125.9603642957033 46.68 Z" fill="var(--fig-hair)"/><circle cx="88.16" cy="47.56" r="7.48" fill="var(--fig-hair)"/></svg></div>
+          </div>
+          <p class="exercise-cat">Cardio</p>
+          <h3 id="split-jacks-title">Split Jacks</h3>
+          <p>Jump switching your feet front and back, like a scissor kick.</p>
+          <p class="exercise-meta"><strong>Good for:</strong> Keeps your heart rate up as your legs switch quickly front to back.</p>
+          <ul class="tags"><li>Legs</li><li>Calves</li></ul>
+        </article>
+        <article class="exercise-card reveal" id="air-bike-crunches" data-cat="core" aria-labelledby="air-bike-crunches-title">
+          <div class="exercise-illo">
+            <span class="illo-num" aria-hidden="true">33</span>
+            <span class="illo-dur">30 sec</span>
+            <div class="illo-fig" aria-hidden="true"><svg viewBox="0 0 280 150" width="100%" height="100%" preserveAspectRatio="xMidYMid meet"><g fill="none" stroke="var(--fig-line)" stroke-linecap="round" stroke-linejoin="round"><path d="M 92 106 L 150 108" stroke-width="51"/><path d="M 80 98 L 92 106" stroke-width="23"/><path d="M 150 108 L 200 70" stroke-width="28" opacity="0.5"/><path d="M 200 70 L 232 58" stroke-width="24" opacity="0.5"/><path d="M 96 102 L 120 78" stroke-width="25"/><path d="M 120 78 L 140 68" stroke-width="22"/><path d="M 150 108 L 158 80" stroke-width="28"/><path d="M 158 80 L 150 108" stroke-width="24"/></g><g fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M 92 106 L 150 108" stroke="var(--fig-shirt)" stroke-width="44"/><path d="M 80 98 L 92 106" stroke="var(--fig-skin)" stroke-width="16"/><path d="M 150 108 L 200 70" stroke="var(--fig-shorts)" stroke-width="21" opacity="0.5"/><path d="M 200 70 L 232 58" stroke="var(--fig-skin)" stroke-width="17" opacity="0.5"/><path d="M 96 102 L 120 78" stroke="var(--fig-accent)" stroke-width="18"/><path d="M 120 78 L 140 68" stroke="var(--fig-accent)" stroke-width="15"/><path d="M 150 108 L 158 80" stroke="var(--fig-accent)" stroke-width="21"/><path d="M 158 80 L 150 108" stroke="var(--fig-skin)" stroke-width="17"/></g><circle cx="140" cy="68" r="10" fill="var(--fig-accent)" opacity="0.2"/><circle cx="140" cy="68" r="4" fill="var(--fig-accent)"/><circle cx="70" cy="100" r="20.5" fill="var(--fig-line)"/><circle cx="70" cy="100" r="17" fill="var(--fig-skin)"/><path d="M 53.03062758968382 98.98 A 17 17 0 0 1 86.96937241031618 98.98 Z" fill="var(--fig-hair)"/><circle cx="57.76" cy="99.66" r="5.78" fill="var(--fig-hair)"/></svg></div>
+          </div>
+          <p class="exercise-cat">Core</p>
+          <h3 id="air-bike-crunches-title">Air Bike Crunches</h3>
+          <p>Lie back and pedal your legs while twisting elbow to knee.</p>
+          <p class="exercise-meta"><strong>Good for:</strong> Twists and pedals to work your abs and obliques together.</p>
+          <ul class="tags"><li>Core</li><li>Obliques</li></ul>
+        </article>
+        <article class="exercise-card reveal" id="scissors" data-cat="core" aria-labelledby="scissors-title">
+          <div class="exercise-illo">
+            <span class="illo-num" aria-hidden="true">34</span>
+            <span class="illo-dur">30 sec</span>
+            <div class="illo-fig" aria-hidden="true"><svg viewBox="0 0 280 150" width="100%" height="100%" preserveAspectRatio="xMidYMid meet"><g fill="none" stroke="var(--fig-line)" stroke-linecap="round" stroke-linejoin="round"><path d="M 62 116 L 150 116" stroke-width="51"/><path d="M 52 112 L 62 116" stroke-width="23"/><path d="M 70 120 L 96 126" stroke-width="25"/><path d="M 96 126 L 120 128" stroke-width="22"/><path d="M 150 116 L 206 116" stroke-width="28" opacity="0.55"/><path d="M 206 116 L 236 112" stroke-width="24" opacity="0.55"/><path d="M 150 114 L 196 78" stroke-width="28"/><path d="M 196 78 L 224 60" stroke-width="24"/></g><g fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M 62 116 L 150 116" stroke="var(--fig-shirt)" stroke-width="44"/><path d="M 52 112 L 62 116" stroke="var(--fig-skin)" stroke-width="16"/><path d="M 70 120 L 96 126" stroke="var(--fig-skin)" stroke-width="18"/><path d="M 96 126 L 120 128" stroke="var(--fig-skin)" stroke-width="15"/><path d="M 150 116 L 206 116" stroke="var(--fig-shorts)" stroke-width="21" opacity="0.55"/><path d="M 206 116 L 236 112" stroke="var(--fig-skin)" stroke-width="17" opacity="0.55"/><path d="M 150 114 L 196 78" stroke="var(--fig-accent)" stroke-width="21"/><path d="M 196 78 L 224 60" stroke="var(--fig-skin)" stroke-width="17"/></g><circle cx="186" cy="96" r="9" fill="var(--fig-accent)" opacity="0.2"/><circle cx="186" cy="96" r="3" fill="var(--fig-accent)"/><circle cx="40" cy="112" r="20.5" fill="var(--fig-line)"/><circle cx="40" cy="112" r="17" fill="var(--fig-skin)"/><path d="M 23.030627589683817 110.98 A 17 17 0 0 1 56.96937241031618 110.98 Z" fill="var(--fig-hair)"/><circle cx="27.759999999999998" cy="111.66" r="5.78" fill="var(--fig-hair)"/></svg></div>
+          </div>
+          <p class="exercise-cat">Core</p>
+          <h3 id="scissors-title">Scissors</h3>
+          <p>Lie on your back and cross your straight legs up and down.</p>
+          <p class="exercise-meta"><strong>Good for:</strong> Works your lower abs by crossing your straight legs steadily.</p>
+          <ul class="tags"><li>Core</li><li>Hip flexors</li></ul>
+        </article>
+        <article class="exercise-card reveal" id="crunch-kicks" data-cat="core" aria-labelledby="crunch-kicks-title">
+          <div class="exercise-illo">
+            <span class="illo-num" aria-hidden="true">35</span>
+            <span class="illo-dur">30 sec</span>
+            <div class="illo-fig" aria-hidden="true"><svg viewBox="0 0 280 150" width="100%" height="100%" preserveAspectRatio="xMidYMid meet"><g fill="none" stroke="var(--fig-line)" stroke-linecap="round" stroke-linejoin="round"><path d="M 70 112 L 120 100" stroke-width="51"/><path d="M 86 96 L 92 84" stroke-width="23"/><path d="M 96 90 L 120 82" stroke-width="25"/><path d="M 120 82 L 142 78" stroke-width="22"/><path d="M 120 100 L 150 74" stroke-width="28"/><path d="M 150 74 L 158 104" stroke-width="24"/><path d="M 120 100 L 176 108" stroke-width="28"/><path d="M 176 108 L 214 112" stroke-width="24"/></g><g fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M 70 112 L 120 100" stroke="var(--fig-shirt)" stroke-width="44"/><path d="M 86 96 L 92 84" stroke="var(--fig-skin)" stroke-width="16"/><path d="M 96 90 L 120 82" stroke="var(--fig-skin)" stroke-width="18"/><path d="M 120 82 L 142 78" stroke="var(--fig-skin)" stroke-width="15"/><path d="M 120 100 L 150 74" stroke="var(--fig-shorts)" stroke-width="21"/><path d="M 150 74 L 158 104" stroke="var(--fig-skin)" stroke-width="17"/><path d="M 120 100 L 176 108" stroke="var(--fig-accent)" stroke-width="21"/><path d="M 176 108 L 214 112" stroke="var(--fig-skin)" stroke-width="17"/></g><circle cx="214" cy="112" r="10" fill="var(--fig-accent)" opacity="0.2"/><circle cx="214" cy="112" r="4" fill="var(--fig-accent)"/><circle cx="86" cy="92" r="20.5" fill="var(--fig-line)"/><circle cx="86" cy="92" r="17" fill="var(--fig-skin)"/><path d="M 69.03062758968382 90.98 A 17 17 0 0 1 102.96937241031618 90.98 Z" fill="var(--fig-hair)"/><circle cx="73.76" cy="91.66" r="5.78" fill="var(--fig-hair)"/></svg></div>
+          </div>
+          <p class="exercise-cat">Core</p>
+          <h3 id="crunch-kicks-title">Crunch Kicks</h3>
+          <p>Lie back, crunch up, and kick your legs out in turn.</p>
+          <p class="exercise-meta"><strong>Good for:</strong> Combines a crunch and kick to work your abs and legs together.</p>
+          <ul class="tags"><li>Core</li><li>Legs</li></ul>
+        </article>
+        <article class="exercise-card reveal" id="plank-rotations" data-cat="core" aria-labelledby="plank-rotations-title">
+          <div class="exercise-illo">
+            <span class="illo-num" aria-hidden="true">36</span>
+            <span class="illo-dur">30 sec</span>
+            <div class="illo-fig" aria-hidden="true"><svg viewBox="0 0 280 150" width="100%" height="100%" preserveAspectRatio="xMidYMid meet"><g fill="none" stroke="var(--fig-line)" stroke-linecap="round" stroke-linejoin="round"><path d="M 206 98 L 206 127" stroke-width="25"/><path d="M 206 127 L 240 129" stroke-width="22"/><path d="M 206 98 L 120 100" stroke-width="51"/><path d="M 206 98 L 214 88" stroke-width="23"/><path d="M 120 100 L 66 112" stroke-width="28"/><path d="M 66 112 L 36 124" stroke-width="24"/><path d="M 36 124 L 30 130" stroke-width="19"/></g><g fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M 206 98 L 206 127" stroke="var(--fig-skin)" stroke-width="18"/><path d="M 206 127 L 240 129" stroke="var(--fig-skin)" stroke-width="15"/><path d="M 206 98 L 120 100" stroke="var(--fig-shirt)" stroke-width="44"/><path d="M 206 98 L 214 88" stroke="var(--fig-skin)" stroke-width="16"/><path d="M 120 100 L 66 112" stroke="var(--fig-accent)" stroke-width="21"/><path d="M 66 112 L 36 124" stroke="var(--fig-skin)" stroke-width="17"/><path d="M 36 124 L 30 130" stroke="var(--fig-skin)" stroke-width="12"/></g><circle cx="120" cy="102" r="10" fill="var(--fig-accent)" opacity="0.2"/><circle cx="120" cy="102" r="4" fill="var(--fig-accent)"/><circle cx="220" cy="86" r="21.5" fill="var(--fig-line)"/><circle cx="220" cy="86" r="18" fill="var(--fig-skin)"/><path d="M 202.0324292126064 84.92 A 18 18 0 0 1 237.9675707873936 84.92 Z" fill="var(--fig-hair)"/><circle cx="207.04" cy="85.64" r="6.12" fill="var(--fig-hair)"/></svg></div>
+          </div>
+          <p class="exercise-cat">Core</p>
+          <h3 id="plank-rotations-title">Plank Rotations</h3>
+          <p>From a plank, rotate your hips side to side with control.</p>
+          <p class="exercise-meta"><strong>Good for:</strong> Twists your core from a plank to work your sides with control.</p>
+          <ul class="tags"><li>Core</li><li>Obliques</li><li>Shoulders</li></ul>
+        </article>
+        <article class="exercise-card reveal" id="hops-on-the-spot" data-cat="cardio" aria-labelledby="hops-on-the-spot-title">
+          <div class="exercise-illo">
+            <span class="illo-num" aria-hidden="true">37</span>
+            <span class="illo-dur">30 sec</span>
+            <div class="illo-fig" aria-hidden="true"><svg viewBox="0 0 200 262" width="100%" height="100%" preserveAspectRatio="xMidYMid meet"><path d="M 84 250 Q 100 244 116 250" fill="none" stroke="var(--fig-accent)" stroke-width="3.4" stroke-linecap="round" stroke-dasharray="1 7" opacity="0.55"/><g fill="none" stroke="var(--fig-line)" stroke-linecap="round" stroke-linejoin="round"><path d="M 100 76 L 100 144" stroke-width="51"/><path d="M 100 62 L 100 76" stroke-width="23"/><path d="M 80 80 L 74 106" stroke-width="25"/><path d="M 74 106 L 72 134" stroke-width="22"/><path d="M 120 80 L 126 106" stroke-width="25"/><path d="M 126 106 L 128 134" stroke-width="22"/><path d="M 93 144 L 95 190" stroke-width="28"/><path d="M 95 190 L 95 226" stroke-width="24"/><path d="M 95 226 L 86 230" stroke-width="19"/><path d="M 107 144 L 105 190" stroke-width="28"/><path d="M 105 190 L 105 226" stroke-width="24"/><path d="M 105 226 L 114 230" stroke-width="19"/></g><g fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M 100 76 L 100 144" stroke="var(--fig-shirt)" stroke-width="44"/><path d="M 100 62 L 100 76" stroke="var(--fig-skin)" stroke-width="16"/><path d="M 80 80 L 74 106" stroke="var(--fig-skin)" stroke-width="18"/><path d="M 74 106 L 72 134" stroke="var(--fig-skin)" stroke-width="15"/><path d="M 120 80 L 126 106" stroke="var(--fig-skin)" stroke-width="18"/><path d="M 126 106 L 128 134" stroke="var(--fig-skin)" stroke-width="15"/><path d="M 93 144 L 95 190" stroke="var(--fig-shorts)" stroke-width="21"/><path d="M 95 190 L 95 226" stroke="var(--fig-skin)" stroke-width="17"/><path d="M 95 226 L 86 230" stroke="var(--fig-skin)" stroke-width="12"/><path d="M 107 144 L 105 190" stroke="var(--fig-shorts)" stroke-width="21"/><path d="M 105 190 L 105 226" stroke="var(--fig-skin)" stroke-width="17"/><path d="M 105 226 L 114 230" stroke="var(--fig-skin)" stroke-width="12"/></g><circle cx="100" cy="46" r="25.5" fill="var(--fig-line)"/><circle cx="100" cy="46" r="22" fill="var(--fig-skin)"/><path d="M 78.0396357042967 44.68 A 22 22 0 0 1 121.9603642957033 44.68 Z" fill="var(--fig-hair)"/></svg></div>
+          </div>
+          <p class="exercise-cat">Cardio</p>
+          <h3 id="hops-on-the-spot-title">Hops on the Spot</h3>
+          <p>Hop lightly in place on both feet at a steady pace.</p>
+          <p class="exercise-meta"><strong>Good for:</strong> An easy, steady hop that gets your heart rate up gently.</p>
+          <ul class="tags"><li>Legs</li><li>Calves</li></ul>
+        </article>
+        <article class="exercise-card reveal" id="arm-extensions" data-cat="upper-body" aria-labelledby="arm-extensions-title">
+          <div class="exercise-illo">
+            <span class="illo-num" aria-hidden="true">38</span>
+            <span class="illo-dur">12 reps</span>
+            <div class="illo-fig" aria-hidden="true"><svg viewBox="0 0 200 206" width="100%" height="100%" preserveAspectRatio="xMidYMid meet"><g fill="none" stroke="var(--fig-line)" stroke-linecap="round" stroke-linejoin="round"><path d="M 100 74 L 100 150" stroke-width="51"/><path d="M 100 60 L 100 74" stroke-width="23"/><path d="M 80 80 L 60 92" stroke-width="25"/><path d="M 60 92 L 40 100" stroke-width="22"/><path d="M 120 80 L 140 92" stroke-width="25"/><path d="M 140 92 L 160 100" stroke-width="22"/><path d="M 88 150 L 86 206" stroke-width="28"/><path d="M 112 150 L 114 206" stroke-width="28"/></g><g fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M 100 74 L 100 150" stroke="var(--fig-shirt)" stroke-width="44"/><path d="M 100 60 L 100 74" stroke="var(--fig-skin)" stroke-width="16"/><path d="M 80 80 L 60 92" stroke="var(--fig-skin)" stroke-width="18"/><path d="M 60 92 L 40 100" stroke="var(--fig-accent)" stroke-width="15"/><path d="M 120 80 L 140 92" stroke="var(--fig-skin)" stroke-width="18"/><path d="M 140 92 L 160 100" stroke="var(--fig-accent)" stroke-width="15"/><path d="M 88 150 L 86 206" stroke="var(--fig-shorts)" stroke-width="21"/><path d="M 112 150 L 114 206" stroke="var(--fig-shorts)" stroke-width="21"/></g><circle cx="40" cy="100" r="10" fill="var(--fig-accent)" opacity="0.2"/><circle cx="40" cy="100" r="4" fill="var(--fig-accent)"/><circle cx="160" cy="100" r="10" fill="var(--fig-accent)" opacity="0.2"/><circle cx="160" cy="100" r="4" fill="var(--fig-accent)"/><circle cx="100" cy="44" r="25.5" fill="var(--fig-line)"/><circle cx="100" cy="44" r="22" fill="var(--fig-skin)"/><path d="M 78.0396357042967 42.68 A 22 22 0 0 1 121.9603642957033 42.68 Z" fill="var(--fig-hair)"/></svg></div>
+          </div>
+          <p class="exercise-cat">Upper body</p>
+          <h3 id="arm-extensions-title">Arm Extensions</h3>
+          <p>Push your arms straight out, then pull them back in.</p>
+          <p class="exercise-meta"><strong>Good for:</strong> Tones your arms and shoulders by pushing and pulling with control.</p>
+          <ul class="tags"><li>Arms</li><li>Shoulders</li></ul>
+        </article>
+        <article class="exercise-card reveal" id="jumping-ts" data-cat="cardio" aria-labelledby="jumping-ts-title">
+          <div class="exercise-illo">
+            <span class="illo-num" aria-hidden="true">39</span>
+            <span class="illo-dur">30 sec</span>
+            <div class="illo-fig" aria-hidden="true"><svg viewBox="0 0 200 262" width="100%" height="100%" preserveAspectRatio="xMidYMid meet"><g fill="none" stroke="var(--fig-line)" stroke-linecap="round" stroke-linejoin="round"><path d="M 100 80 L 100 150" stroke-width="51"/><path d="M 100 66 L 100 80" stroke-width="23"/><path d="M 78 84 L 52 84" stroke-width="25"/><path d="M 52 84 L 26 84" stroke-width="22"/><path d="M 122 84 L 148 84" stroke-width="25"/><path d="M 148 84 L 174 84" stroke-width="22"/><path d="M 86 150 L 66 198" stroke-width="28"/><path d="M 66 198 L 56 242" stroke-width="24"/><path d="M 56 242 L 44 246" stroke-width="19"/><path d="M 114 150 L 134 198" stroke-width="28"/><path d="M 134 198 L 144 242" stroke-width="24"/><path d="M 144 242 L 156 246" stroke-width="19"/></g><g fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M 100 80 L 100 150" stroke="var(--fig-shirt)" stroke-width="44"/><path d="M 100 66 L 100 80" stroke="var(--fig-skin)" stroke-width="16"/><path d="M 78 84 L 52 84" stroke="var(--fig-skin)" stroke-width="18"/><path d="M 52 84 L 26 84" stroke="var(--fig-accent)" stroke-width="15"/><path d="M 122 84 L 148 84" stroke="var(--fig-skin)" stroke-width="18"/><path d="M 148 84 L 174 84" stroke="var(--fig-accent)" stroke-width="15"/><path d="M 86 150 L 66 198" stroke="var(--fig-shorts)" stroke-width="21"/><path d="M 66 198 L 56 242" stroke="var(--fig-skin)" stroke-width="17"/><path d="M 56 242 L 44 246" stroke="var(--fig-skin)" stroke-width="12"/><path d="M 114 150 L 134 198" stroke="var(--fig-shorts)" stroke-width="21"/><path d="M 134 198 L 144 242" stroke="var(--fig-skin)" stroke-width="17"/><path d="M 144 242 L 156 246" stroke="var(--fig-skin)" stroke-width="12"/></g><circle cx="26" cy="84" r="10" fill="var(--fig-accent)" opacity="0.2"/><circle cx="26" cy="84" r="4" fill="var(--fig-accent)"/><circle cx="174" cy="84" r="10" fill="var(--fig-accent)" opacity="0.2"/><circle cx="174" cy="84" r="4" fill="var(--fig-accent)"/><circle cx="100" cy="50" r="25.5" fill="var(--fig-line)"/><circle cx="100" cy="50" r="22" fill="var(--fig-skin)"/><path d="M 78.0396357042967 48.68 A 22 22 0 0 1 121.9603642957033 48.68 Z" fill="var(--fig-hair)"/></svg></div>
+          </div>
+          <p class="exercise-cat">Cardio</p>
+          <h3 id="jumping-ts-title">Jumping T's</h3>
+          <p>Jump while spreading your arms flat out to form a T.</p>
+          <p class="exercise-meta"><strong>Good for:</strong> Raises your heart rate while opening your arms wide into a T.</p>
+          <ul class="tags"><li>Legs</li><li>Shoulders</li></ul>
+        </article>
+        <article class="exercise-card reveal" id="squat-jacks" data-cat="full-body" aria-labelledby="squat-jacks-title">
+          <div class="exercise-illo">
+            <span class="illo-num" aria-hidden="true">40</span>
+            <span class="illo-dur">30 sec</span>
+            <div class="illo-fig" aria-hidden="true"><svg viewBox="0 0 200 262" width="100%" height="100%" preserveAspectRatio="xMidYMid meet"><g fill="none" stroke="var(--fig-line)" stroke-linecap="round" stroke-linejoin="round"><path d="M 100 96 L 100 158" stroke-width="51"/><path d="M 100 82 L 100 96" stroke-width="23"/><path d="M 80 100 L 58 108" stroke-width="25"/><path d="M 58 108 L 36 112" stroke-width="22"/><path d="M 120 100 L 142 108" stroke-width="25"/><path d="M 142 108 L 164 112" stroke-width="22"/><path d="M 88 158 L 58 196" stroke-width="28"/><path d="M 58 196 L 60 246" stroke-width="24"/><path d="M 60 246 L 46 250" stroke-width="19"/><path d="M 112 158 L 142 196" stroke-width="28"/><path d="M 142 196 L 140 246" stroke-width="24"/><path d="M 140 246 L 154 250" stroke-width="19"/></g><g fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M 100 96 L 100 158" stroke="var(--fig-shirt)" stroke-width="44"/><path d="M 100 82 L 100 96" stroke="var(--fig-skin)" stroke-width="16"/><path d="M 80 100 L 58 108" stroke="var(--fig-skin)" stroke-width="18"/><path d="M 58 108 L 36 112" stroke="var(--fig-skin)" stroke-width="15"/><path d="M 120 100 L 142 108" stroke="var(--fig-skin)" stroke-width="18"/><path d="M 142 108 L 164 112" stroke="var(--fig-skin)" stroke-width="15"/><path d="M 88 158 L 58 196" stroke="var(--fig-accent)" stroke-width="21"/><path d="M 58 196 L 60 246" stroke="var(--fig-skin)" stroke-width="17"/><path d="M 60 246 L 46 250" stroke="var(--fig-skin)" stroke-width="12"/><path d="M 112 158 L 142 196" stroke="var(--fig-accent)" stroke-width="21"/><path d="M 142 196 L 140 246" stroke="var(--fig-skin)" stroke-width="17"/><path d="M 140 246 L 154 250" stroke="var(--fig-skin)" stroke-width="12"/></g><circle cx="100" cy="158" r="11" fill="var(--fig-accent)" opacity="0.2"/><circle cx="100" cy="158" r="5" fill="var(--fig-accent)"/><circle cx="100" cy="66" r="25.5" fill="var(--fig-line)"/><circle cx="100" cy="66" r="22" fill="var(--fig-skin)"/><path d="M 78.0396357042967 64.68 A 22 22 0 0 1 121.9603642957033 64.68 Z" fill="var(--fig-hair)"/></svg></div>
+          </div>
+          <p class="exercise-cat">Full body</p>
+          <h3 id="squat-jacks-title">Squat Jacks</h3>
+          <p>Jump your feet apart, landing in a squat, then jump back.</p>
+          <p class="exercise-meta"><strong>Good for:</strong> Combines a jump and squat for a quick full-body heart-pumper.</p>
+          <ul class="tags"><li>Legs</li><li>Glutes</li><li>Core</li></ul>
+        </article>
+        <article class="exercise-card reveal" id="reverse-angels" data-cat="upper-body" aria-labelledby="reverse-angels-title">
+          <div class="exercise-illo">
+            <span class="illo-num" aria-hidden="true">41</span>
+            <span class="illo-dur">30 sec</span>
+            <div class="illo-fig" aria-hidden="true"><svg viewBox="0 0 200 244" width="100%" height="100%" preserveAspectRatio="xMidYMid meet"><g fill="none" stroke="var(--fig-line)" stroke-linecap="round" stroke-linejoin="round"><path d="M 100 64 L 100 152" stroke-width="51"/><path d="M 86 70 L 80 42" stroke-width="25"/><path d="M 80 42 L 88 16" stroke-width="22"/><path d="M 114 70 L 120 42" stroke-width="25"/><path d="M 120 42 L 112 16" stroke-width="22"/><path d="M 92 152 L 92 200" stroke-width="28"/><path d="M 92 200 L 92 238" stroke-width="24"/><path d="M 108 152 L 108 200" stroke-width="28"/><path d="M 108 200 L 108 238" stroke-width="24"/></g><g fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M 100 64 L 100 152" stroke="var(--fig-shirt)" stroke-width="44"/><path d="M 86 70 L 80 42" stroke="var(--fig-accent)" stroke-width="18"/><path d="M 80 42 L 88 16" stroke="var(--fig-accent)" stroke-width="15"/><path d="M 114 70 L 120 42" stroke="var(--fig-accent)" stroke-width="18"/><path d="M 120 42 L 112 16" stroke="var(--fig-accent)" stroke-width="15"/><path d="M 92 152 L 92 200" stroke="var(--fig-shorts)" stroke-width="21"/><path d="M 92 200 L 92 238" stroke="var(--fig-skin)" stroke-width="17"/><path d="M 108 152 L 108 200" stroke="var(--fig-shorts)" stroke-width="21"/><path d="M 108 200 L 108 238" stroke="var(--fig-skin)" stroke-width="17"/></g><circle cx="88" cy="16" r="10" fill="var(--fig-accent)" opacity="0.2"/><circle cx="88" cy="16" r="4" fill="var(--fig-accent)"/><circle cx="112" cy="16" r="10" fill="var(--fig-accent)" opacity="0.2"/><circle cx="112" cy="16" r="4" fill="var(--fig-accent)"/><circle cx="100" cy="44" r="23.5" fill="var(--fig-line)"/><circle cx="100" cy="44" r="20" fill="var(--fig-skin)"/><path d="M 80.03603245845156 42.8 A 20 20 0 0 1 119.96396754154844 42.8 Z" fill="var(--fig-hair)"/></svg></div>
+          </div>
+          <p class="exercise-cat">Upper body</p>
+          <h3 id="reverse-angels-title">Reverse Angels</h3>
+          <p>Lying face down, sweep your arms overhead like a snow angel.</p>
+          <p class="exercise-meta"><strong>Good for:</strong> Strengthens your upper back and shoulders with a gentle sweeping motion.</p>
+          <ul class="tags"><li>Upper back</li><li>Shoulders</li></ul>
+        </article>
+        <article class="exercise-card reveal" id="hero-squats" data-cat="lower-body" aria-labelledby="hero-squats-title">
+          <div class="exercise-illo">
+            <span class="illo-num" aria-hidden="true">42</span>
+            <span class="illo-dur">12 reps</span>
+            <div class="illo-fig" aria-hidden="true"><svg viewBox="0 0 200 272" width="100%" height="100%" preserveAspectRatio="xMidYMid meet"><path d="M 90 9 L 90 2" fill="none" stroke="var(--fig-accent)" stroke-width="4" stroke-linecap="round" opacity="0.95"/><path d="M 110 9 L 110 2" fill="none" stroke="var(--fig-accent)" stroke-width="4" stroke-linecap="round" opacity="0.95"/><g fill="none" stroke="var(--fig-line)" stroke-linecap="round" stroke-linejoin="round"><path d="M 100 86 L 100 152" stroke-width="51"/><path d="M 100 72 L 100 86" stroke-width="23"/><path d="M 84 88 L 72 54" stroke-width="25"/><path d="M 72 54 L 90 16" stroke-width="22"/><path d="M 116 88 L 128 54" stroke-width="25"/><path d="M 128 54 L 110 16" stroke-width="22"/><path d="M 90 152 L 93 206" stroke-width="28"/><path d="M 93 206 L 95 252" stroke-width="24"/><path d="M 95 252 L 83 256" stroke-width="19"/><path d="M 110 152 L 107 206" stroke-width="28"/><path d="M 107 206 L 105 252" stroke-width="24"/><path d="M 105 252 L 117 256" stroke-width="19"/></g><g fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M 100 86 L 100 152" stroke="var(--fig-shirt)" stroke-width="44"/><path d="M 100 72 L 100 86" stroke="var(--fig-skin)" stroke-width="16"/><path d="M 84 88 L 72 54" stroke="var(--fig-skin)" stroke-width="18"/><path d="M 72 54 L 90 16" stroke="var(--fig-accent)" stroke-width="15"/><path d="M 116 88 L 128 54" stroke="var(--fig-skin)" stroke-width="18"/><path d="M 128 54 L 110 16" stroke="var(--fig-accent)" stroke-width="15"/><path d="M 90 152 L 93 206" stroke="var(--fig-shorts)" stroke-width="21"/><path d="M 93 206 L 95 252" stroke="var(--fig-skin)" stroke-width="17"/><path d="M 95 252 L 83 256" stroke="var(--fig-skin)" stroke-width="12"/><path d="M 110 152 L 107 206" stroke="var(--fig-shorts)" stroke-width="21"/><path d="M 107 206 L 105 252" stroke="var(--fig-skin)" stroke-width="17"/><path d="M 105 252 L 117 256" stroke="var(--fig-skin)" stroke-width="12"/></g><circle cx="90" cy="16" r="10" fill="var(--fig-accent)" opacity="0.2"/><circle cx="90" cy="16" r="4" fill="var(--fig-accent)"/><circle cx="110" cy="16" r="10" fill="var(--fig-accent)" opacity="0.2"/><circle cx="110" cy="16" r="4" fill="var(--fig-accent)"/><circle cx="100" cy="56" r="25.5" fill="var(--fig-line)"/><circle cx="100" cy="56" r="22" fill="var(--fig-skin)"/><path d="M 78.0396357042967 54.68 A 22 22 0 0 1 121.9603642957033 54.68 Z" fill="var(--fig-hair)"/></svg></div>
+          </div>
+          <p class="exercise-cat">Lower body</p>
+          <h3 id="hero-squats-title">Hero Squats</h3>
+          <p>Squat down low, then rise and reach your arms up high.</p>
+          <p class="exercise-meta"><strong>Good for:</strong> Combines a deep squat with a reach to work your legs and shoulders.</p>
+          <ul class="tags"><li>Legs</li><li>Glutes</li><li>Shoulders</li></ul>
+        </article>
+        <article class="exercise-card reveal" id="side-arm-raises" data-cat="upper-body" aria-labelledby="side-arm-raises-title">
+          <div class="exercise-illo">
+            <span class="illo-num" aria-hidden="true">43</span>
+            <span class="illo-dur">30 sec</span>
+            <div class="illo-fig" aria-hidden="true"><svg viewBox="0 0 200 262" width="100%" height="100%" preserveAspectRatio="xMidYMid meet"><g fill="none" stroke="var(--fig-line)" stroke-linecap="round" stroke-linejoin="round"><path d="M 100 80 L 100 150" stroke-width="51"/><path d="M 100 66 L 100 80" stroke-width="23"/><path d="M 78 84 L 52 84" stroke-width="25"/><path d="M 52 84 L 26 84" stroke-width="22"/><path d="M 122 84 L 148 84" stroke-width="25"/><path d="M 148 84 L 174 84" stroke-width="22"/><path d="M 92 150 L 94 204" stroke-width="28"/><path d="M 94 204 L 94 246" stroke-width="24"/><path d="M 94 246 L 82 250" stroke-width="19"/><path d="M 108 150 L 106 204" stroke-width="28"/><path d="M 106 204 L 106 246" stroke-width="24"/><path d="M 106 246 L 118 250" stroke-width="19"/></g><g fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M 100 80 L 100 150" stroke="var(--fig-shirt)" stroke-width="44"/><path d="M 100 66 L 100 80" stroke="var(--fig-skin)" stroke-width="16"/><path d="M 78 84 L 52 84" stroke="var(--fig-skin)" stroke-width="18"/><path d="M 52 84 L 26 84" stroke="var(--fig-skin)" stroke-width="15"/><path d="M 122 84 L 148 84" stroke="var(--fig-skin)" stroke-width="18"/><path d="M 148 84 L 174 84" stroke="var(--fig-skin)" stroke-width="15"/><path d="M 92 150 L 94 204" stroke="var(--fig-shorts)" stroke-width="21"/><path d="M 94 204 L 94 246" stroke="var(--fig-skin)" stroke-width="17"/><path d="M 94 246 L 82 250" stroke="var(--fig-skin)" stroke-width="12"/><path d="M 108 150 L 106 204" stroke="var(--fig-shorts)" stroke-width="21"/><path d="M 106 204 L 106 246" stroke="var(--fig-skin)" stroke-width="17"/><path d="M 106 246 L 118 250" stroke="var(--fig-skin)" stroke-width="12"/></g><circle cx="100" cy="50" r="25.5" fill="var(--fig-line)"/><circle cx="100" cy="50" r="22" fill="var(--fig-skin)"/><path d="M 78.0396357042967 48.68 A 22 22 0 0 1 121.9603642957033 48.68 Z" fill="var(--fig-hair)"/></svg></div>
+          </div>
+          <p class="exercise-cat">Upper body</p>
+          <h3 id="side-arm-raises-title">Side Arm Raises</h3>
+          <p>Raise both arms out to shoulder height, then lower them.</p>
+          <p class="exercise-meta"><strong>Good for:</strong> Strengthens your shoulders with a steady side raise.</p>
+          <ul class="tags"><li>Shoulders</li><li>Arms</li></ul>
+        </article>
+        <article class="exercise-card reveal" id="wide-arm-circles" data-cat="upper-body" aria-labelledby="wide-arm-circles-title">
+          <div class="exercise-illo">
+            <span class="illo-num" aria-hidden="true">44</span>
+            <span class="illo-dur">30 sec</span>
+            <div class="illo-fig" aria-hidden="true"><svg viewBox="0 0 200 262" width="100%" height="100%" preserveAspectRatio="xMidYMid meet"><path d="M 24 90 Q 26 40 78 42" fill="none" stroke="var(--fig-accent)" stroke-width="3.4" stroke-linecap="round" stroke-dasharray="1 9" opacity="0.95"/><g fill="none" stroke="var(--fig-line)" stroke-linecap="round" stroke-linejoin="round"><path d="M 100 80 L 100 150" stroke-width="51"/><path d="M 100 66 L 100 80" stroke-width="23"/><path d="M 78 84 L 52 84" stroke-width="25"/><path d="M 52 84 L 26 84" stroke-width="22"/><path d="M 122 84 L 148 84" stroke-width="25"/><path d="M 148 84 L 174 84" stroke-width="22"/><path d="M 92 150 L 94 204" stroke-width="28"/><path d="M 94 204 L 94 246" stroke-width="24"/><path d="M 94 246 L 82 250" stroke-width="19"/><path d="M 108 150 L 106 204" stroke-width="28"/><path d="M 106 204 L 106 246" stroke-width="24"/><path d="M 106 246 L 118 250" stroke-width="19"/></g><g fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M 100 80 L 100 150" stroke="var(--fig-shirt)" stroke-width="44"/><path d="M 100 66 L 100 80" stroke="var(--fig-skin)" stroke-width="16"/><path d="M 78 84 L 52 84" stroke="var(--fig-skin)" stroke-width="18"/><path d="M 52 84 L 26 84" stroke="var(--fig-skin)" stroke-width="15"/><path d="M 122 84 L 148 84" stroke="var(--fig-skin)" stroke-width="18"/><path d="M 148 84 L 174 84" stroke="var(--fig-skin)" stroke-width="15"/><path d="M 92 150 L 94 204" stroke="var(--fig-shorts)" stroke-width="21"/><path d="M 94 204 L 94 246" stroke="var(--fig-skin)" stroke-width="17"/><path d="M 94 246 L 82 250" stroke="var(--fig-skin)" stroke-width="12"/><path d="M 108 150 L 106 204" stroke="var(--fig-shorts)" stroke-width="21"/><path d="M 106 204 L 106 246" stroke="var(--fig-skin)" stroke-width="17"/><path d="M 106 246 L 118 250" stroke="var(--fig-skin)" stroke-width="12"/></g><circle cx="100" cy="50" r="25.5" fill="var(--fig-line)"/><circle cx="100" cy="50" r="22" fill="var(--fig-skin)"/><path d="M 78.0396357042967 48.68 A 22 22 0 0 1 121.9603642957033 48.68 Z" fill="var(--fig-hair)"/></svg></div>
+          </div>
+          <p class="exercise-cat">Upper body</p>
+          <h3 id="wide-arm-circles-title">Wide Arm Circles</h3>
+          <p>Sweep your arms in big, wide circles out to the sides.</p>
+          <p class="exercise-meta"><strong>Good for:</strong> Loosens your shoulders and upper back with big, sweeping circles.</p>
+          <ul class="tags"><li>Shoulders</li><li>Upper back</li></ul>
+        </article>
+        <article class="exercise-card reveal" id="raised-leg-circles" data-cat="core" aria-labelledby="raised-leg-circles-title">
+          <div class="exercise-illo">
+            <span class="illo-num" aria-hidden="true">45</span>
+            <span class="illo-dur">20 sec each</span>
+            <div class="illo-fig" aria-hidden="true"><svg viewBox="0 0 280 150" width="100%" height="100%" preserveAspectRatio="xMidYMid meet"><path d="M 222 52 a 18 12 0 1 1 -2 0" fill="none" stroke="var(--fig-accent)" stroke-width="3.2" stroke-linecap="round" stroke-dasharray="1 7" opacity="0.95"/><g fill="none" stroke="var(--fig-line)" stroke-linecap="round" stroke-linejoin="round"><path d="M 62 116 L 150 116" stroke-width="51"/><path d="M 52 112 L 62 116" stroke-width="23"/><path d="M 70 120 L 96 126" stroke-width="25"/><path d="M 96 126 L 120 128" stroke-width="22"/><path d="M 150 116 L 206 118" stroke-width="28" opacity="0.5"/><path d="M 206 118 L 236 116" stroke-width="24" opacity="0.5"/><path d="M 150 114 L 196 74" stroke-width="28"/><path d="M 196 74 L 222 52" stroke-width="24"/></g><g fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M 62 116 L 150 116" stroke="var(--fig-shirt)" stroke-width="44"/><path d="M 52 112 L 62 116" stroke="var(--fig-skin)" stroke-width="16"/><path d="M 70 120 L 96 126" stroke="var(--fig-skin)" stroke-width="18"/><path d="M 96 126 L 120 128" stroke="var(--fig-skin)" stroke-width="15"/><path d="M 150 116 L 206 118" stroke="var(--fig-shorts)" stroke-width="21" opacity="0.5"/><path d="M 206 118 L 236 116" stroke="var(--fig-skin)" stroke-width="17" opacity="0.5"/><path d="M 150 114 L 196 74" stroke="var(--fig-accent)" stroke-width="21"/><path d="M 196 74 L 222 52" stroke="var(--fig-skin)" stroke-width="17"/></g><circle cx="222" cy="52" r="10" fill="var(--fig-accent)" opacity="0.2"/><circle cx="222" cy="52" r="4" fill="var(--fig-accent)"/><circle cx="40" cy="112" r="20.5" fill="var(--fig-line)"/><circle cx="40" cy="112" r="17" fill="var(--fig-skin)"/><path d="M 23.030627589683817 110.98 A 17 17 0 0 1 56.96937241031618 110.98 Z" fill="var(--fig-hair)"/><circle cx="27.759999999999998" cy="111.66" r="5.78" fill="var(--fig-hair)"/></svg></div>
+          </div>
+          <p class="exercise-cat">Core</p>
+          <h3 id="raised-leg-circles-title">Raised Leg Circles</h3>
+          <p>Lie back, raise one leg, and trace slow circles with it.</p>
+          <p class="exercise-meta"><strong>Good for:</strong> Traces slow circles to challenge your core and hip control.</p>
+          <ul class="tags"><li>Core</li><li>Hip flexors</li></ul>
+        </article>
+        <article class="exercise-card reveal" id="lunge-step-ups" data-cat="lower-body" aria-labelledby="lunge-step-ups-title">
+          <div class="exercise-illo">
+            <span class="illo-num" aria-hidden="true">46</span>
+            <span class="illo-dur">10 reps</span>
+            <div class="illo-fig" aria-hidden="true"><svg viewBox="0 0 220 264" width="100%" height="100%" preserveAspectRatio="xMidYMid meet"><g fill="none" stroke="var(--fig-line)" stroke-linecap="round" stroke-linejoin="round"><path d="M 110 90 L 110 156" stroke-width="51"/><path d="M 110 72 L 110 90" stroke-width="23"/><path d="M 108 94 L 120 124" stroke-width="25"/><path d="M 120 124 L 132 132" stroke-width="22"/><path d="M 106 156 L 72 192" stroke-width="28" opacity="0.4"/><path d="M 72 192 L 84 244" stroke-width="24" opacity="0.4"/><path d="M 84 244 L 72 248" stroke-width="19" opacity="0.4"/><path d="M 114 156 L 152 178" stroke-width="28"/><path d="M 152 178 L 152 248" stroke-width="24"/><path d="M 152 248 L 170 252" stroke-width="19"/></g><g fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M 110 90 L 110 156" stroke="var(--fig-shirt)" stroke-width="44"/><path d="M 110 72 L 110 90" stroke="var(--fig-skin)" stroke-width="16"/><path d="M 108 94 L 120 124" stroke="var(--fig-skin)" stroke-width="18"/><path d="M 120 124 L 132 132" stroke="var(--fig-skin)" stroke-width="15"/><path d="M 106 156 L 72 192" stroke="var(--fig-shorts)" stroke-width="21" opacity="0.4"/><path d="M 72 192 L 84 244" stroke="var(--fig-skin)" stroke-width="17" opacity="0.4"/><path d="M 84 244 L 72 248" stroke="var(--fig-skin)" stroke-width="12" opacity="0.4"/><path d="M 114 156 L 152 178" stroke="var(--fig-accent)" stroke-width="21"/><path d="M 152 178 L 152 248" stroke="var(--fig-skin)" stroke-width="17"/><path d="M 152 248 L 170 252" stroke="var(--fig-skin)" stroke-width="12"/></g><circle cx="152" cy="176" r="10" fill="var(--fig-accent)" opacity="0.2"/><circle cx="152" cy="176" r="4" fill="var(--fig-accent)"/><circle cx="110" cy="56" r="25.5" fill="var(--fig-line)"/><circle cx="110" cy="56" r="22" fill="var(--fig-skin)"/><path d="M 88.0396357042967 54.68 A 22 22 0 0 1 131.9603642957033 54.68 Z" fill="var(--fig-hair)"/><circle cx="94.16" cy="55.56" r="7.48" fill="var(--fig-hair)"/></svg></div>
+          </div>
+          <p class="exercise-cat">Lower body</p>
+          <h3 id="lunge-step-ups-title">Lunge Step-Ups</h3>
+          <p>Step up into a lunge, alternating legs as you go.</p>
+          <p class="exercise-meta"><strong>Good for:</strong> Builds leg strength and balance by stepping up into alternating lunges.</p>
+          <ul class="tags"><li>Legs</li><li>Glutes</li></ul>
+        </article>
+        <article class="exercise-card reveal" id="plank-leg-raises" data-cat="core" aria-labelledby="plank-leg-raises-title">
+          <div class="exercise-illo">
+            <span class="illo-num" aria-hidden="true">47</span>
+            <span class="illo-dur">30 sec</span>
+            <div class="illo-fig" aria-hidden="true"><svg viewBox="0 0 280 150" width="100%" height="100%" preserveAspectRatio="xMidYMid meet"><g fill="none" stroke="var(--fig-line)" stroke-linecap="round" stroke-linejoin="round"><path d="M 206 98 L 206 127" stroke-width="25"/><path d="M 206 127 L 240 129" stroke-width="22"/><path d="M 206 98 L 120 92" stroke-width="51"/><path d="M 206 98 L 214 88" stroke-width="23"/><path d="M 120 94 L 66 104" stroke-width="28" opacity="0.5"/><path d="M 66 104 L 36 118" stroke-width="24" opacity="0.5"/><path d="M 120 90 L 64 72" stroke-width="28"/><path d="M 64 72 L 34 58" stroke-width="24"/></g><g fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M 206 98 L 206 127" stroke="var(--fig-skin)" stroke-width="18"/><path d="M 206 127 L 240 129" stroke="var(--fig-skin)" stroke-width="15"/><path d="M 206 98 L 120 92" stroke="var(--fig-shirt)" stroke-width="44"/><path d="M 206 98 L 214 88" stroke="var(--fig-skin)" stroke-width="16"/><path d="M 120 94 L 66 104" stroke="var(--fig-shorts)" stroke-width="21" opacity="0.5"/><path d="M 66 104 L 36 118" stroke="var(--fig-skin)" stroke-width="17" opacity="0.5"/><path d="M 120 90 L 64 72" stroke="var(--fig-accent)" stroke-width="21"/><path d="M 64 72 L 34 58" stroke="var(--fig-skin)" stroke-width="17"/></g><circle cx="34" cy="58" r="10" fill="var(--fig-accent)" opacity="0.2"/><circle cx="34" cy="58" r="4" fill="var(--fig-accent)"/><circle cx="220" cy="86" r="21.5" fill="var(--fig-line)"/><circle cx="220" cy="86" r="18" fill="var(--fig-skin)"/><path d="M 202.0324292126064 84.92 A 18 18 0 0 1 237.9675707873936 84.92 Z" fill="var(--fig-hair)"/><circle cx="207.04" cy="85.64" r="6.12" fill="var(--fig-hair)"/></svg></div>
+          </div>
+          <p class="exercise-cat">Core</p>
+          <h3 id="plank-leg-raises-title">Plank Leg Raises</h3>
+          <p>In a plank, lift one leg toward the ceiling, then switch.</p>
+          <p class="exercise-meta"><strong>Good for:</strong> Adds a leg lift to your plank to challenge your core and glutes.</p>
+          <ul class="tags"><li>Core</li><li>Glutes</li></ul>
+        </article>
+        <article class="exercise-card reveal" id="side-bicep-extensions" data-cat="upper-body" aria-labelledby="side-bicep-extensions-title">
+          <div class="exercise-illo">
+            <span class="illo-num" aria-hidden="true">48</span>
+            <span class="illo-dur">12 reps</span>
+            <div class="illo-fig" aria-hidden="true"><svg viewBox="0 0 200 206" width="100%" height="100%" preserveAspectRatio="xMidYMid meet"><g fill="none" stroke="var(--fig-line)" stroke-linecap="round" stroke-linejoin="round"><path d="M 100 74 L 100 150" stroke-width="51"/><path d="M 100 60 L 100 74" stroke-width="23"/><path d="M 78 78 L 52 78" stroke-width="25"/><path d="M 52 78 L 60 44" stroke-width="22"/><path d="M 122 78 L 148 78" stroke-width="25"/><path d="M 148 78 L 140 44" stroke-width="22"/><path d="M 88 150 L 86 206" stroke-width="28"/><path d="M 112 150 L 114 206" stroke-width="28"/></g><g fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M 100 74 L 100 150" stroke="var(--fig-shirt)" stroke-width="44"/><path d="M 100 60 L 100 74" stroke="var(--fig-skin)" stroke-width="16"/><path d="M 78 78 L 52 78" stroke="var(--fig-skin)" stroke-width="18"/><path d="M 52 78 L 60 44" stroke="var(--fig-accent)" stroke-width="15"/><path d="M 122 78 L 148 78" stroke="var(--fig-skin)" stroke-width="18"/><path d="M 148 78 L 140 44" stroke="var(--fig-accent)" stroke-width="15"/><path d="M 88 150 L 86 206" stroke="var(--fig-shorts)" stroke-width="21"/><path d="M 112 150 L 114 206" stroke="var(--fig-shorts)" stroke-width="21"/></g><circle cx="60" cy="44" r="10" fill="var(--fig-accent)" opacity="0.2"/><circle cx="60" cy="44" r="4" fill="var(--fig-accent)"/><circle cx="140" cy="44" r="10" fill="var(--fig-accent)" opacity="0.2"/><circle cx="140" cy="44" r="4" fill="var(--fig-accent)"/><circle cx="100" cy="44" r="25.5" fill="var(--fig-line)"/><circle cx="100" cy="44" r="22" fill="var(--fig-skin)"/><path d="M 78.0396357042967 42.68 A 22 22 0 0 1 121.9603642957033 42.68 Z" fill="var(--fig-hair)"/></svg></div>
+          </div>
+          <p class="exercise-cat">Upper body</p>
+          <h3 id="side-bicep-extensions-title">Side Bicep Extensions</h3>
+          <p>Curl your arms up and out to the side, squeezing.</p>
+          <p class="exercise-meta"><strong>Good for:</strong> Tones your arms and shoulders with a curl-and-squeeze motion.</p>
+          <ul class="tags"><li>Arms</li><li>Shoulders</li></ul>
+        </article>
+        </div>
       </div>
     </section>
 
@@ -383,7 +993,7 @@
   <footer class="site-footer">
     <div class="wrap">
       <span class="foot-brand">
-        <img class="brand-mark" src="logo.png" width="32" height="32" alt="" aria-hidden="true" />
+        <img class="brand-mark" src="assets/img/logo.png" width="32" height="32" alt="" aria-hidden="true" />
         Exercise 1 Min
       </span>
       <p class="safety">Stop if you feel pain or discomfort. This app doesn't replace professional health advice.</p>
@@ -393,6 +1003,6 @@
     </div>
   </footer>
 
-  <script src="app.js" defer></script>
+  <script src="assets/js/app.js" defer></script>
 </body>
 </html>

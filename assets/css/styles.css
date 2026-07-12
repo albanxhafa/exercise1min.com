@@ -15,6 +15,15 @@
   --amber: #e8a24a;
   --amber-deep: #ce7f22;
   --on-amber: #2a1a05;
+  /* Exercise-figure duotone palette (matches the app illustrations). */
+  --fig-line: #2e7d5b;
+  --fig-skin: #eef6f0;
+  --fig-shirt: #cce6d8;
+  --fig-shorts: #aad2bd;
+  --fig-hair: #2e7d5b;
+  --fig-accent: #e8a24a;
+  --on-brand: #ffffff; /* text/icons on a brand-filled surface (AA on --brand) */
+  --amber-text: #8f5410; /* text-grade amber (AA on --surface) */
   --shadow-sm: 0 1px 2px rgba(16, 40, 28, 0.05);
   --shadow: 0 1px 2px rgba(16, 40, 28, 0.04), 0 14px 34px -14px rgba(16, 40, 28, 0.22);
   --radius: 20px;
@@ -40,6 +49,14 @@
     --amber: #f0b366;
     --amber-deep: #e8a24a;
     --on-amber: #241603;
+    --fig-line: #8fd9b4;
+    --fig-skin: #22392e;
+    --fig-shirt: #2f5342;
+    --fig-shorts: #274a39;
+    --fig-hair: #8fd9b4;
+    --fig-accent: #eeae5a;
+    --on-brand: #06140d;
+    --amber-text: #e8a24a;
     --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.3);
     --shadow: 0 1px 2px rgba(0, 0, 0, 0.3), 0 18px 44px -18px rgba(0, 0, 0, 0.6);
   }
@@ -388,42 +405,141 @@ img { max-width: 100%; }
 .exercises-head { text-align: center; max-width: 44ch; margin-inline: auto; }
 .exercises-head h2 { font-size: clamp(1.7rem, 3.6vw, 2.6rem); letter-spacing: -0.025em; }
 .exercises-head .muted { margin-top: 0.7rem; color: var(--ink-soft); }
-.exercises-grid {
-  list-style: none;
-  margin: 2.4rem 0 0;
-  padding: 0;
-  display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
-  gap: 0.85rem;
+/* Category filter tabs. Hidden without JS (then every card shows, ungrouped). */
+.cat-tabs {
+  margin: 2rem auto 0;
+  max-width: 860px;
+  display: none;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.55rem;
 }
-.exercise-pill {
-  display: flex;
-  align-items: center;
-  gap: 0.9rem;
-  min-width: 0;
+html.js .cat-tabs { display: flex; }
+.cat-pill {
+  cursor: pointer;
+  color: var(--ink);
   background: var(--surface);
   border: 1px solid var(--line);
-  border-radius: 16px;
-  padding: 0.85rem 1rem;
+  border-radius: 999px;
+  padding: 0.55rem 0.95rem;
+  font-family: var(--font-display);
+  font-size: 0.9rem;
+  font-weight: 750;
+  line-height: 1;
+  transition: border-color 0.18s ease, background 0.18s ease, color 0.18s ease;
+}
+.cat-pill b {
+  margin-left: 0.3rem;
+  font-weight: 800;
+  font-variant-numeric: tabular-nums;
+  color: var(--ink-soft);
+}
+.cat-pill:hover:not(.is-active) { border-color: var(--brand); color: var(--brand-deep); }
+.cat-pill.is-active {
+  background: var(--brand);
+  border-color: var(--brand);
+  color: var(--on-brand);
+}
+.cat-pill.is-active b { color: var(--on-brand); opacity: 0.75; }
+.cat-pill:focus-visible { outline: 3px solid var(--amber); outline-offset: 2px; }
+
+.exercise-grid {
+  margin-top: 2.5rem;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.1rem;
+}
+.exercise-card {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 1.5rem 1.4rem;
   box-shadow: var(--shadow-sm);
 }
-.exercise-badge {
-  flex: none;
-  width: 46px;
-  height: 46px;
-  border-radius: 50%;
-  display: grid;
-  place-content: center;
+.exercise-card.cat-hide { display: none; }
+/* Illustrated figure well at the top of each card (mirrors the app's exercise card). */
+.exercise-illo {
+  position: relative;
+  height: 150px;
+  margin-bottom: 1.15rem;
+  border-radius: 16px;
   background: var(--brand-tint);
-  color: var(--brand-deep);
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.exercise-illo .illo-fig { width: 84%; height: 84%; }
+.exercise-illo .illo-fig svg { display: block; width: 100%; height: 100%; }
+.illo-num,
+.illo-dur {
+  position: absolute;
+  top: 0.6rem;
   font-family: var(--font-display);
   font-weight: 800;
   font-variant-numeric: tabular-nums;
+  font-size: 0.82rem;
   line-height: 1;
-  border: 1.5px solid color-mix(in srgb, var(--brand) 35%, transparent);
 }
-.exercise-badge small { display: block; font-size: 0.5rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; opacity: 0.75; }
-.exercise-name { font-family: var(--font-display); font-weight: 650; font-size: 0.98rem; letter-spacing: -0.01em; min-width: 0; overflow-wrap: break-word; }
+.illo-num {
+  left: 0.6rem;
+  color: var(--on-brand);
+  background: var(--brand);
+  min-width: 1.7rem;
+  height: 1.7rem;
+  padding: 0 0.42rem;
+  border-radius: 999px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.illo-dur {
+  right: 0.6rem;
+  color: var(--amber-text);
+  background: var(--surface);
+  padding: 0.34rem 0.62rem;
+  border-radius: 999px;
+  box-shadow: var(--shadow-sm);
+}
+.exercise-cat {
+  margin-bottom: 0.4rem;
+  color: var(--brand);
+  font-family: var(--font-display);
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+.exercise-card h3 { font-size: 1.14rem; letter-spacing: -0.01em; }
+.exercise-card p { margin-top: 0.45rem; color: var(--ink-soft); font-size: 0.96rem; }
+.exercise-card .exercise-meta { color: var(--ink); font-size: 0.9rem; }
+.tags {
+  list-style: none;
+  padding: 0;
+  margin: 0.9rem 0 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+}
+.tags li {
+  font-size: 0.78rem;
+  font-family: var(--font-display);
+  font-weight: 750;
+  color: var(--brand-deep);
+  background: var(--brand-tint);
+  border: 1px solid color-mix(in srgb, var(--brand) 14%, transparent);
+  border-radius: 999px;
+  padding: 0.24rem 0.58rem;
+}
+.visually-hidden {
+  position: absolute !important;
+  width: 1px; height: 1px;
+  margin: -1px; padding: 0; border: 0;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
 
 /* ---- FAQ (native accordion) ------------------------------------------- */
 .faq-wrap { max-width: 760px; }
@@ -529,7 +645,7 @@ img { max-width: 100%; }
 /* ---- Responsive -------------------------------------------------------- */
 @media (max-width: 920px) {
   .features-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-  .exercises-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .exercise-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .site-nav > a { display: none; }
 }
 @media (max-width: 760px) {
@@ -541,7 +657,6 @@ img { max-width: 100%; }
   .steps-grid { grid-template-columns: 1fr; }
 }
 @media (max-width: 540px) {
-  .exercises-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .exercise-grid { grid-template-columns: minmax(0, 1fr); }
   .features-grid { grid-template-columns: minmax(0, 1fr); }
-  .exercise-pill { padding: 0.7rem 0.8rem; gap: 0.7rem; }
 }
