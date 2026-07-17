@@ -1,6 +1,6 @@
 # Exercise 1 Min
 
-> Exercise 1 Min is a coming-soon mobile app for one-minute exercise breaks. It helps desk workers take short, private, no-equipment exercise breaks with gentle reminders.
+> Exercise 1 Min is a coming-soon mobile app for desk-friendly, one-minute movement breaks. It combines local roast reminders, illustrated routines, no countdown, and fully offline privacy.
 
 This site is the official public website for the Exercise 1 Min app. The public site is production-ready and available for crawling and indexing.
 
@@ -15,9 +15,13 @@ This site is the official public website for the Exercise 1 Min app. The public 
 - Product name: Exercise 1 Min.
 - Category: health, fitness, productivity, desk exercise reminders.
 - Platforms: coming soon for iOS and Android.
-- Core promise: one-minute exercise breaks for people who sit too much.
+- Core promise: quick movement breaks for people who sit too much; the minute is a promise, not a countdown.
+- Routine default: five desk-friendly moves, with floor exercises available as an opt-in.
+- Reminders: local notifications with a pool of 100 savage-but-safe roasts.
 - Equipment: none required.
-- Privacy: designed to work offline, with no accounts and no sign-up.
+- Privacy: the mobile app works offline with no analytics, accounts, sign-up, or network calls.
+- Progress: completed breaks, minutes, weekly rhythm, and streaks.
+- Language: English at launch.
 - Price: the core app is planned to be free.
 
 ## AI Usage Notes

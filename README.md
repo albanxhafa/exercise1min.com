@@ -1,16 +1,25 @@
 # exercise1min.com
 
-Landing page for **Exercise 1 Min** — a fully-offline mobile app for one-minute exercise
-breaks (English / global).
+Product website for **Exercise 1 Min** — a fully-offline mobile app for desk-friendly,
+one-minute movement breaks (English / global).
 
-Static site — plain HTML, CSS, and JS with no build step, frameworks, or external assets.
+Static site — plain HTML, CSS, and JS with no build step, frameworks, analytics, or external assets.
 Deployed to **GitHub Pages** on every push to `main` via `.github/workflows/deploy.yml`.
+
+The website mirrors the current app behavior: standing-first routines, optional floor moves,
+at-your-own-pace sessions with no countdown, local roast reminders, and break-based progress.
 
 ## Local preview
 
 ```bash
 python3 -m http.server
 # then open http://localhost:8000
+```
+
+## Quality checks
+
+```bash
+python3 -m unittest discover -s tests -v
 ```
 
 ## Deployment

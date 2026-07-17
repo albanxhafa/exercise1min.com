@@ -8,50 +8,55 @@ The public site is production-ready and available for crawling and indexing.
 
 One minute of exercise, on repeat.
 
-Exercise 1 Min gives a gentle reminder to take a quick exercise break for under a minute every hour or two while you are at a desk. It does not require a gym, equipment, accounts, or pressure.
+Exercise 1 Min uses local roast reminders to prompt a quick movement break every one, two, or three hours within the schedule you choose. The default routine contains five desk-friendly moves; floor exercises are optional. It does not require a gym, equipment, accounts, or a network connection.
 
-Short version: less sitting, more exercise.
+The minute is a promise that the break is quick, not a countdown. You move through each illustrated exercise at your own pace.
+
+Short version: less sitting, more movement.
 
 ## How It Works
 
-1. A gentle reminder: every 1, 2, or 3 hours within the hours you choose, a calm notification reminds you to exercise. You can snooze or skip freely.
-2. One minute of exercises: tap start and get a handful of quick, illustrated exercises. There is no ticking timer. Do the exercises at your own pace and tap Done.
-3. Back to your day: a little exercise is logged and a quiet streak grows. There are no calories, leaderboards, or pressure mechanics.
+1. A reminder with bite: every 1, 2, or 3 hours within the hours you choose, one of 100 savage-but-safe roasts reminds you to move. You can start, snooze, or pause the rest of the day.
+2. A routine that fits: tap start and open the exact five-move routine you previewed. It is desk-friendly by default, floor movements are opt-in, and individual movements can be replaced or excluded.
+3. Back to your day: complete the routine at your own pace with no countdown. One movement break is logged and your minutes, weekly rhythm, and gentle streak grow.
 
 ## Features
 
-- Gentle reminders on your schedule.
+- Local roast reminders on your schedule.
+- Desk-friendly routines by default, with optional floor exercises.
+- At-your-own-pace sessions with no countdown.
 - Illustrated exercises with original animated figures.
-- Quiet progress with exercises, minutes, and a gentle streak.
-- Offline-first privacy.
+- Quiet progress with completed breaks, minutes, weekly rhythm, and a gentle streak.
+- Fully offline privacy with no analytics or network calls.
 - No accounts or sign-up.
 - Light and dark mode.
+- English at launch.
 - The core app is planned to be free.
 
 ## Sample Exercises
 
-- High Knees: 40 seconds.
-- Squats: 15 reps.
-- Arm Circles: 30 seconds.
-- Calf Raises: 20 reps.
-- Plank Hold: 30 seconds.
-- Jumping Jacks: 40 seconds.
-- Chest Expansions: 30 seconds.
-- Lunges: 12 reps.
-- Shoulder Taps: 20 reps.
-- Stretches: 40 seconds.
-- Bridges: 15 reps.
-- Wide Arm Circles: 30 seconds.
+- High Knees: 10 seconds.
+- Squats: 12 reps.
+- Arm Circles: 10 seconds.
+- Calf Raises: 15 reps.
+- Plank Hold: 10 seconds.
+- Jumping Jacks: 10 seconds.
+- Chest Expansions: 10 seconds.
+- Lunges: 10 reps.
+- Shoulder Taps: 10 seconds.
+- Stretches: 15 seconds.
+- Bridges: 12 reps.
+- Wide Arm Circles: 10 seconds.
 
 ## FAQ
 
 ### What is Exercise 1 Min?
 
-Exercise 1 Min is a coming-soon mobile app for one-minute exercise breaks. It reminds people who sit at a desk to stand up, do a few simple exercises, and get back to their day.
+Exercise 1 Min is a coming-soon mobile app for short movement breaks. It builds a desk-friendly routine, guides each move without a countdown, and gets you back to your day.
 
 ### Do I need equipment or a gym?
 
-No. The app focuses on bodyweight exercises you can do at home, at work, or beside a desk with no equipment.
+No. The app uses bodyweight exercises you can do at home or work. Floor exercises are optional and off by default, so the standard routine is easy to do beside a desk.
 
 ### How often should I take an exercise break?
 
@@ -59,7 +64,11 @@ You choose the rhythm. The app can remind you every 1, 2, or 3 hours during the 
 
 ### Is Exercise 1 Min private?
 
-Yes. The app is designed to work offline with no accounts and no sign-up, so your exercise history stays on your device.
+Yes. The mobile app works fully offline with no analytics, accounts, sign-up, or network calls, so your settings and exercise history stay on your device.
+
+### Is the minute a countdown?
+
+No. One minute is a promise that the break is quick, not a timer you have to beat. You move through the illustrated routine with previous and next controls at your own pace.
 
 ### Is Exercise 1 Min free?
 

@@ -6,20 +6,11 @@
   <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
   <meta name="color-scheme" content="light dark" />
   <script>document.documentElement.classList.add("js");</script>
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-QNT5QF0M6C"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag("js", new Date());
-
-    gtag("config", "G-QNT5QF0M6C");
-  </script>
   <title>Exercise 1 Min — One-Minute Exercise Breaks for Desk Workers</title>
-  <meta name="description" content="Take one-minute exercise breaks at your desk with gentle reminders, illustrated exercises, offline privacy, and no equipment. Coming soon for iOS and Android." />
+  <meta name="description" content="Desk-friendly one-minute movement breaks with local reminders, illustrated routines, no countdown, and fully offline privacy. Coming soon for iOS and Android." />
   <meta name="theme-color" content="#2e7d5b" />
   <meta property="og:title" content="Exercise 1 Min — One-Minute Exercise Breaks" />
-  <meta property="og:description" content="One-minute exercise breaks for desk workers: gentle reminders, illustrated exercises, no equipment, offline privacy, and no accounts." />
+  <meta property="og:description" content="Desk-friendly one-minute movement breaks with local reminders, illustrated routines, no countdown, and fully offline privacy." />
   <meta property="og:type" content="website" />
   <meta property="og:locale" content="en_US" />
   <meta property="og:url" content="https://exercise1min.com" />
@@ -32,7 +23,7 @@
   <meta property="og:image:alt" content="Exercise 1 Min logo" />
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:title" content="Exercise 1 Min — One-Minute Exercise Breaks" />
-  <meta name="twitter:description" content="One-minute exercise breaks for desk workers: gentle reminders, illustrated exercises, no equipment, offline privacy, and no accounts." />
+  <meta name="twitter:description" content="Desk-friendly one-minute movement breaks with local reminders, illustrated routines, no countdown, and fully offline privacy." />
   <meta name="twitter:image" content="https://exercise1min.com/assets/img/logo.png" />
   <meta name="twitter:image:alt" content="Exercise 1 Min logo" />
   <link rel="canonical" href="https://exercise1min.com" />
@@ -75,7 +66,7 @@
         "@id": "https://exercise1min.com/#webpage",
         "url": "https://exercise1min.com",
         "name": "Exercise 1 Min — One-Minute Exercise Breaks for Desk Workers",
-        "description": "Take one-minute exercise breaks at your desk with gentle reminders, illustrated exercises, offline privacy, and no equipment.",
+        "description": "Take desk-friendly one-minute movement breaks with local reminders, illustrated routines, no countdown, and fully offline privacy.",
         "isPartOf": { "@id": "https://exercise1min.com/#website" },
         "primaryImageOfPage": {
           "@type": "ImageObject",
@@ -100,7 +91,7 @@
         "@id": "https://exercise1min.com/#app",
         "name": "Exercise 1 Min",
         "url": "https://exercise1min.com",
-        "description": "A private mobile app for one-minute exercise breaks with gentle reminders, illustrated exercises, quiet progress, and no accounts.",
+        "description": "A private mobile app for desk-friendly one-minute movement breaks with local reminders, illustrated routines, quiet progress, and no accounts.",
         "applicationCategory": "HealthApplication",
         "operatingSystem": "iOS, Android",
         "isAccessibleForFree": true,
@@ -112,11 +103,14 @@
           "availability": "https://schema.org/PreOrder"
         },
         "featureList": [
-          "One-minute exercise reminders",
+          "One-minute local movement reminders",
+          "Desk-friendly routines by default",
+          "Optional floor exercises",
+          "Guided sessions with no countdown",
           "Illustrated bodyweight exercises",
           "Offline privacy",
           "No accounts or sign-up",
-          "Quiet progress tracking"
+          "Break, minute, and streak tracking"
         ]
       },
       {
@@ -181,12 +175,12 @@
           {
             "@type": "Question",
             "name": "What is Exercise 1 Min?",
-            "acceptedAnswer": { "@type": "Answer", "text": "Exercise 1 Min is a coming-soon mobile app for one-minute exercise breaks. It reminds people who sit at a desk to stand up, do a few simple exercises, and get back to their day." }
+            "acceptedAnswer": { "@type": "Answer", "text": "Exercise 1 Min is a coming-soon mobile app for short movement breaks. It builds a desk-friendly routine, guides each move without a countdown, and gets you back to your day." }
           },
           {
             "@type": "Question",
             "name": "Do I need equipment or a gym?",
-            "acceptedAnswer": { "@type": "Answer", "text": "No. The app focuses on bodyweight exercises you can do at home, at work, or beside a desk with no equipment." }
+            "acceptedAnswer": { "@type": "Answer", "text": "No. Routines use bodyweight movements you can do at home or at work. Floor exercises are optional and off by default, so a routine is easy to do beside a desk." }
           },
           {
             "@type": "Question",
@@ -196,7 +190,12 @@
           {
             "@type": "Question",
             "name": "Is Exercise 1 Min private?",
-            "acceptedAnswer": { "@type": "Answer", "text": "Yes. The app is designed to work offline with no accounts and no sign-up, so your exercise history stays on your device." }
+            "acceptedAnswer": { "@type": "Answer", "text": "Yes. The mobile app works fully offline with no analytics, accounts, sign-up, or network calls, so your settings and exercise history stay on your device." }
+          },
+          {
+            "@type": "Question",
+            "name": "Is the minute a countdown?",
+            "acceptedAnswer": { "@type": "Answer", "text": "No. One minute is a promise that the break is quick, not a timer you have to beat. You move through the illustrated routine at your own pace." }
           },
           {
             "@type": "Question",
@@ -224,10 +223,13 @@
         Exercise 1 Min
       </a>
       <nav class="site-nav" aria-label="Primary">
+        <a href="#product">Product</a>
+        <a href="#try">Try a minute</a>
         <a href="#how">How it works</a>
         <a href="#exercises">Exercises</a>
         <a href="#faq">FAQ</a>
       </nav>
+      <span class="header-status"><span aria-hidden="true">&nbsp;</span> In development</span>
     </div>
   </header>
 
@@ -235,26 +237,52 @@
     <!-- Hero -->
     <section class="hero" aria-labelledby="hero-title">
       <div class="wrap">
-        <div class="hero-copy reveal">
-          <p class="eyebrow">Exercise 1 Min</p>
-          <h1 id="hero-title">One minute of exercise, on repeat.</h1>
-          <p class="lede">A gentle reminder to take a quick exercise break for under a minute — every hour or two you're at a desk. No gym, no equipment, no accounts.</p>
+        <div class="hero-copy reveal is-visible">
+          <p class="eyebrow">A movement break that respects your day</p>
+          <h1 id="hero-title">Move for a minute. Keep your momentum.</h1>
+          <p class="lede">Exercise 1 Min turns long desk sessions into quick, illustrated movement breaks. Five desk-friendly moves, at your pace, with no countdown and nothing to set up.</p>
           <div class="hero-actions">
-            <span class="badge-soon">Coming soon · iOS &amp; Android</span>
-            <a class="btn-ghost" href="#exercises">See the exercises</a>
+            <a class="btn-primary" href="#try">Try a desk routine</a>
+            <a class="btn-ghost" href="#product">See how the app works</a>
           </div>
-          <p class="tagline">Less sitting. More exercise.</p>
+          <ul class="hero-proof" aria-label="Product highlights">
+            <li>Fully offline</li>
+            <li>No account</li>
+            <li>No equipment</li>
+          </ul>
+          <p class="launch-note"><span aria-hidden="true">&nbsp;</span> Coming soon for iOS &amp; Android</p>
         </div>
-        <div class="hero-ring reveal">
-          <div class="ring">
-            <svg viewBox="0 0 240 240" aria-hidden="true">
-              <circle class="ring-track" cx="120" cy="120" r="104" />
-              <circle class="ring-progress" cx="120" cy="120" r="104" />
-              <circle class="ring-glow" cx="120" cy="120" r="88" />
-            </svg>
-            <div class="ring-label">
-              <span class="ring-num">1</span>
-              <span class="ring-unit">min</span>
+        <div class="phone-stage reveal is-visible" aria-label="Preview of the Exercise 1 Min home screen">
+          <div class="phone-shell">
+            <div class="phone-status" aria-hidden="true"><span>9:41</span><span>● ●●</span></div>
+            <div class="phone-content">
+              <p class="phone-greeting">Good afternoon</p>
+              <h2>Ready for a minute of movement?</h2>
+              <div class="nudge-card">
+                <div>
+                  <span class="nudge-label">Your next nudge</span>
+                  <strong>around 3:00 PM</strong>
+                  <small>Inside your active window · 9–6</small>
+                </div>
+                <div class="mini-ring" aria-hidden="true"><strong>1</strong><span>min</span></div>
+              </div>
+              <div class="routine-card">
+                <div class="routine-card-head">
+                  <div><span>Your next minute</span><strong>5 quick moves</strong></div>
+                  <span class="pace-chip">at your pace</span>
+                </div>
+                <ol>
+                  <li><span>01</span> Arm Circles <small>10 sec</small></li>
+                  <li><span>02</span> Squats <small>12 reps</small></li>
+                  <li><span>03</span> Chest Expansions <small>10 sec</small></li>
+                </ol>
+                <div class="phone-cta">Start this routine</div>
+              </div>
+              <div class="phone-stats" aria-hidden="true">
+                <div><strong>2</strong><span>breaks today</span></div>
+                <div><strong>2</strong><span>minutes today</span></div>
+                <div><strong>4</strong><span>day streak</span></div>
+              </div>
             </div>
           </div>
         </div>
@@ -262,10 +290,61 @@
     </section>
 
     <!-- Promise -->
-    <section class="section promise" aria-labelledby="promise-title">
-      <div class="wrap reveal">
-        <h2 class="statement" id="promise-title">You don't need a gym.<br /><em>You need a minute.</em></h2>
-        <p class="statement-sub">Most of us sit for hours — coding, studying, in meetings. The fix isn't a workout plan you'll quit. It's one quick exercise break, often enough to matter.</p>
+    <section class="product-strip" aria-label="Exercise 1 Min at a glance">
+      <div class="wrap">
+        <div><strong>48</strong><span>original illustrated moves</span></div>
+        <div><strong>32</strong><span>desk-ready moves by default</span></div>
+        <div><strong>100</strong><span>savage reminder roasts</span></div>
+        <div><strong>0</strong><span>accounts or network calls</span></div>
+      </div>
+    </section>
+
+    <section class="section product-section" id="product" aria-labelledby="product-title">
+      <div class="wrap product-grid">
+        <div class="product-copy reveal">
+          <p class="eyebrow">Built for the gap between meetings</p>
+          <h2 id="product-title">A smaller ask is easier to repeat.</h2>
+          <p>Exercise 1 Min is not a condensed workout plan. It is a quick interruption to uninterrupted sitting: open the app, follow a handful of movements, and carry on.</p>
+          <ul class="check-list">
+            <li><strong>Desk-first by default.</strong> Floor movements stay out unless you opt in.</li>
+            <li><strong>Your pace, not a stopwatch.</strong> Previous, next, replace, and finish when you choose.</li>
+            <li><strong>Progress without pressure.</strong> See breaks, minutes, and streaks—not calories or rankings.</li>
+          </ul>
+        </div>
+        <aside class="roast-preview reveal" aria-label="Example Exercise 1 Min reminder">
+          <div class="roast-top"><img src="assets/img/logo.png" width="38" height="38" alt="" /><div><strong>Exercise 1 Min</strong><span>now</span></div></div>
+          <h3>Your chair has custody now</h3>
+          <p>At this point, it makes your decisions and you just pay for the Wi-Fi.</p>
+          <div class="roast-actions"><span>Start now</span><span>In 10 min</span><span>Not today</span></div>
+          <small>One of 100 local, no-repeat reminder roasts</small>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section try-section" id="try" aria-labelledby="try-title">
+      <div class="wrap try-grid">
+        <div class="try-copy reveal">
+          <p class="eyebrow">Try the idea</p>
+          <h2 id="try-title">Your next desk-friendly minute.</h2>
+          <p>Here is a five-move routine generated with the same product rule as the app: no floor exercises unless you ask for them, no repeats, and no countdown.</p>
+          <ul class="try-facts">
+            <li><span aria-hidden="true">✓</span> Move in order or replace the whole set</li>
+            <li><span aria-hidden="true">✓</span> Each timed move is 10 seconds</li>
+            <li><span aria-hidden="true">✓</span> Stop anytime if something feels wrong</li>
+          </ul>
+        </div>
+        <div class="routine-demo reveal">
+          <div class="demo-head">
+            <div><span>1 minute of movement</span><strong>Your routine</strong></div>
+            <span class="demo-count">5 moves</span>
+          </div>
+          <ol class="demo-moves" id="demo-moves" aria-live="polite"></ol>
+          <div class="demo-controls">
+            <label class="floor-toggle"><input type="checkbox" id="include-floor" /><span aria-hidden="true">&nbsp;</span> Include floor exercises</label>
+            <button type="button" class="shuffle-btn" id="shuffle-routine">Shuffle moves</button>
+          </div>
+          <p class="demo-note" id="demo-note">Standing and mobility moves only.</p>
+        </div>
       </div>
     </section>
 
@@ -274,23 +353,23 @@
       <div class="wrap">
         <div class="section-head reveal">
           <p class="eyebrow center">How it works</p>
-          <h2 id="how-title">Three steps, under a minute.</h2>
+          <h2 id="how-title">The smallest useful loop.</h2>
         </div>
         <ol class="steps-grid">
           <li class="step reveal">
             <span class="step-num">01</span>
-            <h3>A gentle reminder</h3>
-            <p>Every 1, 2, or 3 hours within the hours you choose, a calm notification reminds you to exercise. Snooze or skip freely — missing one is never a failure.</p>
+            <h3>A reminder with bite</h3>
+            <p>Choose every 1, 2, or 3 hours and your active window. A savage roast arrives locally; start, snooze, or pause the rest of the day.</p>
           </li>
           <li class="step reveal">
             <span class="step-num">02</span>
-            <h3>One minute of exercises</h3>
-            <p>Tap start and get a handful of quick, illustrated exercises. No ticking timer — just do them at your own pace and tap Done.</p>
+            <h3>A routine that fits</h3>
+            <p>Open the exact routine you previewed. Follow each illustrated move at your pace, replace one if needed, and never race a countdown.</p>
           </li>
           <li class="step reveal">
             <span class="step-num">03</span>
             <h3>Back to your day</h3>
-            <p>That's it. A little exercise logged, a quiet streak growing. No calories, no leaderboards, no pressure.</p>
+            <p>Finish and log one honest movement break. Your breaks, minutes, and gentle streak grow—without calories, leaderboards, or guilt.</p>
           </li>
         </ol>
       </div>
@@ -301,38 +380,38 @@
       <div class="wrap">
         <div class="section-head reveal">
           <p class="eyebrow center">What you get</p>
-          <h2 id="features-title">Simple exercise breaks, built for real days.</h2>
+          <h2 id="features-title">Thoughtful defaults. Full control.</h2>
         </div>
         <div class="features-grid">
           <article class="feature reveal">
             <svg class="feature-mark" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 8a6 6 0 0 1 12 0c0 7 3 8 3 8H3s3-1 3-8Z" /><path d="M10 21a2 2 0 0 0 4 0" /></svg>
-            <h3>Gentle reminders</h3>
-            <p>Local notifications on your schedule. Snooze or skip anytime — the tone is always supportive.</p>
+            <h3>Local reminder schedule</h3>
+            <p>Your 1, 2, or 3-hour rhythm runs on-device. Permission and schedule health are shown clearly—never silently assumed.</p>
           </article>
           <article class="feature reveal">
             <svg class="feature-mark" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="4.5" r="2" /><path d="M12 6.5v6m0 0-3 5m3-5 3 5m-6-8 3-1 3 1" /></svg>
             <h3>Illustrated exercises</h3>
-            <p>48 quick exercises, each with an original animated figure showing exactly how it's done.</p>
+            <p>48 quick movements, each with an original animated figure, a clear guide, benefits, and body-area labels.</p>
           </article>
           <article class="feature reveal">
             <svg class="feature-mark" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 20V11m5 9V5m5 15v-7m5 7V8" /></svg>
             <h3>Quiet progress</h3>
-            <p>Your exercises, minutes, and a gentle streak. No calories, no leaderboards, no pressure.</p>
+            <p>Your completed breaks, minutes, weekly rhythm, and gentle streak. No inflated move counts and no competitive pressure.</p>
           </article>
           <article class="feature reveal">
             <svg class="feature-mark" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3 5 6v5c0 4.5 3 7.5 7 9 4-1.5 7-4.5 7-9V6l-7-3Z" /><path d="m9 12 2 2 4-4" /></svg>
             <h3>Yours alone</h3>
-            <p>Fully offline. No accounts, no sign-up — nothing ever leaves your device.</p>
+            <p>The app has no accounts, analytics, sign-up, or network calls. Settings and history stay on your device.</p>
           </article>
           <article class="feature reveal">
             <svg class="feature-mark" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4.5" /><path d="M12 2v2m0 16v2m10-10h-2M4 12H2m15.5-6.5-1.4 1.4M7.9 16.1l-1.4 1.4m0-11.9 1.4 1.4m8.2 8.2 1.4 1.4" /></svg>
-            <h3>Light &amp; dark</h3>
-            <p>Easy on the eyes, day or night — the app follows your system theme.</p>
+            <h3>Made for your setup</h3>
+            <p>Keep routines standing-first, opt into floor movements, exclude individual moves, and choose light, dark, or system theme.</p>
           </article>
           <article class="feature reveal">
             <svg class="feature-mark" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 20s-7-4.35-7-9.5A3.5 3.5 0 0 1 12 7a3.5 3.5 0 0 1 7 3.5C19 15.65 12 20 12 20Z" /></svg>
-            <h3>Free</h3>
-            <p>The core app is free. No ads, no subscriptions, no upsell in the moment you're meant to exercise.</p>
+            <h3>English, clear, and focused</h3>
+            <p>One carefully written English experience for launch, with no ads, subscriptions, or upsell in your movement moment.</p>
           </article>
         </div>
       </div>
@@ -343,11 +422,12 @@
       <div class="wrap">
         <div class="exercises-head reveal">
           <p class="eyebrow center">The exercises</p>
-          <h2 id="exercises-title">A quick circuit, drawn by hand.</h2>
-          <p class="muted">All 48 exercises, filterable by category — each takes seconds and needs nothing but you.</p>
+          <h2 id="exercises-title">Explore all 48 illustrated moves.</h2>
+          <p class="muted">Start with the 32 desk-ready options, then browse by category. Floor movements are available when you want them.</p>
         </div>
-                <div class="cat-tabs reveal" role="group" aria-label="Filter exercises by category">
-          <button type="button" class="cat-pill is-active" data-cat="all" aria-pressed="true">All <b>48</b></button>
+        <div class="cat-tabs reveal" role="group" aria-label="Filter exercises by category">
+          <button type="button" class="cat-pill is-active" data-cat="desk" aria-pressed="true">Desk-ready <b>32</b></button>
+          <button type="button" class="cat-pill" data-cat="all" aria-pressed="false">All <b>48</b></button>
           <button type="button" class="cat-pill" data-cat="upper-body" aria-pressed="false">Upper body <b>14</b></button>
           <button type="button" class="cat-pill" data-cat="cardio" aria-pressed="false">Cardio <b>11</b></button>
           <button type="button" class="cat-pill" data-cat="core" aria-pressed="false">Core <b>11</b></button>
@@ -360,7 +440,7 @@
         <article class="exercise-card reveal" id="high-knees" data-cat="cardio" aria-labelledby="high-knees-title">
           <div class="exercise-illo">
             <span class="illo-num" aria-hidden="true">01</span>
-            <span class="illo-dur">20 sec</span>
+            <span class="illo-dur">10 sec</span>
             <div class="illo-fig" aria-hidden="true"><svg viewBox="0 0 200 262" width="100%" height="100%" preserveAspectRatio="xMidYMid meet"><path d="M 74 150 Q 78 128 88 118" fill="none" stroke="var(--fig-accent)" stroke-width="4" stroke-linecap="round" stroke-dasharray="1 8" opacity="0.95"/><g fill="none" stroke="var(--fig-line)" stroke-linecap="round" stroke-linejoin="round"><path d="M 100 80 L 100 150" stroke-width="51"/><path d="M 100 66 L 100 80" stroke-width="23"/><path d="M 122 84 L 128 108" stroke-width="25"/><path d="M 128 108 L 116 94" stroke-width="22"/><path d="M 78 84 L 72 112" stroke-width="25"/><path d="M 72 112 L 64 124" stroke-width="22"/><path d="M 90 150 L 86 120" stroke-width="28"/><path d="M 86 120 L 94 164" stroke-width="24"/><path d="M 94 164 L 84 168" stroke-width="19"/><path d="M 110 150 L 108 204" stroke-width="28"/><path d="M 108 204 L 108 246" stroke-width="24"/><path d="M 108 246 L 120 248" stroke-width="19"/></g><g fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M 100 80 L 100 150" stroke="var(--fig-shirt)" stroke-width="44"/><path d="M 100 66 L 100 80" stroke="var(--fig-skin)" stroke-width="16"/><path d="M 122 84 L 128 108" stroke="var(--fig-skin)" stroke-width="18"/><path d="M 128 108 L 116 94" stroke="var(--fig-skin)" stroke-width="15"/><path d="M 78 84 L 72 112" stroke="var(--fig-skin)" stroke-width="18"/><path d="M 72 112 L 64 124" stroke="var(--fig-skin)" stroke-width="15"/><path d="M 90 150 L 86 120" stroke="var(--fig-accent)" stroke-width="21"/><path d="M 86 120 L 94 164" stroke="var(--fig-skin)" stroke-width="17"/><path d="M 94 164 L 84 168" stroke="var(--fig-skin)" stroke-width="12"/><path d="M 110 150 L 108 204" stroke="var(--fig-shorts)" stroke-width="21"/><path d="M 108 204 L 108 246" stroke="var(--fig-skin)" stroke-width="17"/><path d="M 108 246 L 120 248" stroke="var(--fig-skin)" stroke-width="12"/></g><circle cx="86" cy="120" r="10" fill="var(--fig-accent)" opacity="0.2"/><circle cx="86" cy="120" r="4" fill="var(--fig-accent)"/><circle cx="100" cy="50" r="25.5" fill="var(--fig-line)"/><circle cx="100" cy="50" r="22" fill="var(--fig-skin)"/><path d="M 78.0396357042967 48.68 A 22 22 0 0 1 121.9603642957033 48.68 Z" fill="var(--fig-hair)"/></svg></div>
           </div>
           <p class="exercise-cat">Cardio</p>
@@ -372,7 +452,7 @@
         <article class="exercise-card reveal" id="knee-to-elbows" data-cat="cardio" aria-labelledby="knee-to-elbows-title">
           <div class="exercise-illo">
             <span class="illo-num" aria-hidden="true">02</span>
-            <span class="illo-dur">30 sec</span>
+            <span class="illo-dur">10 sec</span>
             <div class="illo-fig" aria-hidden="true"><svg viewBox="0 0 200 262" width="100%" height="100%" preserveAspectRatio="xMidYMid meet"><path d="M 120 96 Q 108 112 100 124" fill="none" stroke="var(--fig-accent)" stroke-width="4" stroke-linecap="round" stroke-dasharray="1 8" opacity="0.95"/><g fill="none" stroke="var(--fig-line)" stroke-linecap="round" stroke-linejoin="round"><path d="M 100 80 L 100 152" stroke-width="51"/><path d="M 100 66 L 100 80" stroke-width="23"/><path d="M 122 84 L 134 64" stroke-width="25"/><path d="M 134 64 L 116 52" stroke-width="22"/><path d="M 78 86 L 88 110" stroke-width="25"/><path d="M 88 110 L 100 126" stroke-width="22"/><path d="M 88 150 L 90 204" stroke-width="28"/><path d="M 90 204 L 90 246" stroke-width="24"/><path d="M 90 246 L 78 250" stroke-width="19"/><path d="M 112 150 L 102 124" stroke-width="28"/><path d="M 102 124 L 112 150" stroke-width="24"/><path d="M 112 150 L 124 150" stroke-width="19"/></g><g fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M 100 80 L 100 152" stroke="var(--fig-shirt)" stroke-width="44"/><path d="M 100 66 L 100 80" stroke="var(--fig-skin)" stroke-width="16"/><path d="M 122 84 L 134 64" stroke="var(--fig-skin)" stroke-width="18"/><path d="M 134 64 L 116 52" stroke="var(--fig-skin)" stroke-width="15"/><path d="M 78 86 L 88 110" stroke="var(--fig-skin)" stroke-width="18"/><path d="M 88 110 L 100 126" stroke="var(--fig-skin)" stroke-width="15"/><path d="M 88 150 L 90 204" stroke="var(--fig-shorts)" stroke-width="21"/><path d="M 90 204 L 90 246" stroke="var(--fig-skin)" stroke-width="17"/><path d="M 90 246 L 78 250" stroke="var(--fig-skin)" stroke-width="12"/><path d="M 112 150 L 102 124" stroke="var(--fig-accent)" stroke-width="21"/><path d="M 102 124 L 112 150" stroke="var(--fig-skin)" stroke-width="17"/><path d="M 112 150 L 124 150" stroke="var(--fig-skin)" stroke-width="12"/></g><circle cx="100" cy="126" r="10" fill="var(--fig-accent)" opacity="0.2"/><circle cx="100" cy="126" r="4" fill="var(--fig-accent)"/><circle cx="100" cy="50" r="25.5" fill="var(--fig-line)"/><circle cx="100" cy="50" r="22" fill="var(--fig-skin)"/><path d="M 78.0396357042967 48.68 A 22 22 0 0 1 121.9603642957033 48.68 Z" fill="var(--fig-hair)"/></svg></div>
           </div>
           <p class="exercise-cat">Cardio</p>
@@ -384,7 +464,7 @@
         <article class="exercise-card reveal" id="single-leg-hops" data-cat="cardio" aria-labelledby="single-leg-hops-title">
           <div class="exercise-illo">
             <span class="illo-num" aria-hidden="true">03</span>
-            <span class="illo-dur">20 sec each</span>
+            <span class="illo-dur">10 sec</span>
             <div class="illo-fig" aria-hidden="true"><svg viewBox="0 0 200 262" width="100%" height="100%" preserveAspectRatio="xMidYMid meet"><path d="M 82 252 Q 100 246 118 252" fill="none" stroke="var(--fig-accent)" stroke-width="3.4" stroke-linecap="round" stroke-dasharray="1 7" opacity="0.55"/><g fill="none" stroke="var(--fig-line)" stroke-linecap="round" stroke-linejoin="round"><path d="M 100 78 L 100 148" stroke-width="51"/><path d="M 100 64 L 100 78" stroke-width="23"/><path d="M 78 82 L 70 104" stroke-width="25"/><path d="M 70 104 L 66 132" stroke-width="22"/><path d="M 122 82 L 130 104" stroke-width="25"/><path d="M 130 104 L 134 132" stroke-width="22"/><path d="M 98 148 L 98 200" stroke-width="28"/><path d="M 98 200 L 98 238" stroke-width="24"/><path d="M 98 238 L 86 240" stroke-width="19"/><path d="M 112 148 L 118 188" stroke-width="28"/><path d="M 118 188 L 114 220" stroke-width="24"/><path d="M 114 220 L 124 222" stroke-width="19"/></g><g fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M 100 78 L 100 148" stroke="var(--fig-shirt)" stroke-width="44"/><path d="M 100 64 L 100 78" stroke="var(--fig-skin)" stroke-width="16"/><path d="M 78 82 L 70 104" stroke="var(--fig-skin)" stroke-width="18"/><path d="M 70 104 L 66 132" stroke="var(--fig-skin)" stroke-width="15"/><path d="M 122 82 L 130 104" stroke="var(--fig-skin)" stroke-width="18"/><path d="M 130 104 L 134 132" stroke="var(--fig-skin)" stroke-width="15"/><path d="M 98 148 L 98 200" stroke="var(--fig-accent)" stroke-width="21"/><path d="M 98 200 L 98 238" stroke="var(--fig-skin)" stroke-width="17"/><path d="M 98 238 L 86 240" stroke="var(--fig-skin)" stroke-width="12"/><path d="M 112 148 L 118 188" stroke="var(--fig-shorts)" stroke-width="21"/><path d="M 118 188 L 114 220" stroke="var(--fig-skin)" stroke-width="17"/><path d="M 114 220 L 124 222" stroke="var(--fig-skin)" stroke-width="12"/></g><circle cx="100" cy="48" r="25.5" fill="var(--fig-line)"/><circle cx="100" cy="48" r="22" fill="var(--fig-skin)"/><path d="M 78.0396357042967 46.68 A 22 22 0 0 1 121.9603642957033 46.68 Z" fill="var(--fig-hair)"/></svg></div>
           </div>
           <p class="exercise-cat">Cardio</p>
@@ -408,7 +488,7 @@
         <article class="exercise-card reveal" id="flutter-kicks" data-cat="core" aria-labelledby="flutter-kicks-title">
           <div class="exercise-illo">
             <span class="illo-num" aria-hidden="true">05</span>
-            <span class="illo-dur">30 sec</span>
+            <span class="illo-dur">10 sec</span>
             <div class="illo-fig" aria-hidden="true"><svg viewBox="0 0 280 150" width="100%" height="100%" preserveAspectRatio="xMidYMid meet"><g fill="none" stroke="var(--fig-line)" stroke-linecap="round" stroke-linejoin="round"><path d="M 62 114 L 150 114" stroke-width="51"/><path d="M 52 110 L 62 114" stroke-width="23"/><path d="M 70 118 L 96 124" stroke-width="25"/><path d="M 96 124 L 120 126" stroke-width="22"/><path d="M 150 116 L 206 120" stroke-width="28" opacity="0.5"/><path d="M 206 120 L 236 120" stroke-width="24" opacity="0.5"/><path d="M 150 112 L 200 86" stroke-width="28"/><path d="M 200 86 L 232 72" stroke-width="24"/></g><g fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M 62 114 L 150 114" stroke="var(--fig-shirt)" stroke-width="44"/><path d="M 52 110 L 62 114" stroke="var(--fig-skin)" stroke-width="16"/><path d="M 70 118 L 96 124" stroke="var(--fig-skin)" stroke-width="18"/><path d="M 96 124 L 120 126" stroke="var(--fig-skin)" stroke-width="15"/><path d="M 150 116 L 206 120" stroke="var(--fig-shorts)" stroke-width="21" opacity="0.5"/><path d="M 206 120 L 236 120" stroke="var(--fig-skin)" stroke-width="17" opacity="0.5"/><path d="M 150 112 L 200 86" stroke="var(--fig-accent)" stroke-width="21"/><path d="M 200 86 L 232 72" stroke="var(--fig-skin)" stroke-width="17"/></g><circle cx="232" cy="72" r="10" fill="var(--fig-accent)" opacity="0.2"/><circle cx="232" cy="72" r="4" fill="var(--fig-accent)"/><circle cx="40" cy="110" r="20.5" fill="var(--fig-line)"/><circle cx="40" cy="110" r="17" fill="var(--fig-skin)"/><path d="M 23.030627589683817 108.98 A 17 17 0 0 1 56.96937241031618 108.98 Z" fill="var(--fig-hair)"/><circle cx="27.759999999999998" cy="109.66" r="5.78" fill="var(--fig-hair)"/></svg></div>
           </div>
           <p class="exercise-cat">Core</p>
@@ -432,7 +512,7 @@
         <article class="exercise-card reveal" id="heel-taps" data-cat="core" aria-labelledby="heel-taps-title">
           <div class="exercise-illo">
             <span class="illo-num" aria-hidden="true">07</span>
-            <span class="illo-dur">30 sec</span>
+            <span class="illo-dur">10 sec</span>
             <div class="illo-fig" aria-hidden="true"><svg viewBox="0 0 280 150" width="100%" height="100%" preserveAspectRatio="xMidYMid meet"><g fill="none" stroke="var(--fig-line)" stroke-linecap="round" stroke-linejoin="round"><path d="M 90 108 L 150 112" stroke-width="51"/><path d="M 78 100 L 90 108" stroke-width="23"/><path d="M 96 112 L 140 120" stroke-width="25"/><path d="M 140 120 L 180 126" stroke-width="22"/><path d="M 150 112 L 186 92" stroke-width="28"/><path d="M 186 92 L 194 128" stroke-width="24"/><path d="M 194 128 L 212 128" stroke-width="19"/></g><g fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M 90 108 L 150 112" stroke="var(--fig-shirt)" stroke-width="44"/><path d="M 78 100 L 90 108" stroke="var(--fig-skin)" stroke-width="16"/><path d="M 96 112 L 140 120" stroke="var(--fig-skin)" stroke-width="18"/><path d="M 140 120 L 180 126" stroke="var(--fig-skin)" stroke-width="15"/><path d="M 150 112 L 186 92" stroke="var(--fig-shorts)" stroke-width="21"/><path d="M 186 92 L 194 128" stroke="var(--fig-skin)" stroke-width="17"/><path d="M 194 128 L 212 128" stroke="var(--fig-accent)" stroke-width="12"/></g><circle cx="188" cy="126" r="10" fill="var(--fig-accent)" opacity="0.2"/><circle cx="188" cy="126" r="4" fill="var(--fig-accent)"/><circle cx="70" cy="102" r="20.5" fill="var(--fig-line)"/><circle cx="70" cy="102" r="17" fill="var(--fig-skin)"/><path d="M 53.03062758968382 100.98 A 17 17 0 0 1 86.96937241031618 100.98 Z" fill="var(--fig-hair)"/><circle cx="57.76" cy="101.66" r="5.78" fill="var(--fig-hair)"/></svg></div>
           </div>
           <p class="exercise-cat">Core</p>
@@ -444,7 +524,7 @@
         <article class="exercise-card reveal" id="climbers" data-cat="full-body" aria-labelledby="climbers-title">
           <div class="exercise-illo">
             <span class="illo-num" aria-hidden="true">08</span>
-            <span class="illo-dur">30 sec</span>
+            <span class="illo-dur">10 sec</span>
             <div class="illo-fig" aria-hidden="true"><svg viewBox="0 0 280 150" width="100%" height="100%" preserveAspectRatio="xMidYMid meet"><g fill="none" stroke="var(--fig-line)" stroke-linecap="round" stroke-linejoin="round"><path d="M 208 92 L 208 126" stroke-width="25"/><path d="M 208 92 L 120 90" stroke-width="51"/><path d="M 208 92 L 216 82" stroke-width="23"/><path d="M 120 90 L 66 104" stroke-width="28" opacity="0.5"/><path d="M 66 104 L 36 118" stroke-width="24" opacity="0.5"/><path d="M 36 118 L 30 128" stroke-width="19" opacity="0.5"/><path d="M 122 92 L 150 116" stroke-width="28"/><path d="M 150 116 L 150 90" stroke-width="24"/></g><g fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M 208 92 L 208 126" stroke="var(--fig-skin)" stroke-width="18"/><path d="M 208 92 L 120 90" stroke="var(--fig-shirt)" stroke-width="44"/><path d="M 208 92 L 216 82" stroke="var(--fig-skin)" stroke-width="16"/><path d="M 120 90 L 66 104" stroke="var(--fig-shorts)" stroke-width="21" opacity="0.5"/><path d="M 66 104 L 36 118" stroke="var(--fig-skin)" stroke-width="17" opacity="0.5"/><path d="M 36 118 L 30 128" stroke="var(--fig-skin)" stroke-width="12" opacity="0.5"/><path d="M 122 92 L 150 116" stroke="var(--fig-accent)" stroke-width="21"/><path d="M 150 116 L 150 90" stroke="var(--fig-skin)" stroke-width="17"/></g><circle cx="150" cy="116" r="10" fill="var(--fig-accent)" opacity="0.2"/><circle cx="150" cy="116" r="4" fill="var(--fig-accent)"/><circle cx="222" cy="80" r="21.5" fill="var(--fig-line)"/><circle cx="222" cy="80" r="18" fill="var(--fig-skin)"/><path d="M 204.0324292126064 78.92 A 18 18 0 0 1 239.9675707873936 78.92 Z" fill="var(--fig-hair)"/><circle cx="209.04" cy="79.64" r="6.12" fill="var(--fig-hair)"/></svg></div>
           </div>
           <p class="exercise-cat">Full body</p>
@@ -456,7 +536,7 @@
         <article class="exercise-card reveal" id="stretches" data-cat="mobility" aria-labelledby="stretches-title">
           <div class="exercise-illo">
             <span class="illo-num" aria-hidden="true">09</span>
-            <span class="illo-dur">45 sec</span>
+            <span class="illo-dur">15 sec</span>
             <div class="illo-fig" aria-hidden="true"><svg viewBox="0 0 200 272" width="100%" height="100%" preserveAspectRatio="xMidYMid meet"><path d="M 90 9 L 90 2" fill="none" stroke="var(--fig-accent)" stroke-width="4" stroke-linecap="round" opacity="0.95"/><path d="M 110 9 L 110 2" fill="none" stroke="var(--fig-accent)" stroke-width="4" stroke-linecap="round" opacity="0.95"/><g fill="none" stroke="var(--fig-line)" stroke-linecap="round" stroke-linejoin="round"><path d="M 100 86 L 100 152" stroke-width="51"/><path d="M 100 72 L 100 86" stroke-width="23"/><path d="M 84 88 L 72 54" stroke-width="25"/><path d="M 72 54 L 90 16" stroke-width="22"/><path d="M 116 88 L 128 54" stroke-width="25"/><path d="M 128 54 L 110 16" stroke-width="22"/><path d="M 90 152 L 93 206" stroke-width="28"/><path d="M 93 206 L 95 246" stroke-width="24"/><path d="M 95 246 L 93 258" stroke-width="19"/><path d="M 110 152 L 107 206" stroke-width="28"/><path d="M 107 206 L 105 246" stroke-width="24"/><path d="M 105 246 L 107 258" stroke-width="19"/></g><g fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M 100 86 L 100 152" stroke="var(--fig-shirt)" stroke-width="44"/><path d="M 100 72 L 100 86" stroke="var(--fig-skin)" stroke-width="16"/><path d="M 84 88 L 72 54" stroke="var(--fig-skin)" stroke-width="18"/><path d="M 72 54 L 90 16" stroke="var(--fig-accent)" stroke-width="15"/><path d="M 116 88 L 128 54" stroke="var(--fig-skin)" stroke-width="18"/><path d="M 128 54 L 110 16" stroke="var(--fig-accent)" stroke-width="15"/><path d="M 90 152 L 93 206" stroke="var(--fig-shorts)" stroke-width="21"/><path d="M 93 206 L 95 246" stroke="var(--fig-skin)" stroke-width="17"/><path d="M 95 246 L 93 258" stroke="var(--fig-skin)" stroke-width="12"/><path d="M 110 152 L 107 206" stroke="var(--fig-shorts)" stroke-width="21"/><path d="M 107 206 L 105 246" stroke="var(--fig-skin)" stroke-width="17"/><path d="M 105 246 L 107 258" stroke="var(--fig-skin)" stroke-width="12"/></g><circle cx="90" cy="16" r="10" fill="var(--fig-accent)" opacity="0.2"/><circle cx="90" cy="16" r="4" fill="var(--fig-accent)"/><circle cx="110" cy="16" r="10" fill="var(--fig-accent)" opacity="0.2"/><circle cx="110" cy="16" r="4" fill="var(--fig-accent)"/><circle cx="100" cy="56" r="25.5" fill="var(--fig-line)"/><circle cx="100" cy="56" r="22" fill="var(--fig-skin)"/><path d="M 78.0396357042967 54.68 A 22 22 0 0 1 121.9603642957033 54.68 Z" fill="var(--fig-hair)"/></svg></div>
           </div>
           <p class="exercise-cat">Mobility</p>
@@ -468,7 +548,7 @@
         <article class="exercise-card reveal" id="plank-hold" data-cat="core" aria-labelledby="plank-hold-title">
           <div class="exercise-illo">
             <span class="illo-num" aria-hidden="true">10</span>
-            <span class="illo-dur">20 sec</span>
+            <span class="illo-dur">10 sec</span>
             <div class="illo-fig" aria-hidden="true"><svg viewBox="0 0 280 150" width="100%" height="100%" preserveAspectRatio="xMidYMid meet"><path d="M 235 112 Q 250 108 255 96" fill="none" stroke="var(--fig-accent)" stroke-width="3.4" stroke-linecap="round" stroke-dasharray="1 7" opacity="0.7"/><g fill="none" stroke="var(--fig-line)" stroke-linecap="round" stroke-linejoin="round"><path d="M 206 98 L 206 127" stroke-width="25"/><path d="M 206 127 L 240 129" stroke-width="22"/><path d="M 206 98 L 120 92" stroke-width="51"/><path d="M 206 98 L 214 88" stroke-width="23"/><path d="M 120 92 L 66 102" stroke-width="28"/><path d="M 66 102 L 36 116" stroke-width="24"/><path d="M 36 116 L 30 128" stroke-width="19"/></g><g fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M 206 98 L 206 127" stroke="var(--fig-skin)" stroke-width="18"/><path d="M 206 127 L 240 129" stroke="var(--fig-skin)" stroke-width="15"/><path d="M 206 98 L 120 92" stroke="var(--fig-shirt)" stroke-width="44"/><path d="M 206 98 L 214 88" stroke="var(--fig-skin)" stroke-width="16"/><path d="M 120 92 L 66 102" stroke="var(--fig-shorts)" stroke-width="21"/><path d="M 66 102 L 36 116" stroke="var(--fig-skin)" stroke-width="17"/><path d="M 36 116 L 30 128" stroke="var(--fig-skin)" stroke-width="12"/></g><circle cx="220" cy="86" r="21.5" fill="var(--fig-line)"/><circle cx="220" cy="86" r="18" fill="var(--fig-skin)"/><path d="M 202.0324292126064 84.92 A 18 18 0 0 1 237.9675707873936 84.92 Z" fill="var(--fig-hair)"/><circle cx="207.04" cy="85.64" r="6.12" fill="var(--fig-hair)"/></svg></div>
           </div>
           <p class="exercise-cat">Core</p>
@@ -516,7 +596,7 @@
         <article class="exercise-card reveal" id="side-shoulder-taps" data-cat="upper-body" aria-labelledby="side-shoulder-taps-title">
           <div class="exercise-illo">
             <span class="illo-num" aria-hidden="true">14</span>
-            <span class="illo-dur">30 sec</span>
+            <span class="illo-dur">10 sec</span>
             <div class="illo-fig" aria-hidden="true"><svg viewBox="0 0 200 206" width="100%" height="100%" preserveAspectRatio="xMidYMid meet"><g fill="none" stroke="var(--fig-line)" stroke-linecap="round" stroke-linejoin="round"><path d="M 100 74 L 100 150" stroke-width="51"/><path d="M 100 60 L 100 74" stroke-width="23"/><path d="M 78 78 L 52 78" stroke-width="25"/><path d="M 52 78 L 26 78" stroke-width="22"/><path d="M 122 78 L 140 70" stroke-width="25"/><path d="M 140 70 L 124 78" stroke-width="22"/><path d="M 88 150 L 86 206" stroke-width="28"/><path d="M 112 150 L 114 206" stroke-width="28"/></g><g fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M 100 74 L 100 150" stroke="var(--fig-shirt)" stroke-width="44"/><path d="M 100 60 L 100 74" stroke="var(--fig-skin)" stroke-width="16"/><path d="M 78 78 L 52 78" stroke="var(--fig-skin)" stroke-width="18"/><path d="M 52 78 L 26 78" stroke="var(--fig-skin)" stroke-width="15"/><path d="M 122 78 L 140 70" stroke="var(--fig-skin)" stroke-width="18"/><path d="M 140 70 L 124 78" stroke="var(--fig-accent)" stroke-width="15"/><path d="M 88 150 L 86 206" stroke="var(--fig-shorts)" stroke-width="21"/><path d="M 112 150 L 114 206" stroke="var(--fig-shorts)" stroke-width="21"/></g><circle cx="124" cy="78" r="10" fill="var(--fig-accent)" opacity="0.2"/><circle cx="124" cy="78" r="4" fill="var(--fig-accent)"/><circle cx="100" cy="44" r="25.5" fill="var(--fig-line)"/><circle cx="100" cy="44" r="22" fill="var(--fig-skin)"/><path d="M 78.0396357042967 42.68 A 22 22 0 0 1 121.9603642957033 42.68 Z" fill="var(--fig-hair)"/></svg></div>
           </div>
           <p class="exercise-cat">Upper body</p>
@@ -528,7 +608,7 @@
         <article class="exercise-card reveal" id="shoulder-taps" data-cat="core" aria-labelledby="shoulder-taps-title">
           <div class="exercise-illo">
             <span class="illo-num" aria-hidden="true">15</span>
-            <span class="illo-dur">30 sec</span>
+            <span class="illo-dur">10 sec</span>
             <div class="illo-fig" aria-hidden="true"><svg viewBox="0 0 280 150" width="100%" height="100%" preserveAspectRatio="xMidYMid meet"><g fill="none" stroke="var(--fig-line)" stroke-linecap="round" stroke-linejoin="round"><path d="M 206 92 L 206 126" stroke-width="25"/><path d="M 206 92 L 120 86" stroke-width="51"/><path d="M 206 92 L 214 82" stroke-width="23"/><path d="M 206 90 L 192 74" stroke-width="25"/><path d="M 192 74 L 200 88" stroke-width="22"/><path d="M 120 86 L 64 100" stroke-width="28"/><path d="M 64 100 L 34 116" stroke-width="24"/><path d="M 34 116 L 28 126" stroke-width="19"/></g><g fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M 206 92 L 206 126" stroke="var(--fig-skin)" stroke-width="18"/><path d="M 206 92 L 120 86" stroke="var(--fig-shirt)" stroke-width="44"/><path d="M 206 92 L 214 82" stroke="var(--fig-skin)" stroke-width="16"/><path d="M 206 90 L 192 74" stroke="var(--fig-accent)" stroke-width="18"/><path d="M 192 74 L 200 88" stroke="var(--fig-accent)" stroke-width="15"/><path d="M 120 86 L 64 100" stroke="var(--fig-shorts)" stroke-width="21"/><path d="M 64 100 L 34 116" stroke="var(--fig-skin)" stroke-width="17"/><path d="M 34 116 L 28 126" stroke="var(--fig-skin)" stroke-width="12"/></g><circle cx="200" cy="88" r="10" fill="var(--fig-accent)" opacity="0.2"/><circle cx="200" cy="88" r="4" fill="var(--fig-accent)"/><circle cx="218" cy="80" r="21.5" fill="var(--fig-line)"/><circle cx="218" cy="80" r="18" fill="var(--fig-skin)"/><path d="M 200.0324292126064 78.92 A 18 18 0 0 1 235.9675707873936 78.92 Z" fill="var(--fig-hair)"/><circle cx="205.04" cy="79.64" r="6.12" fill="var(--fig-hair)"/></svg></div>
           </div>
           <p class="exercise-cat">Core</p>
@@ -540,7 +620,7 @@
         <article class="exercise-card reveal" id="arm-circles" data-cat="upper-body" aria-labelledby="arm-circles-title">
           <div class="exercise-illo">
             <span class="illo-num" aria-hidden="true">16</span>
-            <span class="illo-dur">30 sec</span>
+            <span class="illo-dur">10 sec</span>
             <div class="illo-fig" aria-hidden="true"><svg viewBox="0 0 200 262" width="100%" height="100%" preserveAspectRatio="xMidYMid meet"><path d="M 20 78 A 8 8 0 1 1 20 76" fill="none" stroke="var(--fig-accent)" stroke-width="3" stroke-linecap="round" opacity="0.95"/><path d="M 180 78 A 8 8 0 1 0 180 76" fill="none" stroke="var(--fig-accent)" stroke-width="3" stroke-linecap="round" opacity="0.95"/><g fill="none" stroke="var(--fig-line)" stroke-linecap="round" stroke-linejoin="round"><path d="M 100 80 L 100 150" stroke-width="51"/><path d="M 100 66 L 100 80" stroke-width="23"/><path d="M 78 84 L 52 76" stroke-width="25"/><path d="M 52 76 L 26 70" stroke-width="22"/><path d="M 122 84 L 148 76" stroke-width="25"/><path d="M 148 76 L 174 70" stroke-width="22"/><path d="M 92 150 L 94 204" stroke-width="28"/><path d="M 94 204 L 94 246" stroke-width="24"/><path d="M 94 246 L 82 250" stroke-width="19"/><path d="M 108 150 L 106 204" stroke-width="28"/><path d="M 106 204 L 106 246" stroke-width="24"/><path d="M 106 246 L 118 250" stroke-width="19"/></g><g fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M 100 80 L 100 150" stroke="var(--fig-shirt)" stroke-width="44"/><path d="M 100 66 L 100 80" stroke="var(--fig-skin)" stroke-width="16"/><path d="M 78 84 L 52 76" stroke="var(--fig-skin)" stroke-width="18"/><path d="M 52 76 L 26 70" stroke="var(--fig-skin)" stroke-width="15"/><path d="M 122 84 L 148 76" stroke="var(--fig-skin)" stroke-width="18"/><path d="M 148 76 L 174 70" stroke="var(--fig-skin)" stroke-width="15"/><path d="M 92 150 L 94 204" stroke="var(--fig-shorts)" stroke-width="21"/><path d="M 94 204 L 94 246" stroke="var(--fig-skin)" stroke-width="17"/><path d="M 94 246 L 82 250" stroke="var(--fig-skin)" stroke-width="12"/><path d="M 108 150 L 106 204" stroke="var(--fig-shorts)" stroke-width="21"/><path d="M 106 204 L 106 246" stroke="var(--fig-skin)" stroke-width="17"/><path d="M 106 246 L 118 250" stroke="var(--fig-skin)" stroke-width="12"/></g><circle cx="100" cy="50" r="25.5" fill="var(--fig-line)"/><circle cx="100" cy="50" r="22" fill="var(--fig-skin)"/><path d="M 78.0396357042967 48.68 A 22 22 0 0 1 121.9603642957033 48.68 Z" fill="var(--fig-hair)"/></svg></div>
           </div>
           <p class="exercise-cat">Upper body</p>
@@ -552,7 +632,7 @@
         <article class="exercise-card reveal" id="jumping-jacks" data-cat="cardio" aria-labelledby="jumping-jacks-title">
           <div class="exercise-illo">
             <span class="illo-num" aria-hidden="true">17</span>
-            <span class="illo-dur">30 sec</span>
+            <span class="illo-dur">10 sec</span>
             <div class="illo-fig" aria-hidden="true"><svg viewBox="0 0 200 262" width="100%" height="100%" preserveAspectRatio="xMidYMid meet"><g fill="none" stroke="var(--fig-line)" stroke-linecap="round" stroke-linejoin="round" opacity="0.16"><path d="M 100 80 L 100 150" stroke-width="44"/><path d="M 78 84 L 72 118" stroke-width="18"/><path d="M 72 118 L 70 150" stroke-width="15"/><path d="M 122 84 L 128 118" stroke-width="18"/><path d="M 128 118 L 130 150" stroke-width="15"/><path d="M 90 150 L 94 204" stroke-width="21"/><path d="M 94 204 L 94 246" stroke-width="17"/><path d="M 110 150 L 106 204" stroke-width="21"/><path d="M 106 204 L 106 246" stroke-width="17"/></g><path d="M 46 96 Q 40 58 74 40" fill="none" stroke="var(--fig-accent)" stroke-width="4" stroke-linecap="round" stroke-dasharray="1 9" opacity="0.95"/><path d="M 154 96 Q 160 58 126 40" fill="none" stroke="var(--fig-accent)" stroke-width="4" stroke-linecap="round" stroke-dasharray="1 9" opacity="0.95"/><g fill="none" stroke="var(--fig-line)" stroke-linecap="round" stroke-linejoin="round"><path d="M 100 82 L 100 150" stroke-width="51"/><path d="M 100 68 L 100 82" stroke-width="23"/><path d="M 80 84 L 70 52" stroke-width="25"/><path d="M 70 52 L 90 26" stroke-width="22"/><path d="M 120 84 L 130 52" stroke-width="25"/><path d="M 130 52 L 110 26" stroke-width="22"/><path d="M 86 150 L 64 198" stroke-width="28"/><path d="M 64 198 L 52 242" stroke-width="24"/><path d="M 52 242 L 40 246" stroke-width="19"/><path d="M 114 150 L 136 198" stroke-width="28"/><path d="M 136 198 L 148 242" stroke-width="24"/><path d="M 148 242 L 160 246" stroke-width="19"/></g><g fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M 100 82 L 100 150" stroke="var(--fig-shirt)" stroke-width="44"/><path d="M 100 68 L 100 82" stroke="var(--fig-skin)" stroke-width="16"/><path d="M 80 84 L 70 52" stroke="var(--fig-skin)" stroke-width="18"/><path d="M 70 52 L 90 26" stroke="var(--fig-accent)" stroke-width="15"/><path d="M 120 84 L 130 52" stroke="var(--fig-skin)" stroke-width="18"/><path d="M 130 52 L 110 26" stroke="var(--fig-accent)" stroke-width="15"/><path d="M 86 150 L 64 198" stroke="var(--fig-shorts)" stroke-width="21"/><path d="M 64 198 L 52 242" stroke="var(--fig-skin)" stroke-width="17"/><path d="M 52 242 L 40 246" stroke="var(--fig-skin)" stroke-width="12"/><path d="M 114 150 L 136 198" stroke="var(--fig-shorts)" stroke-width="21"/><path d="M 136 198 L 148 242" stroke="var(--fig-skin)" stroke-width="17"/><path d="M 148 242 L 160 246" stroke="var(--fig-skin)" stroke-width="12"/></g><circle cx="90" cy="26" r="10" fill="var(--fig-accent)" opacity="0.2"/><circle cx="90" cy="26" r="4" fill="var(--fig-accent)"/><circle cx="110" cy="26" r="10" fill="var(--fig-accent)" opacity="0.2"/><circle cx="110" cy="26" r="4" fill="var(--fig-accent)"/><circle cx="100" cy="52" r="25.5" fill="var(--fig-line)"/><circle cx="100" cy="52" r="22" fill="var(--fig-skin)"/><path d="M 78.0396357042967 50.68 A 22 22 0 0 1 121.9603642957033 50.68 Z" fill="var(--fig-hair)"/></svg></div>
           </div>
           <p class="exercise-cat">Cardio</p>
@@ -564,7 +644,7 @@
         <article class="exercise-card reveal" id="seal-jacks" data-cat="cardio" aria-labelledby="seal-jacks-title">
           <div class="exercise-illo">
             <span class="illo-num" aria-hidden="true">18</span>
-            <span class="illo-dur">30 sec</span>
+            <span class="illo-dur">10 sec</span>
             <div class="illo-fig" aria-hidden="true"><svg viewBox="0 0 200 262" width="100%" height="100%" preserveAspectRatio="xMidYMid meet"><g fill="none" stroke="var(--fig-line)" stroke-linecap="round" stroke-linejoin="round"><path d="M 100 80 L 100 150" stroke-width="51"/><path d="M 100 66 L 100 80" stroke-width="23"/><path d="M 78 86 L 90 96" stroke-width="25"/><path d="M 90 96 L 100 102" stroke-width="22"/><path d="M 122 86 L 110 96" stroke-width="25"/><path d="M 110 96 L 100 102" stroke-width="22"/><path d="M 86 150 L 64 198" stroke-width="28"/><path d="M 64 198 L 52 242" stroke-width="24"/><path d="M 52 242 L 40 246" stroke-width="19"/><path d="M 114 150 L 136 198" stroke-width="28"/><path d="M 136 198 L 148 242" stroke-width="24"/><path d="M 148 242 L 160 246" stroke-width="19"/></g><g fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M 100 80 L 100 150" stroke="var(--fig-shirt)" stroke-width="44"/><path d="M 100 66 L 100 80" stroke="var(--fig-skin)" stroke-width="16"/><path d="M 78 86 L 90 96" stroke="var(--fig-skin)" stroke-width="18"/><path d="M 90 96 L 100 102" stroke="var(--fig-accent)" stroke-width="15"/><path d="M 122 86 L 110 96" stroke="var(--fig-skin)" stroke-width="18"/><path d="M 110 96 L 100 102" stroke="var(--fig-accent)" stroke-width="15"/><path d="M 86 150 L 64 198" stroke="var(--fig-shorts)" stroke-width="21"/><path d="M 64 198 L 52 242" stroke="var(--fig-skin)" stroke-width="17"/><path d="M 52 242 L 40 246" stroke="var(--fig-skin)" stroke-width="12"/><path d="M 114 150 L 136 198" stroke="var(--fig-shorts)" stroke-width="21"/><path d="M 136 198 L 148 242" stroke="var(--fig-skin)" stroke-width="17"/><path d="M 148 242 L 160 246" stroke="var(--fig-skin)" stroke-width="12"/></g><circle cx="100" cy="102" r="10" fill="var(--fig-accent)" opacity="0.2"/><circle cx="100" cy="102" r="4" fill="var(--fig-accent)"/><circle cx="100" cy="50" r="25.5" fill="var(--fig-line)"/><circle cx="100" cy="50" r="22" fill="var(--fig-skin)"/><path d="M 78.0396357042967 48.68 A 22 22 0 0 1 121.9603642957033 48.68 Z" fill="var(--fig-hair)"/></svg></div>
           </div>
           <p class="exercise-cat">Cardio</p>
@@ -576,7 +656,7 @@
         <article class="exercise-card reveal" id="step-jacks" data-cat="cardio" aria-labelledby="step-jacks-title">
           <div class="exercise-illo">
             <span class="illo-num" aria-hidden="true">19</span>
-            <span class="illo-dur">30 sec</span>
+            <span class="illo-dur">10 sec</span>
             <div class="illo-fig" aria-hidden="true"><svg viewBox="0 0 200 262" width="100%" height="100%" preserveAspectRatio="xMidYMid meet"><g fill="none" stroke="var(--fig-line)" stroke-linecap="round" stroke-linejoin="round"><path d="M 100 80 L 100 150" stroke-width="51"/><path d="M 100 66 L 100 80" stroke-width="23"/><path d="M 80 84 L 74 52" stroke-width="25"/><path d="M 74 52 L 90 24" stroke-width="22"/><path d="M 120 84 L 126 52" stroke-width="25"/><path d="M 126 52 L 110 24" stroke-width="22"/><path d="M 92 150 L 74 200" stroke-width="28"/><path d="M 74 200 L 60 246" stroke-width="24"/><path d="M 60 246 L 48 250" stroke-width="19"/><path d="M 110 150 L 110 204" stroke-width="28"/><path d="M 110 204 L 110 246" stroke-width="24"/><path d="M 110 246 L 122 250" stroke-width="19"/></g><g fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M 100 80 L 100 150" stroke="var(--fig-shirt)" stroke-width="44"/><path d="M 100 66 L 100 80" stroke="var(--fig-skin)" stroke-width="16"/><path d="M 80 84 L 74 52" stroke="var(--fig-skin)" stroke-width="18"/><path d="M 74 52 L 90 24" stroke="var(--fig-skin)" stroke-width="15"/><path d="M 120 84 L 126 52" stroke="var(--fig-skin)" stroke-width="18"/><path d="M 126 52 L 110 24" stroke="var(--fig-skin)" stroke-width="15"/><path d="M 92 150 L 74 200" stroke="var(--fig-shorts)" stroke-width="21"/><path d="M 74 200 L 60 246" stroke="var(--fig-skin)" stroke-width="17"/><path d="M 60 246 L 48 250" stroke="var(--fig-skin)" stroke-width="12"/><path d="M 110 150 L 110 204" stroke="var(--fig-shorts)" stroke-width="21"/><path d="M 110 204 L 110 246" stroke="var(--fig-skin)" stroke-width="17"/><path d="M 110 246 L 122 250" stroke="var(--fig-skin)" stroke-width="12"/></g><circle cx="90" cy="24" r="10" fill="var(--fig-accent)" opacity="0.2"/><circle cx="90" cy="24" r="4" fill="var(--fig-accent)"/><circle cx="110" cy="24" r="10" fill="var(--fig-accent)" opacity="0.2"/><circle cx="110" cy="24" r="4" fill="var(--fig-accent)"/><circle cx="100" cy="50" r="25.5" fill="var(--fig-line)"/><circle cx="100" cy="50" r="22" fill="var(--fig-skin)"/><path d="M 78.0396357042967 48.68 A 22 22 0 0 1 121.9603642957033 48.68 Z" fill="var(--fig-hair)"/></svg></div>
           </div>
           <p class="exercise-cat">Cardio</p>
@@ -588,7 +668,7 @@
         <article class="exercise-card reveal" id="side-jacks" data-cat="cardio" aria-labelledby="side-jacks-title">
           <div class="exercise-illo">
             <span class="illo-num" aria-hidden="true">20</span>
-            <span class="illo-dur">30 sec</span>
+            <span class="illo-dur">10 sec</span>
             <div class="illo-fig" aria-hidden="true"><svg viewBox="0 0 200 262" width="100%" height="100%" preserveAspectRatio="xMidYMid meet"><path d="M 128 120 Q 100 70 78 44" fill="none" stroke="var(--fig-accent)" stroke-width="4" stroke-linecap="round" stroke-dasharray="1 9" opacity="0.95"/><g fill="none" stroke="var(--fig-line)" stroke-linecap="round" stroke-linejoin="round"><path d="M 94 80 L 100 150" stroke-width="51"/><path d="M 92 66 L 93 80" stroke-width="23"/><path d="M 78 84 L 66 60" stroke-width="25"/><path d="M 66 60 L 80 38" stroke-width="22"/><path d="M 110 84 L 102 58" stroke-width="25"/><path d="M 102 58 L 116 40" stroke-width="22"/><path d="M 96 150 L 86 196" stroke-width="28"/><path d="M 86 196 L 78 232" stroke-width="24"/><path d="M 78 232 L 66 236" stroke-width="19"/><path d="M 112 150 L 120 196" stroke-width="28"/><path d="M 120 196 L 116 230" stroke-width="24"/><path d="M 116 230 L 126 234" stroke-width="19"/></g><g fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M 94 80 L 100 150" stroke="var(--fig-shirt)" stroke-width="44"/><path d="M 92 66 L 93 80" stroke="var(--fig-skin)" stroke-width="16"/><path d="M 78 84 L 66 60" stroke="var(--fig-skin)" stroke-width="18"/><path d="M 66 60 L 80 38" stroke="var(--fig-accent)" stroke-width="15"/><path d="M 110 84 L 102 58" stroke="var(--fig-skin)" stroke-width="18"/><path d="M 102 58 L 116 40" stroke="var(--fig-accent)" stroke-width="15"/><path d="M 96 150 L 86 196" stroke="var(--fig-shorts)" stroke-width="21"/><path d="M 86 196 L 78 232" stroke="var(--fig-skin)" stroke-width="17"/><path d="M 78 232 L 66 236" stroke="var(--fig-skin)" stroke-width="12"/><path d="M 112 150 L 120 196" stroke="var(--fig-shorts)" stroke-width="21"/><path d="M 120 196 L 116 230" stroke="var(--fig-skin)" stroke-width="17"/><path d="M 116 230 L 126 234" stroke="var(--fig-skin)" stroke-width="12"/></g><circle cx="92" cy="50" r="25.5" fill="var(--fig-line)"/><circle cx="92" cy="50" r="22" fill="var(--fig-skin)"/><path d="M 70.0396357042967 48.68 A 22 22 0 0 1 113.9603642957033 48.68 Z" fill="var(--fig-hair)"/></svg></div>
           </div>
           <p class="exercise-cat">Cardio</p>
@@ -612,7 +692,7 @@
         <article class="exercise-card reveal" id="butt-kicks" data-cat="cardio" aria-labelledby="butt-kicks-title">
           <div class="exercise-illo">
             <span class="illo-num" aria-hidden="true">22</span>
-            <span class="illo-dur">30 sec</span>
+            <span class="illo-dur">10 sec</span>
             <div class="illo-fig" aria-hidden="true"><svg viewBox="0 0 210 262" width="100%" height="100%" preserveAspectRatio="xMidYMid meet"><path d="M 110 200 Q 88 200 82 180" fill="none" stroke="var(--fig-accent)" stroke-width="4" stroke-linecap="round" stroke-dasharray="1 8" opacity="0.95"/><g fill="none" stroke="var(--fig-line)" stroke-linecap="round" stroke-linejoin="round"><path d="M 100 84 L 116 108" stroke-width="25" opacity="0.4"/><path d="M 116 108 L 108 128" stroke-width="22" opacity="0.4"/><path d="M 98 82 L 100 150" stroke-width="51"/><path d="M 98 66 L 98 82" stroke-width="23"/><path d="M 102 84 L 88 108" stroke-width="25"/><path d="M 88 108 L 96 126" stroke-width="22"/><path d="M 104 150 L 104 200" stroke-width="24"/><path d="M 104 200 L 104 244" stroke-width="24"/><path d="M 104 244 L 120 246" stroke-width="19"/><path d="M 96 150 L 100 196" stroke-width="28"/><path d="M 100 196 L 80 178" stroke-width="24"/><path d="M 80 178 L 74 166" stroke-width="19"/></g><g fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M 100 84 L 116 108" stroke="var(--fig-skin)" stroke-width="18" opacity="0.4"/><path d="M 116 108 L 108 128" stroke="var(--fig-skin)" stroke-width="15" opacity="0.4"/><path d="M 98 82 L 100 150" stroke="var(--fig-shirt)" stroke-width="44"/><path d="M 98 66 L 98 82" stroke="var(--fig-skin)" stroke-width="16"/><path d="M 102 84 L 88 108" stroke="var(--fig-skin)" stroke-width="18"/><path d="M 88 108 L 96 126" stroke="var(--fig-skin)" stroke-width="15"/><path d="M 104 150 L 104 200" stroke="var(--fig-skin)" stroke-width="17"/><path d="M 104 200 L 104 244" stroke="var(--fig-skin)" stroke-width="17"/><path d="M 104 244 L 120 246" stroke="var(--fig-skin)" stroke-width="12"/><path d="M 96 150 L 100 196" stroke="var(--fig-accent)" stroke-width="21"/><path d="M 100 196 L 80 178" stroke="var(--fig-skin)" stroke-width="17"/><path d="M 80 178 L 74 166" stroke="var(--fig-skin)" stroke-width="12"/></g><circle cx="80" cy="178" r="10" fill="var(--fig-accent)" opacity="0.2"/><circle cx="80" cy="178" r="4" fill="var(--fig-accent)"/><circle cx="100" cy="50" r="25.5" fill="var(--fig-line)"/><circle cx="100" cy="50" r="22" fill="var(--fig-skin)"/><path d="M 78.0396357042967 48.68 A 22 22 0 0 1 121.9603642957033 48.68 Z" fill="var(--fig-hair)"/><circle cx="84.16" cy="49.56" r="7.48" fill="var(--fig-hair)"/></svg></div>
           </div>
           <p class="exercise-cat">Cardio</p>
@@ -660,7 +740,7 @@
         <article class="exercise-card reveal" id="squat-hold" data-cat="lower-body" aria-labelledby="squat-hold-title">
           <div class="exercise-illo">
             <span class="illo-num" aria-hidden="true">26</span>
-            <span class="illo-dur">20 sec</span>
+            <span class="illo-dur">10 sec</span>
             <div class="illo-fig" aria-hidden="true"><svg viewBox="0 0 210 264" width="100%" height="100%" preserveAspectRatio="xMidYMid meet"><g fill="none" stroke="var(--fig-line)" stroke-linecap="round" stroke-linejoin="round"><path d="M 86 150 L 116 174" stroke-width="28" opacity="0.4"/><path d="M 116 174 L 106 248" stroke-width="24" opacity="0.4"/><path d="M 106 248 L 124 252" stroke-width="19" opacity="0.4"/><path d="M 86 148 L 112 116" stroke-width="51"/><path d="M 112 116 L 118 98" stroke-width="23"/><path d="M 114 118 L 144 116" stroke-width="25"/><path d="M 144 116 L 168 120" stroke-width="22"/><path d="M 86 150 L 124 168" stroke-width="28"/><path d="M 124 168 L 114 248" stroke-width="24"/><path d="M 114 248 L 134 252" stroke-width="19"/></g><g fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M 86 150 L 116 174" stroke="var(--fig-shorts)" stroke-width="21" opacity="0.4"/><path d="M 116 174 L 106 248" stroke="var(--fig-skin)" stroke-width="17" opacity="0.4"/><path d="M 106 248 L 124 252" stroke="var(--fig-skin)" stroke-width="12" opacity="0.4"/><path d="M 86 148 L 112 116" stroke="var(--fig-shirt)" stroke-width="44"/><path d="M 112 116 L 118 98" stroke="var(--fig-skin)" stroke-width="16"/><path d="M 114 118 L 144 116" stroke="var(--fig-skin)" stroke-width="18"/><path d="M 144 116 L 168 120" stroke="var(--fig-skin)" stroke-width="15"/><path d="M 86 150 L 124 168" stroke="var(--fig-accent)" stroke-width="21"/><path d="M 124 168 L 114 248" stroke="var(--fig-skin)" stroke-width="17"/><path d="M 114 248 L 134 252" stroke="var(--fig-skin)" stroke-width="12"/></g><circle cx="92" cy="150" r="11" fill="var(--fig-accent)" opacity="0.2"/><circle cx="92" cy="150" r="5" fill="var(--fig-accent)"/><circle cx="120" cy="94" r="25.5" fill="var(--fig-line)"/><circle cx="120" cy="94" r="22" fill="var(--fig-skin)"/><path d="M 98.0396357042967 92.68 A 22 22 0 0 1 141.9603642957033 92.68 Z" fill="var(--fig-hair)"/><circle cx="104.16" cy="93.56" r="7.48" fill="var(--fig-hair)"/></svg></div>
           </div>
           <p class="exercise-cat">Lower body</p>
@@ -672,7 +752,7 @@
         <article class="exercise-card reveal" id="scissor-chops" data-cat="upper-body" aria-labelledby="scissor-chops-title">
           <div class="exercise-illo">
             <span class="illo-num" aria-hidden="true">27</span>
-            <span class="illo-dur">30 sec</span>
+            <span class="illo-dur">10 sec</span>
             <div class="illo-fig" aria-hidden="true"><svg viewBox="0 0 200 240" width="100%" height="100%" preserveAspectRatio="xMidYMid meet"><g fill="none" stroke="var(--fig-line)" stroke-linecap="round" stroke-linejoin="round"><path d="M 100 76 L 100 168" stroke-width="51"/><path d="M 100 62 L 100 76" stroke-width="23"/><path d="M 122 80 L 150 58" stroke-width="25"/><path d="M 150 58 L 176 40" stroke-width="22"/><path d="M 80 82 L 96 120" stroke-width="25"/><path d="M 96 120 L 120 150" stroke-width="22"/><path d="M 90 168 L 88 206" stroke-width="28"/><path d="M 110 168 L 112 206" stroke-width="28"/></g><g fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M 100 76 L 100 168" stroke="var(--fig-shirt)" stroke-width="44"/><path d="M 100 62 L 100 76" stroke="var(--fig-skin)" stroke-width="16"/><path d="M 122 80 L 150 58" stroke="var(--fig-skin)" stroke-width="18"/><path d="M 150 58 L 176 40" stroke="var(--fig-accent)" stroke-width="15"/><path d="M 80 82 L 96 120" stroke="var(--fig-skin)" stroke-width="18"/><path d="M 96 120 L 120 150" stroke="var(--fig-skin)" stroke-width="15"/><path d="M 90 168 L 88 206" stroke="var(--fig-shorts)" stroke-width="21"/><path d="M 110 168 L 112 206" stroke="var(--fig-shorts)" stroke-width="21"/></g><circle cx="176" cy="40" r="10" fill="var(--fig-accent)" opacity="0.2"/><circle cx="176" cy="40" r="4" fill="var(--fig-accent)"/><circle cx="100" cy="46" r="25.5" fill="var(--fig-line)"/><circle cx="100" cy="46" r="22" fill="var(--fig-skin)"/><path d="M 78.0396357042967 44.68 A 22 22 0 0 1 121.9603642957033 44.68 Z" fill="var(--fig-hair)"/></svg></div>
           </div>
           <p class="exercise-cat">Upper body</p>
@@ -684,7 +764,7 @@
         <article class="exercise-card reveal" id="arm-scissors" data-cat="upper-body" aria-labelledby="arm-scissors-title">
           <div class="exercise-illo">
             <span class="illo-num" aria-hidden="true">28</span>
-            <span class="illo-dur">30 sec</span>
+            <span class="illo-dur">10 sec</span>
             <div class="illo-fig" aria-hidden="true"><svg viewBox="0 0 200 206" width="100%" height="100%" preserveAspectRatio="xMidYMid meet"><g fill="none" stroke="var(--fig-line)" stroke-linecap="round" stroke-linejoin="round"><path d="M 100 74 L 100 150" stroke-width="51"/><path d="M 100 60 L 100 74" stroke-width="23"/><path d="M 80 82 L 110 92" stroke-width="25"/><path d="M 110 92 L 140 98" stroke-width="22"/><path d="M 120 80 L 90 90" stroke-width="25"/><path d="M 90 90 L 60 96" stroke-width="22"/><path d="M 88 150 L 86 206" stroke-width="28"/><path d="M 112 150 L 114 206" stroke-width="28"/></g><g fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M 100 74 L 100 150" stroke="var(--fig-shirt)" stroke-width="44"/><path d="M 100 60 L 100 74" stroke="var(--fig-skin)" stroke-width="16"/><path d="M 80 82 L 110 92" stroke="var(--fig-skin)" stroke-width="18"/><path d="M 110 92 L 140 98" stroke="var(--fig-skin)" stroke-width="15"/><path d="M 120 80 L 90 90" stroke="var(--fig-skin)" stroke-width="18"/><path d="M 90 90 L 60 96" stroke="var(--fig-skin)" stroke-width="15"/><path d="M 88 150 L 86 206" stroke="var(--fig-shorts)" stroke-width="21"/><path d="M 112 150 L 114 206" stroke="var(--fig-shorts)" stroke-width="21"/></g><circle cx="100" cy="44" r="25.5" fill="var(--fig-line)"/><circle cx="100" cy="44" r="22" fill="var(--fig-skin)"/><path d="M 78.0396357042967 42.68 A 22 22 0 0 1 121.9603642957033 42.68 Z" fill="var(--fig-hair)"/></svg></div>
           </div>
           <p class="exercise-cat">Upper body</p>
@@ -696,7 +776,7 @@
         <article class="exercise-card reveal" id="arm-raises" data-cat="upper-body" aria-labelledby="arm-raises-title">
           <div class="exercise-illo">
             <span class="illo-num" aria-hidden="true">29</span>
-            <span class="illo-dur">30 sec</span>
+            <span class="illo-dur">10 sec</span>
             <div class="illo-fig" aria-hidden="true"><svg viewBox="0 0 200 262" width="100%" height="100%" preserveAspectRatio="xMidYMid meet"><g fill="none" stroke="var(--fig-line)" stroke-linecap="round" stroke-linejoin="round"><path d="M 100 84 L 100 152" stroke-width="51"/><path d="M 100 70 L 100 84" stroke-width="23"/><path d="M 84 86 L 78 50" stroke-width="25"/><path d="M 78 50 L 84 16" stroke-width="22"/><path d="M 116 86 L 122 50" stroke-width="25"/><path d="M 122 50 L 116 16" stroke-width="22"/><path d="M 92 152 L 94 204" stroke-width="28"/><path d="M 94 204 L 94 246" stroke-width="24"/><path d="M 94 246 L 82 250" stroke-width="19"/><path d="M 108 152 L 106 204" stroke-width="28"/><path d="M 106 204 L 106 246" stroke-width="24"/><path d="M 106 246 L 118 250" stroke-width="19"/></g><g fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M 100 84 L 100 152" stroke="var(--fig-shirt)" stroke-width="44"/><path d="M 100 70 L 100 84" stroke="var(--fig-skin)" stroke-width="16"/><path d="M 84 86 L 78 50" stroke="var(--fig-skin)" stroke-width="18"/><path d="M 78 50 L 84 16" stroke="var(--fig-skin)" stroke-width="15"/><path d="M 116 86 L 122 50" stroke="var(--fig-skin)" stroke-width="18"/><path d="M 122 50 L 116 16" stroke="var(--fig-skin)" stroke-width="15"/><path d="M 92 152 L 94 204" stroke="var(--fig-shorts)" stroke-width="21"/><path d="M 94 204 L 94 246" stroke="var(--fig-skin)" stroke-width="17"/><path d="M 94 246 L 82 250" stroke="var(--fig-skin)" stroke-width="12"/><path d="M 108 152 L 106 204" stroke="var(--fig-shorts)" stroke-width="21"/><path d="M 106 204 L 106 246" stroke="var(--fig-skin)" stroke-width="17"/><path d="M 106 246 L 118 250" stroke="var(--fig-skin)" stroke-width="12"/></g><circle cx="100" cy="54" r="25.5" fill="var(--fig-line)"/><circle cx="100" cy="54" r="22" fill="var(--fig-skin)"/><path d="M 78.0396357042967 52.68 A 22 22 0 0 1 121.9603642957033 52.68 Z" fill="var(--fig-hair)"/></svg></div>
           </div>
           <p class="exercise-cat">Upper body</p>
@@ -708,7 +788,7 @@
         <article class="exercise-card reveal" id="chest-expansions" data-cat="upper-body" aria-labelledby="chest-expansions-title">
           <div class="exercise-illo">
             <span class="illo-num" aria-hidden="true">30</span>
-            <span class="illo-dur">30 sec</span>
+            <span class="illo-dur">10 sec</span>
             <div class="illo-fig" aria-hidden="true"><svg viewBox="0 0 200 206" width="100%" height="100%" preserveAspectRatio="xMidYMid meet"><g fill="none" stroke="var(--fig-line)" stroke-linecap="round" stroke-linejoin="round"><path d="M 100 74 L 100 150" stroke-width="51"/><path d="M 100 60 L 100 74" stroke-width="23"/><path d="M 80 80 L 56 96" stroke-width="25"/><path d="M 56 96 L 44 120" stroke-width="22"/><path d="M 120 80 L 144 96" stroke-width="25"/><path d="M 144 96 L 156 120" stroke-width="22"/><path d="M 88 150 L 86 206" stroke-width="28"/><path d="M 112 150 L 114 206" stroke-width="28"/></g><g fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M 100 74 L 100 150" stroke="var(--fig-shirt)" stroke-width="44"/><path d="M 100 60 L 100 74" stroke="var(--fig-skin)" stroke-width="16"/><path d="M 80 80 L 56 96" stroke="var(--fig-skin)" stroke-width="18"/><path d="M 56 96 L 44 120" stroke="var(--fig-skin)" stroke-width="15"/><path d="M 120 80 L 144 96" stroke="var(--fig-skin)" stroke-width="18"/><path d="M 144 96 L 156 120" stroke="var(--fig-skin)" stroke-width="15"/><path d="M 88 150 L 86 206" stroke="var(--fig-shorts)" stroke-width="21"/><path d="M 112 150 L 114 206" stroke="var(--fig-shorts)" stroke-width="21"/></g><circle cx="100" cy="72" r="11" fill="var(--fig-accent)" opacity="0.2"/><circle cx="100" cy="72" r="5" fill="var(--fig-accent)"/><circle cx="100" cy="44" r="25.5" fill="var(--fig-line)"/><circle cx="100" cy="44" r="22" fill="var(--fig-skin)"/><path d="M 78.0396357042967 42.68 A 22 22 0 0 1 121.9603642957033 42.68 Z" fill="var(--fig-hair)"/></svg></div>
           </div>
           <p class="exercise-cat">Upper body</p>
@@ -732,7 +812,7 @@
         <article class="exercise-card reveal" id="split-jacks" data-cat="cardio" aria-labelledby="split-jacks-title">
           <div class="exercise-illo">
             <span class="illo-num" aria-hidden="true">32</span>
-            <span class="illo-dur">30 sec</span>
+            <span class="illo-dur">10 sec</span>
             <div class="illo-fig" aria-hidden="true"><svg viewBox="0 0 220 262" width="100%" height="100%" preserveAspectRatio="xMidYMid meet"><path d="M 60 248 Q 106 240 158 246" fill="none" stroke="var(--fig-accent)" stroke-width="3.4" stroke-linecap="round" stroke-dasharray="1 7" opacity="0.5"/><g fill="none" stroke="var(--fig-line)" stroke-linecap="round" stroke-linejoin="round"><path d="M 104 80 L 88 104" stroke-width="25" opacity="0.4"/><path d="M 88 104 L 78 128" stroke-width="22" opacity="0.4"/><path d="M 104 78 L 104 148" stroke-width="51"/><path d="M 104 62 L 104 78" stroke-width="23"/><path d="M 108 80 L 126 100" stroke-width="25"/><path d="M 126 100 L 142 112" stroke-width="22"/><path d="M 98 148 L 72 182" stroke-width="28"/><path d="M 72 182 L 54 214" stroke-width="24"/><path d="M 54 214 L 42 216" stroke-width="19"/><path d="M 110 148 L 138 184" stroke-width="28"/><path d="M 138 184 L 160 214" stroke-width="24"/><path d="M 160 214 L 172 216" stroke-width="19"/></g><g fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M 104 80 L 88 104" stroke="var(--fig-skin)" stroke-width="18" opacity="0.4"/><path d="M 88 104 L 78 128" stroke="var(--fig-skin)" stroke-width="15" opacity="0.4"/><path d="M 104 78 L 104 148" stroke="var(--fig-shirt)" stroke-width="44"/><path d="M 104 62 L 104 78" stroke="var(--fig-skin)" stroke-width="16"/><path d="M 108 80 L 126 100" stroke="var(--fig-skin)" stroke-width="18"/><path d="M 126 100 L 142 112" stroke="var(--fig-skin)" stroke-width="15"/><path d="M 98 148 L 72 182" stroke="var(--fig-shorts)" stroke-width="21"/><path d="M 72 182 L 54 214" stroke="var(--fig-skin)" stroke-width="17"/><path d="M 54 214 L 42 216" stroke="var(--fig-skin)" stroke-width="12"/><path d="M 110 148 L 138 184" stroke="var(--fig-shorts)" stroke-width="21"/><path d="M 138 184 L 160 214" stroke="var(--fig-skin)" stroke-width="17"/><path d="M 160 214 L 172 216" stroke="var(--fig-skin)" stroke-width="12"/></g><circle cx="104" cy="48" r="25.5" fill="var(--fig-line)"/><circle cx="104" cy="48" r="22" fill="var(--fig-skin)"/><path d="M 82.0396357042967 46.68 A 22 22 0 0 1 125.9603642957033 46.68 Z" fill="var(--fig-hair)"/><circle cx="88.16" cy="47.56" r="7.48" fill="var(--fig-hair)"/></svg></div>
           </div>
           <p class="exercise-cat">Cardio</p>
@@ -744,7 +824,7 @@
         <article class="exercise-card reveal" id="air-bike-crunches" data-cat="core" aria-labelledby="air-bike-crunches-title">
           <div class="exercise-illo">
             <span class="illo-num" aria-hidden="true">33</span>
-            <span class="illo-dur">30 sec</span>
+            <span class="illo-dur">10 sec</span>
             <div class="illo-fig" aria-hidden="true"><svg viewBox="0 0 280 150" width="100%" height="100%" preserveAspectRatio="xMidYMid meet"><g fill="none" stroke="var(--fig-line)" stroke-linecap="round" stroke-linejoin="round"><path d="M 92 106 L 150 108" stroke-width="51"/><path d="M 80 98 L 92 106" stroke-width="23"/><path d="M 150 108 L 200 70" stroke-width="28" opacity="0.5"/><path d="M 200 70 L 232 58" stroke-width="24" opacity="0.5"/><path d="M 96 102 L 120 78" stroke-width="25"/><path d="M 120 78 L 140 68" stroke-width="22"/><path d="M 150 108 L 158 80" stroke-width="28"/><path d="M 158 80 L 150 108" stroke-width="24"/></g><g fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M 92 106 L 150 108" stroke="var(--fig-shirt)" stroke-width="44"/><path d="M 80 98 L 92 106" stroke="var(--fig-skin)" stroke-width="16"/><path d="M 150 108 L 200 70" stroke="var(--fig-shorts)" stroke-width="21" opacity="0.5"/><path d="M 200 70 L 232 58" stroke="var(--fig-skin)" stroke-width="17" opacity="0.5"/><path d="M 96 102 L 120 78" stroke="var(--fig-accent)" stroke-width="18"/><path d="M 120 78 L 140 68" stroke="var(--fig-accent)" stroke-width="15"/><path d="M 150 108 L 158 80" stroke="var(--fig-accent)" stroke-width="21"/><path d="M 158 80 L 150 108" stroke="var(--fig-skin)" stroke-width="17"/></g><circle cx="140" cy="68" r="10" fill="var(--fig-accent)" opacity="0.2"/><circle cx="140" cy="68" r="4" fill="var(--fig-accent)"/><circle cx="70" cy="100" r="20.5" fill="var(--fig-line)"/><circle cx="70" cy="100" r="17" fill="var(--fig-skin)"/><path d="M 53.03062758968382 98.98 A 17 17 0 0 1 86.96937241031618 98.98 Z" fill="var(--fig-hair)"/><circle cx="57.76" cy="99.66" r="5.78" fill="var(--fig-hair)"/></svg></div>
           </div>
           <p class="exercise-cat">Core</p>
@@ -756,7 +836,7 @@
         <article class="exercise-card reveal" id="scissors" data-cat="core" aria-labelledby="scissors-title">
           <div class="exercise-illo">
             <span class="illo-num" aria-hidden="true">34</span>
-            <span class="illo-dur">30 sec</span>
+            <span class="illo-dur">10 sec</span>
             <div class="illo-fig" aria-hidden="true"><svg viewBox="0 0 280 150" width="100%" height="100%" preserveAspectRatio="xMidYMid meet"><g fill="none" stroke="var(--fig-line)" stroke-linecap="round" stroke-linejoin="round"><path d="M 62 116 L 150 116" stroke-width="51"/><path d="M 52 112 L 62 116" stroke-width="23"/><path d="M 70 120 L 96 126" stroke-width="25"/><path d="M 96 126 L 120 128" stroke-width="22"/><path d="M 150 116 L 206 116" stroke-width="28" opacity="0.55"/><path d="M 206 116 L 236 112" stroke-width="24" opacity="0.55"/><path d="M 150 114 L 196 78" stroke-width="28"/><path d="M 196 78 L 224 60" stroke-width="24"/></g><g fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M 62 116 L 150 116" stroke="var(--fig-shirt)" stroke-width="44"/><path d="M 52 112 L 62 116" stroke="var(--fig-skin)" stroke-width="16"/><path d="M 70 120 L 96 126" stroke="var(--fig-skin)" stroke-width="18"/><path d="M 96 126 L 120 128" stroke="var(--fig-skin)" stroke-width="15"/><path d="M 150 116 L 206 116" stroke="var(--fig-shorts)" stroke-width="21" opacity="0.55"/><path d="M 206 116 L 236 112" stroke="var(--fig-skin)" stroke-width="17" opacity="0.55"/><path d="M 150 114 L 196 78" stroke="var(--fig-accent)" stroke-width="21"/><path d="M 196 78 L 224 60" stroke="var(--fig-skin)" stroke-width="17"/></g><circle cx="186" cy="96" r="9" fill="var(--fig-accent)" opacity="0.2"/><circle cx="186" cy="96" r="3" fill="var(--fig-accent)"/><circle cx="40" cy="112" r="20.5" fill="var(--fig-line)"/><circle cx="40" cy="112" r="17" fill="var(--fig-skin)"/><path d="M 23.030627589683817 110.98 A 17 17 0 0 1 56.96937241031618 110.98 Z" fill="var(--fig-hair)"/><circle cx="27.759999999999998" cy="111.66" r="5.78" fill="var(--fig-hair)"/></svg></div>
           </div>
           <p class="exercise-cat">Core</p>
@@ -768,7 +848,7 @@
         <article class="exercise-card reveal" id="crunch-kicks" data-cat="core" aria-labelledby="crunch-kicks-title">
           <div class="exercise-illo">
             <span class="illo-num" aria-hidden="true">35</span>
-            <span class="illo-dur">30 sec</span>
+            <span class="illo-dur">10 sec</span>
             <div class="illo-fig" aria-hidden="true"><svg viewBox="0 0 280 150" width="100%" height="100%" preserveAspectRatio="xMidYMid meet"><g fill="none" stroke="var(--fig-line)" stroke-linecap="round" stroke-linejoin="round"><path d="M 70 112 L 120 100" stroke-width="51"/><path d="M 86 96 L 92 84" stroke-width="23"/><path d="M 96 90 L 120 82" stroke-width="25"/><path d="M 120 82 L 142 78" stroke-width="22"/><path d="M 120 100 L 150 74" stroke-width="28"/><path d="M 150 74 L 158 104" stroke-width="24"/><path d="M 120 100 L 176 108" stroke-width="28"/><path d="M 176 108 L 214 112" stroke-width="24"/></g><g fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M 70 112 L 120 100" stroke="var(--fig-shirt)" stroke-width="44"/><path d="M 86 96 L 92 84" stroke="var(--fig-skin)" stroke-width="16"/><path d="M 96 90 L 120 82" stroke="var(--fig-skin)" stroke-width="18"/><path d="M 120 82 L 142 78" stroke="var(--fig-skin)" stroke-width="15"/><path d="M 120 100 L 150 74" stroke="var(--fig-shorts)" stroke-width="21"/><path d="M 150 74 L 158 104" stroke="var(--fig-skin)" stroke-width="17"/><path d="M 120 100 L 176 108" stroke="var(--fig-accent)" stroke-width="21"/><path d="M 176 108 L 214 112" stroke="var(--fig-skin)" stroke-width="17"/></g><circle cx="214" cy="112" r="10" fill="var(--fig-accent)" opacity="0.2"/><circle cx="214" cy="112" r="4" fill="var(--fig-accent)"/><circle cx="86" cy="92" r="20.5" fill="var(--fig-line)"/><circle cx="86" cy="92" r="17" fill="var(--fig-skin)"/><path d="M 69.03062758968382 90.98 A 17 17 0 0 1 102.96937241031618 90.98 Z" fill="var(--fig-hair)"/><circle cx="73.76" cy="91.66" r="5.78" fill="var(--fig-hair)"/></svg></div>
           </div>
           <p class="exercise-cat">Core</p>
@@ -780,7 +860,7 @@
         <article class="exercise-card reveal" id="plank-rotations" data-cat="core" aria-labelledby="plank-rotations-title">
           <div class="exercise-illo">
             <span class="illo-num" aria-hidden="true">36</span>
-            <span class="illo-dur">30 sec</span>
+            <span class="illo-dur">10 sec</span>
             <div class="illo-fig" aria-hidden="true"><svg viewBox="0 0 280 150" width="100%" height="100%" preserveAspectRatio="xMidYMid meet"><g fill="none" stroke="var(--fig-line)" stroke-linecap="round" stroke-linejoin="round"><path d="M 206 98 L 206 127" stroke-width="25"/><path d="M 206 127 L 240 129" stroke-width="22"/><path d="M 206 98 L 120 100" stroke-width="51"/><path d="M 206 98 L 214 88" stroke-width="23"/><path d="M 120 100 L 66 112" stroke-width="28"/><path d="M 66 112 L 36 124" stroke-width="24"/><path d="M 36 124 L 30 130" stroke-width="19"/></g><g fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M 206 98 L 206 127" stroke="var(--fig-skin)" stroke-width="18"/><path d="M 206 127 L 240 129" stroke="var(--fig-skin)" stroke-width="15"/><path d="M 206 98 L 120 100" stroke="var(--fig-shirt)" stroke-width="44"/><path d="M 206 98 L 214 88" stroke="var(--fig-skin)" stroke-width="16"/><path d="M 120 100 L 66 112" stroke="var(--fig-accent)" stroke-width="21"/><path d="M 66 112 L 36 124" stroke="var(--fig-skin)" stroke-width="17"/><path d="M 36 124 L 30 130" stroke="var(--fig-skin)" stroke-width="12"/></g><circle cx="120" cy="102" r="10" fill="var(--fig-accent)" opacity="0.2"/><circle cx="120" cy="102" r="4" fill="var(--fig-accent)"/><circle cx="220" cy="86" r="21.5" fill="var(--fig-line)"/><circle cx="220" cy="86" r="18" fill="var(--fig-skin)"/><path d="M 202.0324292126064 84.92 A 18 18 0 0 1 237.9675707873936 84.92 Z" fill="var(--fig-hair)"/><circle cx="207.04" cy="85.64" r="6.12" fill="var(--fig-hair)"/></svg></div>
           </div>
           <p class="exercise-cat">Core</p>
@@ -792,7 +872,7 @@
         <article class="exercise-card reveal" id="hops-on-the-spot" data-cat="cardio" aria-labelledby="hops-on-the-spot-title">
           <div class="exercise-illo">
             <span class="illo-num" aria-hidden="true">37</span>
-            <span class="illo-dur">30 sec</span>
+            <span class="illo-dur">10 sec</span>
             <div class="illo-fig" aria-hidden="true"><svg viewBox="0 0 200 262" width="100%" height="100%" preserveAspectRatio="xMidYMid meet"><path d="M 84 250 Q 100 244 116 250" fill="none" stroke="var(--fig-accent)" stroke-width="3.4" stroke-linecap="round" stroke-dasharray="1 7" opacity="0.55"/><g fill="none" stroke="var(--fig-line)" stroke-linecap="round" stroke-linejoin="round"><path d="M 100 76 L 100 144" stroke-width="51"/><path d="M 100 62 L 100 76" stroke-width="23"/><path d="M 80 80 L 74 106" stroke-width="25"/><path d="M 74 106 L 72 134" stroke-width="22"/><path d="M 120 80 L 126 106" stroke-width="25"/><path d="M 126 106 L 128 134" stroke-width="22"/><path d="M 93 144 L 95 190" stroke-width="28"/><path d="M 95 190 L 95 226" stroke-width="24"/><path d="M 95 226 L 86 230" stroke-width="19"/><path d="M 107 144 L 105 190" stroke-width="28"/><path d="M 105 190 L 105 226" stroke-width="24"/><path d="M 105 226 L 114 230" stroke-width="19"/></g><g fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M 100 76 L 100 144" stroke="var(--fig-shirt)" stroke-width="44"/><path d="M 100 62 L 100 76" stroke="var(--fig-skin)" stroke-width="16"/><path d="M 80 80 L 74 106" stroke="var(--fig-skin)" stroke-width="18"/><path d="M 74 106 L 72 134" stroke="var(--fig-skin)" stroke-width="15"/><path d="M 120 80 L 126 106" stroke="var(--fig-skin)" stroke-width="18"/><path d="M 126 106 L 128 134" stroke="var(--fig-skin)" stroke-width="15"/><path d="M 93 144 L 95 190" stroke="var(--fig-shorts)" stroke-width="21"/><path d="M 95 190 L 95 226" stroke="var(--fig-skin)" stroke-width="17"/><path d="M 95 226 L 86 230" stroke="var(--fig-skin)" stroke-width="12"/><path d="M 107 144 L 105 190" stroke="var(--fig-shorts)" stroke-width="21"/><path d="M 105 190 L 105 226" stroke="var(--fig-skin)" stroke-width="17"/><path d="M 105 226 L 114 230" stroke="var(--fig-skin)" stroke-width="12"/></g><circle cx="100" cy="46" r="25.5" fill="var(--fig-line)"/><circle cx="100" cy="46" r="22" fill="var(--fig-skin)"/><path d="M 78.0396357042967 44.68 A 22 22 0 0 1 121.9603642957033 44.68 Z" fill="var(--fig-hair)"/></svg></div>
           </div>
           <p class="exercise-cat">Cardio</p>
@@ -816,7 +896,7 @@
         <article class="exercise-card reveal" id="jumping-ts" data-cat="cardio" aria-labelledby="jumping-ts-title">
           <div class="exercise-illo">
             <span class="illo-num" aria-hidden="true">39</span>
-            <span class="illo-dur">30 sec</span>
+            <span class="illo-dur">10 sec</span>
             <div class="illo-fig" aria-hidden="true"><svg viewBox="0 0 200 262" width="100%" height="100%" preserveAspectRatio="xMidYMid meet"><g fill="none" stroke="var(--fig-line)" stroke-linecap="round" stroke-linejoin="round"><path d="M 100 80 L 100 150" stroke-width="51"/><path d="M 100 66 L 100 80" stroke-width="23"/><path d="M 78 84 L 52 84" stroke-width="25"/><path d="M 52 84 L 26 84" stroke-width="22"/><path d="M 122 84 L 148 84" stroke-width="25"/><path d="M 148 84 L 174 84" stroke-width="22"/><path d="M 86 150 L 66 198" stroke-width="28"/><path d="M 66 198 L 56 242" stroke-width="24"/><path d="M 56 242 L 44 246" stroke-width="19"/><path d="M 114 150 L 134 198" stroke-width="28"/><path d="M 134 198 L 144 242" stroke-width="24"/><path d="M 144 242 L 156 246" stroke-width="19"/></g><g fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M 100 80 L 100 150" stroke="var(--fig-shirt)" stroke-width="44"/><path d="M 100 66 L 100 80" stroke="var(--fig-skin)" stroke-width="16"/><path d="M 78 84 L 52 84" stroke="var(--fig-skin)" stroke-width="18"/><path d="M 52 84 L 26 84" stroke="var(--fig-accent)" stroke-width="15"/><path d="M 122 84 L 148 84" stroke="var(--fig-skin)" stroke-width="18"/><path d="M 148 84 L 174 84" stroke="var(--fig-accent)" stroke-width="15"/><path d="M 86 150 L 66 198" stroke="var(--fig-shorts)" stroke-width="21"/><path d="M 66 198 L 56 242" stroke="var(--fig-skin)" stroke-width="17"/><path d="M 56 242 L 44 246" stroke="var(--fig-skin)" stroke-width="12"/><path d="M 114 150 L 134 198" stroke="var(--fig-shorts)" stroke-width="21"/><path d="M 134 198 L 144 242" stroke="var(--fig-skin)" stroke-width="17"/><path d="M 144 242 L 156 246" stroke="var(--fig-skin)" stroke-width="12"/></g><circle cx="26" cy="84" r="10" fill="var(--fig-accent)" opacity="0.2"/><circle cx="26" cy="84" r="4" fill="var(--fig-accent)"/><circle cx="174" cy="84" r="10" fill="var(--fig-accent)" opacity="0.2"/><circle cx="174" cy="84" r="4" fill="var(--fig-accent)"/><circle cx="100" cy="50" r="25.5" fill="var(--fig-line)"/><circle cx="100" cy="50" r="22" fill="var(--fig-skin)"/><path d="M 78.0396357042967 48.68 A 22 22 0 0 1 121.9603642957033 48.68 Z" fill="var(--fig-hair)"/></svg></div>
           </div>
           <p class="exercise-cat">Cardio</p>
@@ -828,7 +908,7 @@
         <article class="exercise-card reveal" id="squat-jacks" data-cat="full-body" aria-labelledby="squat-jacks-title">
           <div class="exercise-illo">
             <span class="illo-num" aria-hidden="true">40</span>
-            <span class="illo-dur">30 sec</span>
+            <span class="illo-dur">10 sec</span>
             <div class="illo-fig" aria-hidden="true"><svg viewBox="0 0 200 262" width="100%" height="100%" preserveAspectRatio="xMidYMid meet"><g fill="none" stroke="var(--fig-line)" stroke-linecap="round" stroke-linejoin="round"><path d="M 100 96 L 100 158" stroke-width="51"/><path d="M 100 82 L 100 96" stroke-width="23"/><path d="M 80 100 L 58 108" stroke-width="25"/><path d="M 58 108 L 36 112" stroke-width="22"/><path d="M 120 100 L 142 108" stroke-width="25"/><path d="M 142 108 L 164 112" stroke-width="22"/><path d="M 88 158 L 58 196" stroke-width="28"/><path d="M 58 196 L 60 246" stroke-width="24"/><path d="M 60 246 L 46 250" stroke-width="19"/><path d="M 112 158 L 142 196" stroke-width="28"/><path d="M 142 196 L 140 246" stroke-width="24"/><path d="M 140 246 L 154 250" stroke-width="19"/></g><g fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M 100 96 L 100 158" stroke="var(--fig-shirt)" stroke-width="44"/><path d="M 100 82 L 100 96" stroke="var(--fig-skin)" stroke-width="16"/><path d="M 80 100 L 58 108" stroke="var(--fig-skin)" stroke-width="18"/><path d="M 58 108 L 36 112" stroke="var(--fig-skin)" stroke-width="15"/><path d="M 120 100 L 142 108" stroke="var(--fig-skin)" stroke-width="18"/><path d="M 142 108 L 164 112" stroke="var(--fig-skin)" stroke-width="15"/><path d="M 88 158 L 58 196" stroke="var(--fig-accent)" stroke-width="21"/><path d="M 58 196 L 60 246" stroke="var(--fig-skin)" stroke-width="17"/><path d="M 60 246 L 46 250" stroke="var(--fig-skin)" stroke-width="12"/><path d="M 112 158 L 142 196" stroke="var(--fig-accent)" stroke-width="21"/><path d="M 142 196 L 140 246" stroke="var(--fig-skin)" stroke-width="17"/><path d="M 140 246 L 154 250" stroke="var(--fig-skin)" stroke-width="12"/></g><circle cx="100" cy="158" r="11" fill="var(--fig-accent)" opacity="0.2"/><circle cx="100" cy="158" r="5" fill="var(--fig-accent)"/><circle cx="100" cy="66" r="25.5" fill="var(--fig-line)"/><circle cx="100" cy="66" r="22" fill="var(--fig-skin)"/><path d="M 78.0396357042967 64.68 A 22 22 0 0 1 121.9603642957033 64.68 Z" fill="var(--fig-hair)"/></svg></div>
           </div>
           <p class="exercise-cat">Full body</p>
@@ -840,7 +920,7 @@
         <article class="exercise-card reveal" id="reverse-angels" data-cat="upper-body" aria-labelledby="reverse-angels-title">
           <div class="exercise-illo">
             <span class="illo-num" aria-hidden="true">41</span>
-            <span class="illo-dur">30 sec</span>
+            <span class="illo-dur">10 sec</span>
             <div class="illo-fig" aria-hidden="true"><svg viewBox="0 0 200 244" width="100%" height="100%" preserveAspectRatio="xMidYMid meet"><g fill="none" stroke="var(--fig-line)" stroke-linecap="round" stroke-linejoin="round"><path d="M 100 64 L 100 152" stroke-width="51"/><path d="M 86 70 L 80 42" stroke-width="25"/><path d="M 80 42 L 88 16" stroke-width="22"/><path d="M 114 70 L 120 42" stroke-width="25"/><path d="M 120 42 L 112 16" stroke-width="22"/><path d="M 92 152 L 92 200" stroke-width="28"/><path d="M 92 200 L 92 238" stroke-width="24"/><path d="M 108 152 L 108 200" stroke-width="28"/><path d="M 108 200 L 108 238" stroke-width="24"/></g><g fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M 100 64 L 100 152" stroke="var(--fig-shirt)" stroke-width="44"/><path d="M 86 70 L 80 42" stroke="var(--fig-accent)" stroke-width="18"/><path d="M 80 42 L 88 16" stroke="var(--fig-accent)" stroke-width="15"/><path d="M 114 70 L 120 42" stroke="var(--fig-accent)" stroke-width="18"/><path d="M 120 42 L 112 16" stroke="var(--fig-accent)" stroke-width="15"/><path d="M 92 152 L 92 200" stroke="var(--fig-shorts)" stroke-width="21"/><path d="M 92 200 L 92 238" stroke="var(--fig-skin)" stroke-width="17"/><path d="M 108 152 L 108 200" stroke="var(--fig-shorts)" stroke-width="21"/><path d="M 108 200 L 108 238" stroke="var(--fig-skin)" stroke-width="17"/></g><circle cx="88" cy="16" r="10" fill="var(--fig-accent)" opacity="0.2"/><circle cx="88" cy="16" r="4" fill="var(--fig-accent)"/><circle cx="112" cy="16" r="10" fill="var(--fig-accent)" opacity="0.2"/><circle cx="112" cy="16" r="4" fill="var(--fig-accent)"/><circle cx="100" cy="44" r="23.5" fill="var(--fig-line)"/><circle cx="100" cy="44" r="20" fill="var(--fig-skin)"/><path d="M 80.03603245845156 42.8 A 20 20 0 0 1 119.96396754154844 42.8 Z" fill="var(--fig-hair)"/></svg></div>
           </div>
           <p class="exercise-cat">Upper body</p>
@@ -864,7 +944,7 @@
         <article class="exercise-card reveal" id="side-arm-raises" data-cat="upper-body" aria-labelledby="side-arm-raises-title">
           <div class="exercise-illo">
             <span class="illo-num" aria-hidden="true">43</span>
-            <span class="illo-dur">30 sec</span>
+            <span class="illo-dur">10 sec</span>
             <div class="illo-fig" aria-hidden="true"><svg viewBox="0 0 200 262" width="100%" height="100%" preserveAspectRatio="xMidYMid meet"><g fill="none" stroke="var(--fig-line)" stroke-linecap="round" stroke-linejoin="round"><path d="M 100 80 L 100 150" stroke-width="51"/><path d="M 100 66 L 100 80" stroke-width="23"/><path d="M 78 84 L 52 84" stroke-width="25"/><path d="M 52 84 L 26 84" stroke-width="22"/><path d="M 122 84 L 148 84" stroke-width="25"/><path d="M 148 84 L 174 84" stroke-width="22"/><path d="M 92 150 L 94 204" stroke-width="28"/><path d="M 94 204 L 94 246" stroke-width="24"/><path d="M 94 246 L 82 250" stroke-width="19"/><path d="M 108 150 L 106 204" stroke-width="28"/><path d="M 106 204 L 106 246" stroke-width="24"/><path d="M 106 246 L 118 250" stroke-width="19"/></g><g fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M 100 80 L 100 150" stroke="var(--fig-shirt)" stroke-width="44"/><path d="M 100 66 L 100 80" stroke="var(--fig-skin)" stroke-width="16"/><path d="M 78 84 L 52 84" stroke="var(--fig-skin)" stroke-width="18"/><path d="M 52 84 L 26 84" stroke="var(--fig-skin)" stroke-width="15"/><path d="M 122 84 L 148 84" stroke="var(--fig-skin)" stroke-width="18"/><path d="M 148 84 L 174 84" stroke="var(--fig-skin)" stroke-width="15"/><path d="M 92 150 L 94 204" stroke="var(--fig-shorts)" stroke-width="21"/><path d="M 94 204 L 94 246" stroke="var(--fig-skin)" stroke-width="17"/><path d="M 94 246 L 82 250" stroke="var(--fig-skin)" stroke-width="12"/><path d="M 108 150 L 106 204" stroke="var(--fig-shorts)" stroke-width="21"/><path d="M 106 204 L 106 246" stroke="var(--fig-skin)" stroke-width="17"/><path d="M 106 246 L 118 250" stroke="var(--fig-skin)" stroke-width="12"/></g><circle cx="100" cy="50" r="25.5" fill="var(--fig-line)"/><circle cx="100" cy="50" r="22" fill="var(--fig-skin)"/><path d="M 78.0396357042967 48.68 A 22 22 0 0 1 121.9603642957033 48.68 Z" fill="var(--fig-hair)"/></svg></div>
           </div>
           <p class="exercise-cat">Upper body</p>
@@ -876,7 +956,7 @@
         <article class="exercise-card reveal" id="wide-arm-circles" data-cat="upper-body" aria-labelledby="wide-arm-circles-title">
           <div class="exercise-illo">
             <span class="illo-num" aria-hidden="true">44</span>
-            <span class="illo-dur">30 sec</span>
+            <span class="illo-dur">10 sec</span>
             <div class="illo-fig" aria-hidden="true"><svg viewBox="0 0 200 262" width="100%" height="100%" preserveAspectRatio="xMidYMid meet"><path d="M 24 90 Q 26 40 78 42" fill="none" stroke="var(--fig-accent)" stroke-width="3.4" stroke-linecap="round" stroke-dasharray="1 9" opacity="0.95"/><g fill="none" stroke="var(--fig-line)" stroke-linecap="round" stroke-linejoin="round"><path d="M 100 80 L 100 150" stroke-width="51"/><path d="M 100 66 L 100 80" stroke-width="23"/><path d="M 78 84 L 52 84" stroke-width="25"/><path d="M 52 84 L 26 84" stroke-width="22"/><path d="M 122 84 L 148 84" stroke-width="25"/><path d="M 148 84 L 174 84" stroke-width="22"/><path d="M 92 150 L 94 204" stroke-width="28"/><path d="M 94 204 L 94 246" stroke-width="24"/><path d="M 94 246 L 82 250" stroke-width="19"/><path d="M 108 150 L 106 204" stroke-width="28"/><path d="M 106 204 L 106 246" stroke-width="24"/><path d="M 106 246 L 118 250" stroke-width="19"/></g><g fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M 100 80 L 100 150" stroke="var(--fig-shirt)" stroke-width="44"/><path d="M 100 66 L 100 80" stroke="var(--fig-skin)" stroke-width="16"/><path d="M 78 84 L 52 84" stroke="var(--fig-skin)" stroke-width="18"/><path d="M 52 84 L 26 84" stroke="var(--fig-skin)" stroke-width="15"/><path d="M 122 84 L 148 84" stroke="var(--fig-skin)" stroke-width="18"/><path d="M 148 84 L 174 84" stroke="var(--fig-skin)" stroke-width="15"/><path d="M 92 150 L 94 204" stroke="var(--fig-shorts)" stroke-width="21"/><path d="M 94 204 L 94 246" stroke="var(--fig-skin)" stroke-width="17"/><path d="M 94 246 L 82 250" stroke="var(--fig-skin)" stroke-width="12"/><path d="M 108 150 L 106 204" stroke="var(--fig-shorts)" stroke-width="21"/><path d="M 106 204 L 106 246" stroke="var(--fig-skin)" stroke-width="17"/><path d="M 106 246 L 118 250" stroke="var(--fig-skin)" stroke-width="12"/></g><circle cx="100" cy="50" r="25.5" fill="var(--fig-line)"/><circle cx="100" cy="50" r="22" fill="var(--fig-skin)"/><path d="M 78.0396357042967 48.68 A 22 22 0 0 1 121.9603642957033 48.68 Z" fill="var(--fig-hair)"/></svg></div>
           </div>
           <p class="exercise-cat">Upper body</p>
@@ -888,7 +968,7 @@
         <article class="exercise-card reveal" id="raised-leg-circles" data-cat="core" aria-labelledby="raised-leg-circles-title">
           <div class="exercise-illo">
             <span class="illo-num" aria-hidden="true">45</span>
-            <span class="illo-dur">20 sec each</span>
+            <span class="illo-dur">10 sec</span>
             <div class="illo-fig" aria-hidden="true"><svg viewBox="0 0 280 150" width="100%" height="100%" preserveAspectRatio="xMidYMid meet"><path d="M 222 52 a 18 12 0 1 1 -2 0" fill="none" stroke="var(--fig-accent)" stroke-width="3.2" stroke-linecap="round" stroke-dasharray="1 7" opacity="0.95"/><g fill="none" stroke="var(--fig-line)" stroke-linecap="round" stroke-linejoin="round"><path d="M 62 116 L 150 116" stroke-width="51"/><path d="M 52 112 L 62 116" stroke-width="23"/><path d="M 70 120 L 96 126" stroke-width="25"/><path d="M 96 126 L 120 128" stroke-width="22"/><path d="M 150 116 L 206 118" stroke-width="28" opacity="0.5"/><path d="M 206 118 L 236 116" stroke-width="24" opacity="0.5"/><path d="M 150 114 L 196 74" stroke-width="28"/><path d="M 196 74 L 222 52" stroke-width="24"/></g><g fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M 62 116 L 150 116" stroke="var(--fig-shirt)" stroke-width="44"/><path d="M 52 112 L 62 116" stroke="var(--fig-skin)" stroke-width="16"/><path d="M 70 120 L 96 126" stroke="var(--fig-skin)" stroke-width="18"/><path d="M 96 126 L 120 128" stroke="var(--fig-skin)" stroke-width="15"/><path d="M 150 116 L 206 118" stroke="var(--fig-shorts)" stroke-width="21" opacity="0.5"/><path d="M 206 118 L 236 116" stroke="var(--fig-skin)" stroke-width="17" opacity="0.5"/><path d="M 150 114 L 196 74" stroke="var(--fig-accent)" stroke-width="21"/><path d="M 196 74 L 222 52" stroke="var(--fig-skin)" stroke-width="17"/></g><circle cx="222" cy="52" r="10" fill="var(--fig-accent)" opacity="0.2"/><circle cx="222" cy="52" r="4" fill="var(--fig-accent)"/><circle cx="40" cy="112" r="20.5" fill="var(--fig-line)"/><circle cx="40" cy="112" r="17" fill="var(--fig-skin)"/><path d="M 23.030627589683817 110.98 A 17 17 0 0 1 56.96937241031618 110.98 Z" fill="var(--fig-hair)"/><circle cx="27.759999999999998" cy="111.66" r="5.78" fill="var(--fig-hair)"/></svg></div>
           </div>
           <p class="exercise-cat">Core</p>
@@ -912,7 +992,7 @@
         <article class="exercise-card reveal" id="plank-leg-raises" data-cat="core" aria-labelledby="plank-leg-raises-title">
           <div class="exercise-illo">
             <span class="illo-num" aria-hidden="true">47</span>
-            <span class="illo-dur">30 sec</span>
+            <span class="illo-dur">10 sec</span>
             <div class="illo-fig" aria-hidden="true"><svg viewBox="0 0 280 150" width="100%" height="100%" preserveAspectRatio="xMidYMid meet"><g fill="none" stroke="var(--fig-line)" stroke-linecap="round" stroke-linejoin="round"><path d="M 206 98 L 206 127" stroke-width="25"/><path d="M 206 127 L 240 129" stroke-width="22"/><path d="M 206 98 L 120 92" stroke-width="51"/><path d="M 206 98 L 214 88" stroke-width="23"/><path d="M 120 94 L 66 104" stroke-width="28" opacity="0.5"/><path d="M 66 104 L 36 118" stroke-width="24" opacity="0.5"/><path d="M 120 90 L 64 72" stroke-width="28"/><path d="M 64 72 L 34 58" stroke-width="24"/></g><g fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M 206 98 L 206 127" stroke="var(--fig-skin)" stroke-width="18"/><path d="M 206 127 L 240 129" stroke="var(--fig-skin)" stroke-width="15"/><path d="M 206 98 L 120 92" stroke="var(--fig-shirt)" stroke-width="44"/><path d="M 206 98 L 214 88" stroke="var(--fig-skin)" stroke-width="16"/><path d="M 120 94 L 66 104" stroke="var(--fig-shorts)" stroke-width="21" opacity="0.5"/><path d="M 66 104 L 36 118" stroke="var(--fig-skin)" stroke-width="17" opacity="0.5"/><path d="M 120 90 L 64 72" stroke="var(--fig-accent)" stroke-width="21"/><path d="M 64 72 L 34 58" stroke="var(--fig-skin)" stroke-width="17"/></g><circle cx="34" cy="58" r="10" fill="var(--fig-accent)" opacity="0.2"/><circle cx="34" cy="58" r="4" fill="var(--fig-accent)"/><circle cx="220" cy="86" r="21.5" fill="var(--fig-line)"/><circle cx="220" cy="86" r="18" fill="var(--fig-skin)"/><path d="M 202.0324292126064 84.92 A 18 18 0 0 1 237.9675707873936 84.92 Z" fill="var(--fig-hair)"/><circle cx="207.04" cy="85.64" r="6.12" fill="var(--fig-hair)"/></svg></div>
           </div>
           <p class="exercise-cat">Core</p>
@@ -942,17 +1022,17 @@
       <div class="wrap faq-wrap">
         <div class="faq-head reveal">
           <p class="eyebrow center">FAQ</p>
-          <h2 id="faq-title">Quick answers before launch.</h2>
-          <p class="muted">The app is still being prepared, but the core idea is simple: short exercise breaks, no pressure, and privacy by default.</p>
+          <h2 id="faq-title">Clear answers, no fine print.</h2>
+          <p class="muted">The app is still in development. Its core behavior and privacy model are already defined.</p>
         </div>
         <div class="faq reveal">
           <details>
             <summary>What is Exercise 1 Min?</summary>
-            <p>Exercise 1 Min is a coming-soon mobile app for one-minute exercise breaks. It reminds people who sit at a desk to stand up, do a few simple exercises, and get back to their day.</p>
+            <p>Exercise 1 Min is a coming-soon mobile app for short movement breaks. It builds a desk-friendly routine, guides each move without a countdown, and gets you back to your day.</p>
           </details>
           <details>
             <summary>Do I need equipment or a gym?</summary>
-            <p>No. The app focuses on bodyweight exercises you can do at home, at work, or beside a desk with no equipment.</p>
+            <p>No. Routines use bodyweight movements you can do at home or work. Floor exercises are optional and off by default, so the standard routine is easy to do beside a desk.</p>
           </details>
           <details>
             <summary>How often should I take an exercise break?</summary>
@@ -960,11 +1040,15 @@
           </details>
           <details>
             <summary>Is Exercise 1 Min private?</summary>
-            <p>Yes. The app is designed to work offline with no accounts and no sign-up, so your exercise history stays on your device.</p>
+            <p>Yes. The mobile app works fully offline with no accounts, analytics, sign-up, or network calls. Your settings and exercise history stay on your device.</p>
+          </details>
+          <details>
+            <summary>Is the minute a countdown?</summary>
+            <p>No. “One minute” is a promise that the break is quick, not a timer you have to beat. You move through the illustrated routine with previous and next controls at your own pace.</p>
           </details>
           <details>
             <summary>Is Exercise 1 Min free?</summary>
-            <p>The core app is planned to be free, with no ads, subscriptions, or upsell during the moment you are meant to exercise.</p>
+            <p>The core app is planned to be free, with no ads, subscriptions, or upsell during the moment you are meant to move.</p>
           </details>
           <details>
             <summary>When will the app be available?</summary>
@@ -977,12 +1061,15 @@
     <!-- Closing -->
     <section class="section closing" aria-labelledby="closing-title">
       <div class="wrap reveal">
-        <h2 id="closing-title">Calm by design.</h2>
+        <p class="eyebrow center">Less sitting. More movement.</p>
+        <h2 id="closing-title">One useful minute can change the shape of an hour.</h2>
+        <p class="closing-copy">A private, desk-friendly movement companion—coming soon to iOS and Android.</p>
         <ul class="chips">
           <li>Offline</li>
           <li>Private</li>
           <li>No accounts</li>
-          <li>No pressure</li>
+          <li>No countdown</li>
+          <li>Desk-ready</li>
           <li>Free</li>
         </ul>
         <span class="badge-soon big">Coming soon · iOS &amp; Android</span>

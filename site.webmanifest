@@ -1,7 +1,7 @@
 {
   "name": "Exercise 1 Min",
   "short_name": "Exercise 1 Min",
-  "description": "One-minute exercise breaks for desk workers with gentle reminders, illustrated exercises, offline privacy, and no accounts.",
+  "description": "Desk-friendly one-minute movement breaks with local reminders, illustrated routines, no countdown, and fully offline privacy.",
   "id": "/",
   "start_url": "/",
   "scope": "/",
