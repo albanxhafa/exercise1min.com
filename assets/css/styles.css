@@ -153,7 +153,7 @@ img { max-width: 100%; }
 .site-header .wrap {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-start;
   gap: 1.4rem;
   padding-block: 0.85rem;
 }
@@ -176,7 +176,12 @@ img { max-width: 100%; }
   border-radius: 7px;
   object-fit: contain;
 }
-.site-nav { display: flex; align-items: center; gap: 1.35rem; }
+.site-nav {
+  display: flex;
+  align-items: center;
+  gap: 1.35rem;
+  margin-left: auto;
+}
 .site-nav > a {
   text-decoration: none;
   font-family: var(--font-display);
@@ -186,21 +191,6 @@ img { max-width: 100%; }
   transition: color 0.2s;
 }
 .site-nav > a:hover { color: var(--ink); }
-.header-status {
-  flex: none;
-  display: inline-flex;
-  align-items: center;
-  gap: 0.45rem;
-  padding: 0.45rem 0.75rem;
-  border: 1px solid var(--line);
-  border-radius: 999px;
-  background: var(--surface);
-  color: var(--ink-soft);
-  font-family: var(--font-display);
-  font-size: 0.78rem;
-  font-weight: 750;
-}
-.header-status > span,
 .launch-note > span {
   width: 7px;
   height: 7px;
@@ -1140,7 +1130,8 @@ html.js .cat-tabs { display: flex; }
 @media (max-width: 920px) {
   .features-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .exercise-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-  .site-nav > a { display: none; }
+  .site-nav { display: none; }
+  .site-header .wrap { justify-content: center; }
   .hero .wrap { grid-template-columns: minmax(0, 1fr) minmax(330px, 0.8fr); }
   .phone-shell { transform: none; }
   .product-grid,
@@ -1170,8 +1161,6 @@ html.js .cat-tabs { display: flex; }
 }
 @media (max-width: 540px) {
   .wrap { width: min(100% - 1.5rem, var(--maxw)); }
-  .header-status { display: none; }
-  .site-header .wrap { justify-content: center; }
   .hero h1 { font-size: clamp(2.45rem, 13vw, 3.45rem); }
   .hero-actions { display: grid; }
   .hero-actions > * { width: 100%; }
