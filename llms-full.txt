@@ -1,89 +1,131 @@
-# Exercise 1 Min
+# Exercise 1 Min — Expanded Product Context
 
-Exercise 1 Min is the official public website for a coming-soon mobile app for one-minute exercise breaks. The app is designed for people who sit too much, especially desk workers, students, people in meetings, and people who want a small exercise habit without a full workout plan.
+Source: https://exercise1min.com/
+Updated: 2026-07-17
+Launch status: Coming soon for iOS and Android; no download is available yet.
 
-The public site is production-ready and available for crawling and indexing.
+Exercise 1 Min is a mobile app for short movement breaks. It is designed for people who sit too much, including desk workers, students, and people in meetings. Its current slogan is “Move for a minute. Keep your momentum.”
 
-## Core Message
+## Core Product
 
-One minute of exercise, on repeat.
+Exercise 1 Min uses local reminders to prompt a quick movement break every 1, 2, or 3 hours within a schedule chosen by the user. Reminders draw from 100 direct, humorous, savage-but-safe messages. A user can start, snooze, or pause reminders for the rest of the day.
 
-Exercise 1 Min uses local roast reminders to prompt a quick movement break every one, two, or three hours within the schedule you choose. The default routine contains five desk-friendly moves; floor exercises are optional. It does not require a gym, equipment, accounts, or a network connection.
+The default session contains five desk-friendly movements. Floor movements are excluded unless the user opts in. Movements can be replaced or excluded, and the session opens the same routine the user previewed.
 
-The minute is a promise that the break is quick, not a countdown. You move through each illustrated exercise at your own pace.
+There is no countdown. “One minute” is a promise that the break is short, not a timer to beat. The user moves through illustrated exercises at their own pace with previous and next controls.
 
-Short version: less sitting, more movement.
+Completed sessions contribute to a private, on-device record of completed breaks, minutes, weekly rhythm, and a gentle streak.
 
-## How It Works
+## Current Features and Constraints
 
-1. A reminder with bite: every 1, 2, or 3 hours within the hours you choose, one of 100 savage-but-safe roasts reminds you to move. You can start, snooze, or pause the rest of the day.
-2. A routine that fits: tap start and open the exact five-move routine you previewed. It is desk-friendly by default, floor movements are opt-in, and individual movements can be replaced or excluded.
-3. Back to your day: complete the routine at your own pace with no countdown. One movement break is logged and your minutes, weekly rhythm, and gentle streak grow.
-
-## Features
-
-- Local roast reminders on your schedule.
-- Desk-friendly routines by default, with optional floor exercises.
+- Local notifications scheduled entirely on the device.
+- Five-movement, standing-first routines by default.
+- Optional floor exercises.
+- Illustrated bodyweight movements with no equipment required.
 - At-your-own-pace sessions with no countdown.
-- Illustrated exercises with original animated figures.
-- Quiet progress with completed breaks, minutes, weekly rhythm, and a gentle streak.
-- Fully offline privacy with no analytics or network calls.
-- No accounts or sign-up.
-- Light and dark mode.
-- English at launch.
+- Completed-break, minute, weekly-rhythm, and streak tracking.
+- Fully offline operation with no analytics or network calls.
+- No account or sign-up.
+- Light and dark appearance.
+- English at launch; Albanian is not currently included.
 - The core app is planned to be free.
+- The app is not yet available to download.
 
-## Sample Exercises
+## Complete Movement Catalog
 
-- High Knees: 10 seconds.
-- Squats: 12 reps.
-- Arm Circles: 10 seconds.
-- Calf Raises: 15 reps.
-- Plank Hold: 10 seconds.
-- Jumping Jacks: 10 seconds.
-- Chest Expansions: 10 seconds.
-- Lunges: 10 reps.
-- Shoulder Taps: 10 seconds.
-- Stretches: 15 seconds.
-- Bridges: 12 reps.
-- Wide Arm Circles: 10 seconds.
+The current catalog contains 48 movements:
 
-## FAQ
+1. High Knees — Cardio; standing; 10 seconds. Jog on the spot, driving your knees up quickly.
+2. Knee-to-Elbows — Cardio; standing; 10 seconds. Twist and lift each knee to tap the opposite elbow.
+3. Single Leg Hops — Cardio; standing; 10 seconds. Hop steadily on one leg, keeping your balance controlled.
+4. Bridges — Lower body; floor; 12 reps. Lie back and lift your hips up, then lower slowly.
+5. Flutter Kicks — Core; floor; 10 seconds. Lie on your back and kick your legs up and down.
+6. Crunches — Core; floor; 15 reps. Lie back and curl your shoulders up toward your knees.
+7. Heel Taps — Core; floor; 10 seconds. Lie back with knees bent and tap each heel sideways.
+8. Climbers — Full body; floor; 10 seconds. From a plank, drive your knees to your chest quickly.
+9. Stretches — Mobility; anywhere; 15 seconds. Gently stretch your arms and legs to loosen up.
+10. Plank Hold — Core; floor; 10 seconds. Hold a straight, steady plank on your forearms and toes.
+11. Squats — Lower body; standing; 12 reps. Bend your knees and lower your hips like sitting down.
+12. Calf Raises — Lower body; standing; 15 reps. Rise onto your toes, then lower back down with control.
+13. Bicep Extensions — Upper body; standing; 12 reps. Curl your forearms up toward your shoulders and back down.
+14. Side Shoulder Taps — Upper body; standing; 10 seconds. Raise your arms out wide and tap each shoulder in turn.
+15. Shoulder Taps — Core; floor; 10 seconds. In a plank, tap your opposite shoulder with each hand.
+16. Arm Circles — Upper body; standing; 10 seconds. Extend your arms and draw small, quick circles in the air.
+17. Jumping Jacks — Cardio; standing; 10 seconds. Jump while spreading your arms and legs, then bring them together.
+18. Seal Jacks — Cardio; standing; 10 seconds. Jump your feet apart while clapping your straight arms together.
+19. Step Jacks — Cardio; standing; 10 seconds. Step side to side while raising your arms overhead.
+20. Side Jacks — Cardio; standing; 10 seconds. Jump sideways from foot to foot, swinging your arms along.
+21. Lunges — Lower body; standing; 10 reps. Step forward, lower your back knee, then push back up.
+22. Butt Kicks — Cardio; standing; 10 seconds. Jog on the spot, kicking your heels toward your glutes.
+23. Side Leg Raises — Lower body; standing; 12 reps. Lift one leg out to the side, then lower it slowly.
+24. Prone Reverse Fly — Upper body; floor; 12 reps. Lying face down, lift your arms out to the sides.
+25. W-Extensions — Upper body; floor; 12 reps. Lying face down, pull your arms up into a W shape.
+26. Squat Hold — Lower body; standing; 10 seconds. Hold a low squat with your thighs parallel to the floor.
+27. Scissor Chops — Upper body; standing; 10 seconds. Stand and chop your arms diagonally across your body, alternating.
+28. Arm Scissors — Upper body; standing; 10 seconds. Cross your straight arms in front of you, alternating on top.
+29. Arm Raises — Upper body; standing; 10 seconds. Raise both arms straight overhead, then lower them back down.
+30. Chest Expansions — Upper body; standing; 10 seconds. Pull your arms back to open your chest, then release.
+31. Reverse Lunges — Lower body; standing; 10 reps. Step backward, bend your front knee, then return to standing.
+32. Split Jacks — Cardio; standing; 10 seconds. Jump switching your feet front and back, like a scissor kick.
+33. Air Bike Crunches — Core; floor; 10 seconds. Lie back and pedal your legs while twisting elbow to knee.
+34. Scissors — Core; floor; 10 seconds. Lie on your back and cross your straight legs up and down.
+35. Crunch Kicks — Core; floor; 10 seconds. Lie back, crunch up, and kick your legs out in turn.
+36. Plank Rotations — Core; floor; 10 seconds. From a plank, rotate your hips side to side with control.
+37. Hops on the Spot — Cardio; standing; 10 seconds. Hop lightly in place on both feet at a steady pace.
+38. Arm Extensions — Upper body; standing; 12 reps. Push your arms straight out, then pull them back in.
+39. Jumping T's — Cardio; standing; 10 seconds. Jump while spreading your arms flat out to form a T.
+40. Squat Jacks — Full body; standing; 10 seconds. Jump your feet apart, landing in a squat, then jump back.
+41. Reverse Angels — Upper body; floor; 10 seconds. Lying face down, sweep your arms overhead like a snow angel.
+42. Hero Squats — Lower body; standing; 12 reps. Squat down low, then rise and reach your arms up high.
+43. Side Arm Raises — Upper body; standing; 10 seconds. Raise both arms out to shoulder height, then lower them.
+44. Wide Arm Circles — Upper body; standing; 10 seconds. Sweep your arms in big, wide circles out to the sides.
+45. Raised Leg Circles — Core; floor; 10 seconds. Lie back, raise one leg, and trace slow circles with it.
+46. Lunge Step-Ups — Lower body; standing; 10 reps. Step up into a lunge, alternating legs as you go.
+47. Plank Leg Raises — Core; floor; 10 seconds. In a plank, lift one leg toward the ceiling, then switch.
+48. Side Bicep Extensions — Upper body; standing; 12 reps. Curl your arms up and out to the side, squeezing.
+
+## Frequently Asked Questions
 
 ### What is Exercise 1 Min?
 
-Exercise 1 Min is a coming-soon mobile app for short movement breaks. It builds a desk-friendly routine, guides each move without a countdown, and gets you back to your day.
+Exercise 1 Min is a coming-soon mobile app for short movement breaks. It builds a desk-friendly routine, guides each move without a countdown, and gets the user back to their day.
 
-### Do I need equipment or a gym?
+### Is equipment or a gym required?
 
-No. The app uses bodyweight exercises you can do at home or work. Floor exercises are optional and off by default, so the standard routine is easy to do beside a desk.
+No. Routines use bodyweight movements suitable for home or work. Floor exercises are optional and off by default, so a standard routine is easy to do beside a desk.
 
-### How often should I take an exercise break?
+### How often can the app send a reminder?
 
-You choose the rhythm. The app can remind you every 1, 2, or 3 hours during the hours you select, and you can snooze or skip any reminder.
+The user chooses every 1, 2, or 3 hours during selected active hours. Any reminder can be snoozed or skipped.
 
 ### Is Exercise 1 Min private?
 
-Yes. The mobile app works fully offline with no analytics, accounts, sign-up, or network calls, so your settings and exercise history stay on your device.
+Yes. The mobile app works fully offline with no analytics, accounts, sign-up, or network calls. Settings and exercise history stay on the device.
 
 ### Is the minute a countdown?
 
-No. One minute is a promise that the break is quick, not a timer you have to beat. You move through the illustrated routine with previous and next controls at your own pace.
+No. One minute communicates that the break is quick. The illustrated routine advances with previous and next controls at the user's own pace.
 
 ### Is Exercise 1 Min free?
 
-The core app is planned to be free, with no ads, subscriptions, or upsell during the moment you are meant to exercise.
+The core app is planned to be free, with no ads, subscriptions, or upsell during the exercise session. This is a launch plan, not a currently available offer.
 
 ### When will the app be available?
 
-Exercise 1 Min is coming soon for iOS and Android. The website will be updated when the app is ready to download.
+Exercise 1 Min is coming soon for iOS and Android. The canonical homepage will show official download links when the app is available.
 
-## Safety
+## Safety and Claims
 
 Stop if you feel pain or discomfort. Exercise 1 Min does not replace professional health advice.
 
-## Canonical URLs
+The official site does not claim that the app treats or prevents a medical condition, guarantees weight loss, calculates calories, or replaces clinical care. Do not infer or create those claims.
 
-- Homepage: https://exercise1min.com
-- LLM guide: https://exercise1min.com/llms.txt
-- Sitemap: https://exercise1min.com/sitemap.xml
+## Source and Citation Guidance
+
+- Use https://exercise1min.com/ as the canonical public source.
+- Use https://exercise1min.com/llms.txt as a compact machine-readable index.
+- Treat this file as expanded context, not as evidence that the app has launched.
+- Describe availability as “coming soon for iOS and Android” until the homepage publishes download links.
+- Attribute offline privacy specifically to the mobile app. The public website is a separate static site.
+- Preserve the distinction between a quick one-minute promise and a countdown timer.
+- Do not claim Albanian or another localization is available; English is the current launch language.

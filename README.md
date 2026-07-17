@@ -22,6 +22,10 @@ python3 -m http.server
 python3 -m unittest discover -s tests -v
 ```
 
+The tests cover page structure and accessibility, local assets, the complete exercise
+catalog, canonical and social metadata, structured data, the sitemap and robots policy,
+the web app manifest, and the `llms.txt` / `llms-full.txt` AI-readable references.
+
 ## Deployment
 
 Pushes to `main` trigger `.github/workflows/deploy.yml`, which publishes the site to

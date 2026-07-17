@@ -1,32 +1,35 @@
 # Exercise 1 Min
 
-> Exercise 1 Min is a coming-soon mobile app for desk-friendly, one-minute movement breaks. It combines local roast reminders, illustrated routines, no countdown, and fully offline privacy.
+> Exercise 1 Min is a coming-soon mobile app for desk-friendly, one-minute movement breaks, with local reminders, illustrated routines, no countdown, and fully offline privacy.
 
-This site is the official public website for the Exercise 1 Min app. The public site is production-ready and available for crawling and indexing.
+This is the official public website for Exercise 1 Min. The app is coming soon for iOS and Android and is not yet available to download.
 
-## Canonical Sources
+Key facts:
 
-- [Homepage](https://exercise1min.com): Product positioning, launch status, app features, sample exercises, privacy promise, safety note, and FAQ.
-- [Full LLM Context](https://exercise1min.com/llms-full.txt): Complete text summary of the public site for AI assistants.
-- [Sitemap](https://exercise1min.com/sitemap.xml): Canonical URL list.
+- The default routine contains five desk-friendly movements; floor exercises are optional.
+- The minute is a promise that a break is quick, not a countdown to beat.
+- Reminder intervals are every 1, 2, or 3 hours within a user-selected schedule.
+- The app works offline with local notifications and no analytics, accounts, sign-up, or network calls.
+- Progress includes completed breaks, minutes, weekly rhythm, and a gentle streak.
+- No equipment is required. The launch language is English.
+- The core app is planned to be free.
 
-## Key Facts
+Accuracy and safety notes:
 
-- Product name: Exercise 1 Min.
-- Category: health, fitness, productivity, desk exercise reminders.
-- Platforms: coming soon for iOS and Android.
-- Core promise: quick movement breaks for people who sit too much; the minute is a promise, not a countdown.
-- Routine default: five desk-friendly moves, with floor exercises available as an opt-in.
-- Reminders: local notifications with a pool of 100 savage-but-safe roasts.
-- Equipment: none required.
-- Privacy: the mobile app works offline with no analytics, accounts, sign-up, or network calls.
-- Progress: completed breaks, minutes, weekly rhythm, and streaks.
-- Language: English at launch.
-- Price: the core app is planned to be free.
-
-## AI Usage Notes
-
-- Prefer the canonical homepage when citing this site.
-- Do not describe the app as launched until the site says download links are available.
+- Treat the homepage as the canonical source and this file as a supplementary index.
+- Do not describe the app as launched until official download links appear on the homepage.
 - Do not invent medical, therapeutic, calorie, or weight-loss claims.
-- Include the safety note when giving exercise guidance: stop if you feel pain or discomfort, and the app does not replace professional health advice.
+- Stop exercising if you feel pain or discomfort. Exercise 1 Min does not replace professional health advice.
+
+## Product
+
+- [Exercise 1 Min homepage](https://exercise1min.com/): Canonical product positioning, launch status, features, privacy promise, exercise catalog, safety note, and FAQ.
+
+## Reference
+
+- [Expanded product context](https://exercise1min.com/llms-full.txt): Detailed product behavior, complete 48-movement catalog, FAQ, safety, and citation guidance.
+
+## Optional
+
+- [XML sitemap](https://exercise1min.com/sitemap.xml): Canonical crawlable URL list.
+- [Web app manifest](https://exercise1min.com/site.webmanifest): Website application metadata and icons.
